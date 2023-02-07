@@ -9,6 +9,7 @@
     const mainNav = document.querySelector('.nav-holder');
     const logo = document.querySelector('.logo');
     const body = document.querySelector('.index-body');
+    const locale = document.querySelector('.locale-list');
     let open = false;
 
     hamburger.addEventListener("click", () => {
@@ -17,6 +18,7 @@
       hamburger.classList.toggle('open-hamburger');
       mainNav.classList.toggle('open-nav-holder');
       logo.classList.toggle("open-logo");
+      locale.classList.toggle("is-open");
     })
 
     body.addEventListener('click', (event) => {
@@ -24,6 +26,7 @@
         hamburger.classList.toggle('open-hamburger');
         mainNav.classList.toggle('open-nav-holder');
         logo.classList.toggle("open-logo");
+        locale.classList.toggle("is-open");
       }
     })
 });

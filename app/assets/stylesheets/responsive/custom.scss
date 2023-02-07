@@ -443,9 +443,11 @@ a.link_button_green_large {
 	@include respond-min($main_menu-mobile_menu_cutoff) {
 		position: relative;
 		background-color: transparent;
-		left: -50px;
-		padding-top: 2em;
+		left: 330px;
+		padding-top: 0;
+		top: -18px;
 	}
+
 }
 
 p.locale-list-trigger {
@@ -466,7 +468,7 @@ p.locale-list-trigger {
 	position: relative;
 	z-index: 999;
 	border-radius: 3px;
-	color: $color_white;
+	color: $primary;
 
 	@include respond-min($main_menu-mobile_menu_cutoff) {
 		padding: 0.66em 2em 0.66em 0.66em;
