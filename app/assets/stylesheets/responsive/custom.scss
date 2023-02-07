@@ -1009,6 +1009,7 @@ header {
           top: 40px;
           cursor: pointer;
           .box {
+              padding: 0;
               width: 16px;
               height: 3px;
               background-color: $primary;
