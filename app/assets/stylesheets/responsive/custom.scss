@@ -745,6 +745,13 @@ a.correspondence__header__date:visited {
 .describe_state_form input[type="radio"]+label {
 	display: inline;
 }
+h2 {
+	font-size: 28px;
+    font-weight: 400;
+    line-height: 36px;
+    color: $primary;
+    margin-bottom: 20px;
+}
 
 label.form_label {
 	font-size: 14px;
