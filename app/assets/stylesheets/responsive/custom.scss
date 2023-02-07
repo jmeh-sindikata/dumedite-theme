@@ -47,6 +47,7 @@
 	.account-link {
 		&:after {
 			border-top-color: rgba(255, 255, 255, 0.4);
+			right: 10px;
 		}
 	}
 }
@@ -110,6 +111,8 @@
 .sign_in_link:link,
 .sign_in_link:visited {
 	color: #fff;
+	background-color: #293b8f;
+    padding: 8px 30px 8px 20px;
 	text-decoration: none;
 
 	&:hover,
@@ -219,6 +222,10 @@ input.use-datepicker[type="text"] {
 			transition: none;
 		}
 	}
+}
+
+#logged_in {
+    position: relative;
 }
 
 @mixin button-primary($args...) {
