@@ -62,24 +62,27 @@
 
       <%= render :partial => 'general/responsive_header' %>
 
-      <div id="wrapper">
-        <div id="content" role="main">
-          <% unless params[:action] == 'frontpage' %>
-            <% if flash[:notice] %>
-              <div id="notice"><%= render_flash(flash[:notice]) %></div>
+      <% if params[:action] == 'frontpage' %>
+        <%= yield :layout %>
+      <% else %>
+        <div id="wrapper">
+            <div id="content" role="main">
+            <% unless params[:action] == 'frontpage' %>
+                <% if flash[:notice] %>
+                <div id="notice"><%= render_flash(flash[:notice]) %></div>
+                <% end %>
+                <% if flash[:error] %>
+                <div id="error"><%= render_flash(flash[:error]) %></div>
+                <% end %>
             <% end %>
-            <% if flash[:error] %>
-              <div id="error"><%= render_flash(flash[:error]) %></div>
-            <% end %>
-          <% end %>
 
-          <div id="<%= controller.controller_name + "_" + controller.action_name %>" class="controller_<%= controller.controller_name %>">
-            <%= yield :layout %>
-          </div>
-          <div style="clear:both"></div>
+            <div id="<%= controller.controller_name + "_" + controller.action_name %>" class="controller_<%= controller.controller_name %>">
+                <%= yield :layout %>
+            </div>
+            <div style="clear:both"></div>
+            </div>
         </div>
-      </div>
-
+      <% end %>
       <%= render :partial => 'general/responsive_footer' %>
     </div>
 
