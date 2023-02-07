@@ -174,7 +174,7 @@ form input[type="tel"],
 form input[type="number"] {
 	border-radius: 0;
 	background-color: $form_input-bg;
-
+	border: 1px dashed $primary;
 	/* Set a fixed height for text inputs in older IE 8 */
 	@include ie8 {
 		height: 2.3125em;
