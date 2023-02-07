@@ -97,8 +97,12 @@
 		c-0.55,0.13-1.05,0.34-1.49,0.63c-0.44,0.29-0.8,0.65-1.08,1.11s-0.43,1.02-0.43,1.68V18.47z M203.24,5.49h-6.14V0h6.14V5.49z"></path>
 			</g>
 		</svg></a>
+		<%= render :partial => 'general/locale_switcher' %>
 	</div>
 	<div class="header-content" >
+		<% if ! (controller.action_name == 'signin' or controller.action_name == 'signup' or controller.action_name == 'login') %>
+        	<%= render partial: 'general/log_in_bar' %>
+      	<% end %>
         <div id="navigation_search_t" class="navigation_search">
             <form id="navigation_search_form" class="navigation_search_form" method="get" action="<%= search_redirect_path %>" role="search">
                 <label class="visually-hidden" for="navigation_search_button">
@@ -116,40 +120,7 @@
 	</div>
 </header>
 
-<div id="banner" class="banner <%= @in_pro_area ? 'banner--pro' : '' %>" role="banner">
-  <div id="banner_inner" class="banner_inner">
-    <div id="banner_content" class="banner_content">
-      <div class="banner_site-title">
-        <h1><%= link_to site_name, frontpage_path, :id => 'logo', :class => 'site-title__logo' %></h1>
-      </div>
 
-      <div class="rsp_menu_button">
-        <a href="#banner" class="open"> <i class="icon-menu"></i> Menu </a>
-        <a href="#" class="close"> <i class="icon-menu"></i> Close </a>
-      </div>
-
-      <%= render :partial => 'general/locale_switcher' %>
-      <% if ! (controller.action_name == 'signin' or controller.action_name == 'signup' or controller.action_name == 'login') %>
-        <%= render partial: 'general/log_in_bar' %>
-      <% end %>
-      <div id="navigation_search" class="navigation_search">
-        <form id="navigation_search_form" class="navigation_search_form" method="get" action="<%= search_redirect_path %>" role="search">
-          <label class="visually-hidden" for="navigation_search_button">
-            <%= _("Search") %>
-          </label>
-          <%= text_field_tag 'query', params[:query], { :class => "navigation_search_button", :id => "navigation_search_button", :type => "search", :placeholder => _("Search"), :title => _("type your search term here") } %>
-          <button type="submit">
-            <span class="visually-hidden">
-              <%= _("Submit Search") %>
-            </span>
-          </button>
-        </form>
-      </div>
-    </div>
-
-    
-  </div>
-</div>
 
 <% if params[:action] == 'frontpage' %>
   <div class="wrapper">
