@@ -11,13 +11,15 @@ Rails.configuration.to_prepare do
   #   def mycontroller
   #     @say_something = "Greetings friend"
   #   end
-    @locale = AlaveteliLocalization.locale
-    @country_code = AlaveteliConfiguration.iso_country_code
-    AlaveteliLocalization.with_locale(@locale) do
-      @public_bodies = PublicBody.visible.
-                                  with_tag('all').
-                                  with_query(params[:public_body_query], 'all').
-                                  paginate(page: params[:page], per_page: 10000)
+    def frontpage
+      @locale = AlaveteliLocalization.locale
+      @country_code = AlaveteliConfiguration.iso_country_code
+      AlaveteliLocalization.with_locale(@locale) do
+        @public_bodies = PublicBody.visible.
+                                    with_tag('all').
+                                    with_query(params[:public_body_query], 'all').
+                                    paginate(page: params[:page], per_page: 10000)
+      end
     end
   end
   # Example adding a new action to an existing controller
