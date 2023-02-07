@@ -97,7 +97,8 @@
 	.js-loaded & {
 		@include respond-min($main_menu-mobile_menu_cutoff) {
 			//positioned alongside the button
-			top: 4.1em;
+			top: 40px;
+			right: 0;
 		}
 	}
 }
@@ -119,6 +120,9 @@
 	&:active,
 	&:focus {
 		color: #fff;
+	}
+	&.not_logged {
+		padding: 8px 20px;
 	}
 }
 
