@@ -7,11 +7,17 @@
 #
 Rails.configuration.to_prepare do
   # Example adding an instance variable to the frontpage controller
-  # GeneralController.class_eval do
+  GeneralController.class_eval do
   #   def mycontroller
   #     @say_something = "Greetings friend"
   #   end
-  # end
+    @locale = AlaveteliLocalization.locale
+    AlaveteliLocalization.with_locale(@locale) do
+      @public_bodies = PublicBody.visible.
+                                  with_tag('all').
+                                  with_query(params[:public_body_query], 'all')
+    end
+  end
   # Example adding a new action to an existing controller
   # HelpController.class_eval do
   #   def help_out
