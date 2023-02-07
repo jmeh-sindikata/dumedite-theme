@@ -5,9 +5,9 @@
         <form action="#">
           <div class="inputs">
             <select>
-              <option value="institucioni">Institucioni</option>
-              <option value="institucioni">Institucioni</option>
-              <option value="institucioni">Institucioni</option>
+              <% for public_body in public_bodies %>
+                <option value="<%= public_body.id %>"><%= public_body.name %></option>
+              <% end %>
             </select>
             <input type="text" name="tema" id="tema" placeholder="Tema">
             <textarea name="teksti" id="teksti" cols="30" rows="10" placeholder="Teksti"></textarea>
