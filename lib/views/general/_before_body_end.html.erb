@@ -4,4 +4,27 @@
       jQuery(this).parent().toggleClass('active');
     });
   });
+  $(document).ready(function () {
+    const hamburger = document.querySelector('.hamburger');
+    const mainNav = document.querySelector('.nav-holder');
+    const logo = document.querySelector('.logo');
+    const body = document.querySelector('.index-body');
+    let open = false;
+
+    hamburger.addEventListener("click", () => {
+
+
+      hamburger.classList.toggle('open-hamburger');
+      mainNav.classList.toggle('open-nav-holder');
+      logo.classList.toggle("open-logo");
+    })
+
+    body.addEventListener('click', (event) => {
+      if (mainNav.contains(event.target) && mainNav.classList.contains('open-nav-holder')) {
+        hamburger.classList.toggle('open-hamburger');
+        mainNav.classList.toggle('open-nav-holder');
+        logo.classList.toggle("open-logo");
+      }
+    })
+});
 </script>
