@@ -447,7 +447,14 @@ a.link_button_green_large {
 		padding-top: 0;
 		top: -18px;
 	}
-
+	&.is-open {
+		.locale-list-trigger .current-locale {
+			color: $color_white;
+			&:after {
+				border-top: 5px solid $color_white;
+			}
+		}
+	}
 }
 
 p.locale-list-trigger {
@@ -492,12 +499,7 @@ p.locale-list-trigger {
 		border-top: 5px solid $primary;
 	}
 
-	&.is-open {
-		color: $color_white;
-		&:after {
-			border-top: 5px solid $color_white;
-		}
-	}
+	
 }
 
 .locale-list-trigger .current-locale,
