@@ -17,8 +17,7 @@ Rails.configuration.to_prepare do
       AlaveteliLocalization.with_locale(@locale) do
         @public_bodies = PublicBody.visible.
                                     with_tag('all').
-                                    with_query(params[:public_body_query], 'all').
-                                    paginate(page: params[:page], per_page: 10000)
+                                    with_query(params[:public_body_query], 'all')
       end
     end
   end
