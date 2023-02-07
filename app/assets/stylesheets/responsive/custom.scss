@@ -57,7 +57,9 @@
 		padding-top: 1.6em;
 	}
 }
-
+a:link, a:visited {
+	color: $primary;
+}
 .logged-in-menu {
 	@include respond-min($main_menu-mobile_menu_cutoff) {
 		color: black;
@@ -163,7 +165,11 @@ a {
 		font-size: 2em;
 	}
 }
-
+.list-filter-item {
+	input {
+		width: 100%;
+	}
+}
 /* Square corners for text type inputs */
 form input[type="text"],
 form input[type="password"],
