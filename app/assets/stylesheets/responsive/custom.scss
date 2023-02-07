@@ -958,7 +958,9 @@ dt {
 .authority__body__sidebar form input[type="submit"] {
 	@include button-secondary();
 }
-
+.flex-grow {
+	flex-grow: 1;
+}
 .homepage-hero {
 	background-color: $color_neutral_dark;
 	background-image: image-url("homepage-background-small.jpg");
@@ -1265,7 +1267,7 @@ header {
 			padding-left: 10px;
 			font-family: $alfabeti;
 			background-color: $primary;
-			margin-bottom: 0px;
+			margin-bottom: 10px;
 
 			&::placeholder {
 				font-size: 15px;
