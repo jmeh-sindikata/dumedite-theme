@@ -294,6 +294,7 @@ a.link_button_green,
 a.link_button_green_large {
 	@include button-primary;
 	text-decoration: none;
+	background-color: $primary
 }
 
 a.link_button_green_large {
