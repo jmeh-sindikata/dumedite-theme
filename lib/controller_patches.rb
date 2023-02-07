@@ -12,6 +12,7 @@ Rails.configuration.to_prepare do
   #     @say_something = "Greetings friend"
   #   end
     @locale = AlaveteliLocalization.locale
+    @country_code = AlaveteliConfiguration.iso_country_code
     AlaveteliLocalization.with_locale(@locale) do
       @public_bodies = PublicBody.visible.
                                   with_tag('all').
