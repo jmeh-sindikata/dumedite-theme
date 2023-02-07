@@ -112,7 +112,7 @@
                 </button>
             </form>
         </div>
-		<p>Lyp në <%= number_with_delimiter(@sa_copa) %> kërkesa prej <%= number_with_delimiter(@sa_inst) %> autoriteteve të ndryshme.</p>
+		<p>Lyp në <%= number_with_delimiter(InfoRequest.is_searchable.count) %> kërkesa prej <%= number_with_delimiter(PublicBody.visible.count) %> autoriteteve të ndryshme.</p>
 	</div>
 </header>
 
