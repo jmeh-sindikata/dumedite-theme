@@ -943,3 +943,592 @@ dt {
 .pro-pill {
   background-color: desaturate(darken($color_secondary, 10%), 5%);
 }
+
+@font-face {
+  font-family: 'Alfabeti';
+  src: url('../assets/fonts/Alfabeti-regular.woff2') format('woff2'),
+      url('../assets/fonts/Alfabeti-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bardhi';
+  src: url('../assets/fonts/Bardhi.woff2') format('woff2'),
+      url('../assets/fonts/Bardhi.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../assets/fonts/MyriadPro-Regular.woff2') format('woff2'),
+      url('../assets/fonts/MyriadPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alfabeti';
+  src: url('../assets/fonts/Alfabeti-DemiBold.woff2') format('woff2'),
+      url('../assets/fonts/Alfabeti-DemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 3fr 1.9fr;
+  align-items: center;
+  padding: 30px 35px 80px 35px;
+  .header-content {
+      position: relative;
+      display: flex;
+      gap: 25px;
+      #search {
+          background-color: #FFF;
+          border: 1px dashed $primary;
+          width: 100%;
+          height: 40px;
+          &::placeholder {
+              color: $primary;
+          }
+      }
+      .hamburger {
+          width: 16px;
+          height: 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: fixed;
+          z-index: 100;
+          top: 40px;
+          cursor: pointer;
+          .box {
+              width: 16px;
+              height: 3px;
+              background-color: $primary;
+              position: relative;
+              transition: all .5s ease;
+              &::before {
+                  content: '';
+                  position: absolute;
+                  width: 100%;
+                  height: 3px;
+                  background-color: $primary;
+                  transform: translateY(-10px) rotate(0);
+                  transition: all .5s ease;
+              }
+              &::after {
+                  content: '';
+                  position: absolute;
+                  width: 100%;
+                  height: 3px;
+                  background-color: $primary;
+                  transform: translateY(10px) rotate(0);
+                  transition: all .5s ease;
+              }
+          }
+      }
+      .open-hamburger {
+          .box {
+              background-color: transparent;
+              &::before {
+                  transform: rotate(45deg);
+                  background-color: #FFF;
+              }
+              &::after {
+                  transform: rotate(-45deg);
+                  background-color: #FFF;
+              }
+          }
+      }
+      .nav-holder {
+          position: fixed;
+          transform: translateX(-100%);
+          transition: all .5s ease;
+          background-color: $primary;
+          width: 50%;
+          height: 100%;
+          left: 0;
+          top: 0;
+          padding-top: 125px;
+          padding: 125px 30px 35px 30px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          z-index: 99;
+          ul {
+              margin-bottom: 120px;
+              li {
+                  border-top: 1px dashed #FFF;
+                  &:last-child {
+                      border-bottom: 1px dashed #FFF;
+                  }
+                  a {
+                      display: flex;
+                      align-items: center;
+                      padding: 12px 0;
+                      text-decoration: unset;
+                      color: #FFF;
+                      font-size: 14px;
+                      font-weight: 400;
+                      font-family: $alfabeti;
+                      transition: all .5s ease;
+                      &:hover {
+                          letter-spacing: 2px;
+                      }
+                  }
+              }
+          }
+          .dumedite-contact {
+              a {
+                  font-size: 14px;
+                  text-decoration: unset;
+                  color: #FFF;
+                  font-weight: 400;
+                  font-family: $alfabeti;
+              }
+              span {
+                  color: #FFF;
+                  padding: 0 5px;
+              }
+              p {
+                  font-size: 16px;
+                  font-weight: 400;
+                  line-height: 24px;
+                  color: #FFF;
+                  font-family: "Alfabeti";
+                  margin-bottom: 10px;
+              }
+              .nav-paragraph {
+                  display: none;
+              }
+              .qka-eshte {
+                  padding-bottom: 10px;
+                  // border-top: 1px dashed #FFF;
+                  padding-top: 10px;
+              }
+              .kontakti {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  padding: 10px 0;
+                  border-top: 1px dashed #FFF;
+                  border-bottom: 1px dashed #FFF;
+              }
+              input {
+                  display: none;
+              }
+          }
+      }
+      .open-nav-holder {
+          transform: translateX(0);
+      }
+      .logo {
+          width: 300px;
+          position: fixed;
+          z-index: 99;
+          left: 80px;
+          top: 25px;
+          path {
+              transition: all .5s ease;
+          }
+      }
+      .open-logo {
+          path {
+              fill: #FFF;
+          }
+      }
+      input {
+          width: 377px;
+          height: 30px;
+          max-width: 100%;
+          border: 1px dashed #FFF;
+          outline: none;
+          padding-left: 10px;
+          font-family: $alfabeti;
+          background-color: $primary;
+          margin-bottom: 10px;
+          &::placeholder {
+              font-size: 15px;
+              font-family: $alfabeti;
+              font-weight: 400;
+              color: #FFF;
+          }
+      }
+      &:last-child {
+          flex-direction: column;
+          gap: 10px;
+          p {
+              font-size: 14px;
+              font-weight: 400;
+              color: $primary;
+              font-family: $alfabeti;
+          }
+      }
+  }
+}
+
+.header-blue {
+  background-color: $primary;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  .header-content {
+      .hamburger {
+          .box {
+              background-color: #FFF;
+              &::before {
+                  background-color: #FFF;
+              }
+              &::after {
+                  background-color: #FFF;
+              }
+          }
+      }
+      .open-hamburger {
+          .box {
+              background-color: transparent;
+              &::before {
+                  background-color: $primary;
+              }
+              &::after {
+                  background-color: $primary;
+              }
+          }
+      }
+      .nav-holder {
+          background-color: #FFF;
+          width: 48%;
+          ul {
+              li {
+                  border-top: 1px dashed $primary;
+                  a {
+                      color: $primary;
+                  }
+                  &:last-child {
+                      border-bottom: 1px dashed $primary;
+                  }
+              }
+          }
+          .dumedite-contact {
+              span {
+                  color: $primary;
+              }
+              .qka-eshte {
+                  a {
+                      color: $primary;
+                  }
+              }
+              .kontakti {
+                  border-top: 1px dashed #293B8F;
+                  border-bottom: 1px dashed #293B8F;
+                  .kontakti-links {
+                      a {
+                          color: $primary;
+                          font-family: $alfabeti;
+                      }
+                  }
+                  a {
+                      font-family: $bardhi;
+                      color: $primary;
+                  }
+              }
+          }
+      }
+      .logo {
+          width: 300px;
+          max-width: 100%;
+          path {
+              fill: #FFF;
+          }
+      }
+      .open-logo {
+          path {
+              fill: $primary;
+          }
+      }
+      input {
+          width: 100%;
+          border: 1px dashed #FFF;
+          background-color: $primary;
+          color: #FFF;
+          height: 40px;
+          &::placeholder {
+              color: #FFF;
+          }
+      }
+      &:last-child {
+          p {
+              color: #FFF;
+          }
+      }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  header {
+      padding: 30px 35px 80px 35px;
+      grid-template-columns: 3fr 1.8fr;
+      .header-content {
+          .nav-holder {
+              padding-top: 125px;
+              padding: 125px 30px 35px 30px;
+              ul {
+                  margin-bottom: 120px;
+                  li {
+                      a {
+                          font-size: 14px;
+                      }
+                  }
+              }
+              .dumedite-contact {
+                  a {
+                      font-size: 14px;
+                  }
+                  p {
+                      font-size: 14px;
+                  }
+                  .kontakti {
+                      padding: 10px 0 20px 0;
+                  }
+              }
+          }
+          .logo {
+              width: 250px;
+              left: 80px;
+              top: 25px;
+          }
+          input {
+              width: 300px;
+              &::placeholder {
+                  font-size: 15px;
+              }
+          }
+          &:last-child {
+              gap: 10px;
+              p {
+                  font-size: 14px;
+                  width: 100%;
+                  margin: 0 0 0 auto;
+              }
+          }
+      }
+  }
+
+  .header-blue {
+      .header-content {
+          .logo {
+              width: 220px;
+          }
+          input {
+              width: 80%;
+              align-self: flex-end;
+          }
+          &:last-child {
+              p {
+                  width: 80%;
+                  align-self: flex-end;
+              }
+          }
+      }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+      padding: 30px 35px 80px 35px;
+      .header-content {
+          .hamburger {
+              height: 10px;
+          }
+          .nav-holder {
+              padding-top: 125px;
+              padding: 125px 30px 35px 30px;
+              width: 100%;
+              ul {
+                  margin-bottom: 120px;
+                  li {
+                      a {
+                          font-size: 14px;
+                      }
+                  }
+              }
+              .dumedite-contact {
+                  .navbar-search {
+                      display: flex;
+                      flex-direction: column;
+                      gap: 10px;
+                      padding-bottom: 10px;
+                      input {
+                          display: block;
+                          background-color: $primary;
+                          border: 1px dashed #FFF;
+                          &::placeholder {
+                              color: #FFF;
+                          }
+                      }
+                      p {
+                          display: block;
+                          font-size: 16px;
+                          font-weight: 400;
+                          line-height: 24px;
+                          color: #FFF;
+                          font-family: "Alfabeti";
+                      }
+                  }
+                  a {
+                      font-size: 14px;
+                  }
+                  p {
+                      font-size: 14px;
+                  }
+                  .kontakti {
+                      padding: 10px 0;
+                      border-top: 1px dashed #FFF;
+                      border-bottom: 1px dashed #FFF;
+                      .kontakti-links {
+                          a {
+                              display: none;
+                          }
+                          span {
+                              display: none;
+                          }
+                      }
+                      a {
+                          font-size: 14px;
+                          color: #FFF;
+                          font-weight: 400;
+                          font-family: $bardhi;
+                      }
+                  }
+                  .qka-eshte {
+                      display: none;
+                  }
+              }
+          }
+          .logo {
+              width: 250px;
+              left: 80px;
+              top: 25px;
+          }
+          input {
+              display: none;
+          }
+          &:last-child {
+              p {
+                  display: none;
+              }
+          }
+      }
+  }
+  
+  .header-blue {
+      background-color: $primary;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      .header-content {
+          .nav-holder {
+              width: 100%;
+              .dumedite-contact {
+                  .kontakti {
+                      border-top: 1px dashed $primary;
+                      border-bottom: 1px dashed $primary;
+                      .kontakti-links {
+                          display: flex;
+                          a {
+                              display: block;
+                          }
+                          span {
+                              display: block;
+                          }
+                      }
+                  }
+              }
+          }
+          .hamburger {
+              top: 33px;
+              .box {
+                  background-color: #FFF;
+                  &::before {
+                      background-color: #FFF;
+                  }
+                  &::after {
+                      background-color: #FFF;
+                  }
+              }
+          }
+          .open-hamburger {
+              .box {
+                  background-color: transparent;
+                  &::before {
+                      background-color: $primary;
+                  }
+                  &::after {
+                      background-color: $primary;
+                  }
+              }
+          }
+          .logo {
+              width: 200px;
+              max-width: 100%;
+          }
+          input {
+              width: 80%;
+              align-self: flex-end;
+          }
+          &:last-child {
+              p {
+                  display: none;
+              }
+          }
+      }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  header {
+      .header-content {
+          .logo {
+              width: 200px;
+          }
+          input {
+              width: 100%;
+              &::placeholder {
+                  font-size: 15px;
+                  font-family: $alfabeti;
+                  font-weight: 400;
+                  color: #282561;
+              }
+          }
+          &:last-child {
+              flex-direction: column;
+              gap: 10px;
+              p {
+                  font-size: 14px;
+                  font-weight: 400;
+                  color: $primary;
+                  font-family: $alfabeti;
+              }
+          }
+      }
+  }
+
+  .header-blue {
+      grid-template-columns: 1fr;
+      .header-content {
+          .hamburger {
+              top: 33px;
+          }
+          input {
+              width: 100%;
+              align-self: flex-start;
+              margin-top: 50px;
+          }
+      }
+  }
+}
