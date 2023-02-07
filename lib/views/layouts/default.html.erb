@@ -83,7 +83,9 @@
             </div>
         </div>
       <% end %>
-      <%= render :partial => 'general/responsive_footer' %>
+      <% if params[:action] != 'frontpage' %>
+        <%= render :partial => 'general/responsive_footer' %>
+      <% end %>
     </div>
 
     <% unless @render_to_file %>
