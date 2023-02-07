@@ -473,7 +473,7 @@ p.locale-list-trigger {
 	@include respond-min($main_menu-mobile_menu_cutoff) {
 		padding: 0.66em 2em 0.66em 0.66em;
 	}
-
+	
 	&:after {
 		display: block;
 		position: absolute;
@@ -490,6 +490,13 @@ p.locale-list-trigger {
 		}
 
 		border-top: 5px solid $primary;
+	}
+
+	&.is-open {
+		color: $color_white;
+		&:after {
+			border-top: 5px solid $color_white;
+		}
 	}
 }
 
