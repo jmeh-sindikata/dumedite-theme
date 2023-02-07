@@ -8,10 +8,8 @@
 Rails.configuration.to_prepare do
   # Example adding an instance variable to the frontpage controller
   GeneralController.class_eval do
-     def test
-       @number_of_requests = InfoRequest.is_searchable.count
-        @number_of_authorities = PublicBody.visible.count
-     end
+      @sa_copa = InfoRequest.is_searchable.count
+      @sa_inst = PublicBody.visible.count
   end
   # Example adding a new action to an existing controller
   # HelpController.class_eval do
