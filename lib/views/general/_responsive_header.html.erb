@@ -9,7 +9,11 @@
 		</div>
 		<div class="nav-holder">
 			<%= render :partial => 'general/responsive_topnav' %>
-			
+			<ul>
+				<li><a href="#">Si të përdoret</a></li>
+				<li><a href="#">Kërkesat e deritanishme</a></li>
+				<li><a href="#">Transparenca</a></li>
+			</ul>
 			<div class="dumedite-contact">
 				<div class="navbar-search">
 					<input type="search" name="search" id="searchh" placeholder="Lyp">
@@ -113,7 +117,7 @@
                 </button>
             </form>
         </div>
-		<p>Lyp në <%= number_with_delimiter(@number_of_requests) %> kërkesa prej <%= number_with_delimiter(@number_of_authorities) %> autoriteteve të ndryshme.</p>
+		<p>Lyp në <%= number_with_delimiter(@sa_copa) %> kërkesa prej <%= number_with_delimiter(@sa_inst) %> autoriteteve të ndryshme.</p>
 	</div>
 </header>
 
