@@ -5,7 +5,7 @@
         <form action="#">
           <div class="inputs">
             <select>
-              <% for public_body in public_bodies %>
+              <% for public_body in @public_bodies %>
                 <option value="<%= public_body.id %>"><%= public_body.name %></option>
               <% end %>
             </select>
