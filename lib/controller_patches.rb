@@ -16,7 +16,8 @@ Rails.configuration.to_prepare do
     AlaveteliLocalization.with_locale(@locale) do
       @public_bodies = PublicBody.visible.
                                   with_tag('all').
-                                  with_query(params[:public_body_query], 'all')
+                                  with_query(params[:public_body_query], 'all').
+                                  paginate(page: params[:page], per_page: 10000)
     end
   end
   # Example adding a new action to an existing controller
