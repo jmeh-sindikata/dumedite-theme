@@ -1,0 +1,7 @@
+<ul>
+    <% if can?(:access, :alaveteli_pro) %>
+        <%= render :partial => 'alaveteli_pro/general/nav_items' %>
+    <% else %>
+        <%= render :partial => 'general/nav_items' %>
+    <% end %>
+</ul>
