@@ -11,6 +11,10 @@ Rails.configuration.to_prepare do
   #   def mycontroller
   #     @say_something = "Greetings friend"
   #   end
+    def help
+      def floosk
+      end
+    end
     def frontpage
       @locale = AlaveteliLocalization.locale
       @country_code = AlaveteliConfiguration.iso_country_code

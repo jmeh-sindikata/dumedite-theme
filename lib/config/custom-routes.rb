@@ -3,7 +3,7 @@
 
 Rails.application.routes.draw do
   # brand new controller example
-  # get '/mycontroller' => 'general#mycontroller'
+  get '/help/flossk' => 'flossk'
   # Additional help page example
   # get '/help/help_out' => 'help#help_out'
 end
