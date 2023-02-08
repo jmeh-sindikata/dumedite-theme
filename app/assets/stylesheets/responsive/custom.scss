@@ -1930,6 +1930,15 @@ footer {
 .second-footer {
     background-color: $primary;
     border-top: 1px dashed #FFF;
+	&:not(.help) {
+		svg {
+			width: 250px;
+			height: auto;
+			.st0 {
+				fill: white;
+			}
+		}
+	}
     .footer-content {
         h5 {
             font-size: 12px;
@@ -1962,6 +1971,7 @@ footer {
     }
     
     .second-footer {
+		
         .footer-content {
             h5 {
                 font-size: 14px;
