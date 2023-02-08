@@ -1930,7 +1930,7 @@ footer {
 .second-footer {
     background-color: $primary;
     border-top: 1px dashed #FFF;
-	&:not(.help) {
+	&.help {
 		svg {
 			width: 250px;
 			height: auto;
