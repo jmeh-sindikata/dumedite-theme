@@ -5,7 +5,7 @@
     <li class="<%= 'active' if controller?('help') && action?('about') %>"><%= link_to_unless_current "Introduction", help_about_path %></li>
     <li class="<%= 'active' if controller?('help') && action?('requesting') %>"><%= link_to_unless_current "Making requests", help_requesting_path %></li>
     <li class="<%= 'active' if controller?('help') && action?('privacy') %>"><%= link_to_unless_current "Your privacy", help_privacy_path %></li>
-    <li class="<%= 'active' if controller?('help') && action?('terms') %>"><%= link_to_unless_current "Terms of use", help_terms_path %></li>
+    <li class="<%= 'active' if controller?('help') && action?('terms_of_use') %>"><%= link_to_unless_current "Terms of use", help_terms_of_use_path %></li>
     <li class="<%= 'active' if controller?('help') && action?('officers') %>"><%= link_to_unless_current "FOI officers", help_officers_path %></li>
     <li class="<%= 'active' if controller?('help') && action?('alaveteli') %>"><%= link_to_unless_current "About the software", help_alaveteli_path %></li>
     <li class="<%= 'active' if controller?('help') && action?('credits') %>"><%= link_to_unless_current "Credits", help_credits_path %></li>
