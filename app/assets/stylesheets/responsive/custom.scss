@@ -162,6 +162,12 @@ a {
 	}
 }
 
+h1 {
+	font-size: 28px;
+	line-height: 36px;
+	color: $primary;
+}
+
 /* Let h1s be a little smaller on small screens */
 @media (max-width: $main_menu-mobile_menu_cutoff) {
 	h1 {
