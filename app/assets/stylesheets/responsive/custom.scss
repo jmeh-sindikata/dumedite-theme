@@ -1921,20 +1921,22 @@ section.second-form {
 
 				li {
 					border-top: 1px dashed #fff;
+					color: white;
+					display: flex;
+					align-items: center;
+					padding: 12px 0;
+					text-decoration: unset;
+					font-size: 14px;
+					font-weight: 400;
+					font-family: $alfabeti;
 
 					&:last-child {
 						border-bottom: 1px dashed #fff;
 					}
 
 					button {
-						display: flex;
-						align-items: center;
-						padding: 12px 0;
 						text-decoration: unset;
 						color: #fff;
-						font-size: 14px;
-						font-weight: 400;
-						font-family: $alfabeti;
 						transition: all 0.5s ease;
 						background-color: unset;
 						border: none;
