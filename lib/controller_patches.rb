@@ -11,7 +11,7 @@ Rails.configuration.to_prepare do
   #   def mycontroller
   #     @say_something = "Greetings friend"
   #   end
-    def help
+    HelpController.class_eval do
       def flossk
         @title = "Floosk"
       end
