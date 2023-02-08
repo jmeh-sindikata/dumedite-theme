@@ -1934,13 +1934,9 @@ footer {
 	&:not(.help){
 		background-color: transparent;
 		border-top: 1px dashed $primary;
-		.footer-content {
-			h2 {
-				color: $primary;
-			}
-		}
+
 		* {
-			color: $primary;
+			color: $primary !important;
 		}
 	}
 	svg {
