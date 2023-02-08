@@ -1911,6 +1911,7 @@ section.second-form {
 		gap: 0;
 
 		.form-content {
+			
 			align-self: flex-start;
 
 			ul {
@@ -1963,6 +1964,16 @@ section.second-form {
 						&:hover {
 							letter-spacing: 2px;
 						}
+					}
+				}
+			}
+
+			.left_column_flip {
+				ul {
+					padding: 0;
+					margin: 0;
+					li {
+						list-style: disc;
 					}
 				}
 			}
@@ -2300,18 +2311,6 @@ section.second-form {
     flex-direction: column;
     justify-content: space-between;
 	
-	.form-content {
-		color: white;
-		.left_column_flip {
-			ul {
-				padding: 0;
-				margin: 0;
-				li {
-					list-style: disc;
-				}
-			}
-		}
-	}
 }
 ol, ul {
 	list-style: none;
