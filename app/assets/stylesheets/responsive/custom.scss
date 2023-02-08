@@ -1931,6 +1931,9 @@ section.second-form {
 					font-family: $alfabeti;
 					margin-bottom: 0;
 
+					&.active {
+						letter-spacing: 2px;
+					}
 					&:last-child {
 						border-bottom: 1px dashed #fff;
 					}
