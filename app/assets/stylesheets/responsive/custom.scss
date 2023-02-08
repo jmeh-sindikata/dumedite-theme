@@ -1904,6 +1904,72 @@ section.form {
 	}
 }
 
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    padding: 15px 35px 55px 35px;
+    gap: 25px;
+    .footer-content {
+        h5 {
+            font-size: 12px;
+            font-weight: 400;
+            font-family: $bardhi;
+            color: #000;
+            line-height: 18px;
+        }
+        img {
+            width: 250px;
+            max-width: 100%;
+        }
+        &:nth-child(2) {
+            text-align: center;
+        }
+    }
+}
+
+.second-footer {
+    background-color: $primary;
+    border-top: 1px dashed #FFF;
+    .footer-content {
+        h5 {
+            font-size: 12px;
+            font-weight: 400;
+            font-family: $bardhi;
+            color: #FFF;
+            line-height: 18px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    footer {
+        grid-template-columns: 1fr;
+        .footer-content {
+            h5 {
+                font-size: 14px;
+            }
+            &:nth-child(2) {
+                text-align: start;
+                order: 1;
+            }
+            &:first-child {
+                order: 2;
+            }
+            &:last-child {
+                order: 3;
+            }
+        }
+    }
+    
+    .second-footer {
+        .footer-content {
+            h5 {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
 section.second-form {
 	margin-bottom: auto;
 
