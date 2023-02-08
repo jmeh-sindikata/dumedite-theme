@@ -535,8 +535,10 @@ p.locale-list-trigger {
 	font-weight: normal;
 
 	@include respond-min($main_menu-mobile_menu_cutoff) {
-		font-size: 0.8125em;
-		line-height: 1em;
+		font-size: 14px;
+		display: flex;
+		align-items: center;
+		gap: 10px;
 	}
 }
 
