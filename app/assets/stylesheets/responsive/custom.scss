@@ -1929,13 +1929,15 @@ section.second-form {
 					font-size: 14px;
 					font-weight: 400;
 					font-family: $alfabeti;
-					margin-bottom: 0;
 
 					&:last-child {
 						border-bottom: 1px dashed #fff;
 					}
 
 					button {
+						display: flex;
+						align-items: center;
+						padding: 12px 0;
 						text-decoration: unset;
 						color: #fff;
 						transition: all 0.5s ease;
@@ -1948,14 +1950,9 @@ section.second-form {
 					}
 
 					a {
-						display: flex;
-						align-items: center;
-						padding: 12px 0;
+						display: block;
 						text-decoration: unset;
 						color: #fff;
-						font-size: 14px;
-						font-weight: 400;
-						font-family: $alfabeti;
 						transition: all 0.5s ease;
 
 						&:hover {
