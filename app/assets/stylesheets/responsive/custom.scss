@@ -1931,7 +1931,7 @@ footer {
     background-color: $primary;
     border-top: 1px dashed #FFF;
 	margin-top: auto;
-	&:not(.help){
+	&:not(.help-t){
 		background-color: transparent;
 		border-top: 1px dashed $primary;
 
@@ -1943,7 +1943,7 @@ footer {
 		width: 250px;
 		height: auto;
 	}
-	&.help {
+	&.help-t {
 		svg {
 			.st0 {
 				fill: white;
