@@ -1939,10 +1939,12 @@ footer {
 			color: $primary;
 		}
 	}
+	svg {
+		width: 250px;
+		height: auto;
+	}
 	&.help {
 		svg {
-			width: 250px;
-			height: auto;
 			.st0 {
 				fill: white;
 			}
