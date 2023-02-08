@@ -1108,8 +1108,9 @@ dt {
 
 @font-face {
 	font-family: "Alfabeti";
-	src: url("../assets/fonts/Alfabeti-DemiBold.woff2") format("woff2"),
-		url("../assets/fonts/Alfabeti-DemiBold.woff") format("woff");
+	src: url('../assets/fonts/Alfabeti.woff2') format('woff2'),
+        url('../assets/fonts/Alfabeti.woff') format('woff'),
+        url('../assets/fonts/Alfabeti.ttf') format('truetype');
 	font-weight: 600;
 	font-style: normal;
 	font-display: swap;
