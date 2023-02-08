@@ -62,7 +62,7 @@
 
       <%= render :partial => 'general/responsive_header' %>
 
-      <% if params[:action] == 'frontpage' %>
+      <% if params[:action] == 'frontpage' or controller.controller_name == 'help' %>
         <%= yield :layout %>
       <% else %>
         <div id="wrapper">
