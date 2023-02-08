@@ -37,9 +37,9 @@
 				<%= render :partial => 'general/logo_svg' %>
 			</a>
 		</div>
-		<%= render :partial => 'general/locale_switcher' %>
 	</div>
 	<div class="header-content" >
+		<%= render :partial => 'general/locale_switcher' %>
 		<% if ! (controller.action_name == 'signin' or controller.action_name == 'signup' or controller.action_name == 'login') %>
         	<%= render partial: 'general/log_in_bar' %>
       	<% end %>

@@ -462,19 +462,15 @@ a.link_button_green_large {
 //* locale-list */
 .locale-list {
 	@include respond-min($main_menu-mobile_menu_cutoff) {
-		position: relative;
 		background-color: transparent;
-		left: 330px;
-		padding-top: 0;
-		top: -18px;
 	}
 	&.is-open {
-		.locale-list-trigger .current-locale {
+		/* .locale-list-trigger .current-locale {
 			color: $color_white;
 			&:after {
 				border-top: 5px solid $color_white;
 			}
-		}
+		} */
 	}
 }
 
