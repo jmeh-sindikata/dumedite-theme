@@ -12,7 +12,8 @@ Rails.configuration.to_prepare do
   #     @say_something = "Greetings friend"
   #   end
     def help
-      def floosk
+      def flossk
+        @title = "Floosk"
       end
     end
     def frontpage
