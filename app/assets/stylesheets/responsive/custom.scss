@@ -1983,9 +1983,15 @@ section.second-form {
 			&.sidebar-t {
 				width: 50%;
 				margin-bottom: 120px;
-				margin: 7px 50px 0 auto;
+				margin: 10px 50px 0 auto;
 				display: block;
 				border-bottom: none;
+				color: white;
+				h2 {
+					color: white;
+					font-size: 22px;
+					line-height: 28px;
+				}
 			}
 			ul {
 				
