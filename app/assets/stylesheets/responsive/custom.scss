@@ -2298,6 +2298,10 @@ section.second-form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+	
+	.form-content {
+		color: white;
+	}
 }
 ol, ul {
 	list-style: none;
