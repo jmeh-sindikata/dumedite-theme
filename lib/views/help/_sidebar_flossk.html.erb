@@ -1,0 +1,14 @@
+
+<div class="form-content sidebar-t">
+  <ul class="no_bullets">
+    <li class="<%= 'active' if controller?('help') && action?('about') %>"><%= link_to_unless_current "Flossk", help_flossk_path %></li>
+    <li class="<%= 'active' if controller?('help') && action?('requesting') %>"><%= link_to_unless_current "Making requests", help_requesting_path %></li>
+    <li class="<%= 'active' if controller?('help') && action?('privacy') %>"><%= link_to_unless_current "Your privacy", help_privacy_path %></li>
+  </ul>
+
+  <h2 id="contact" class="contact">Contact us</h2>
+  <p>If your question isn't answered here, or you just wanted to let us know
+    something about the site, <a href="<%= help_contact_path %>"><%= _("contact us") %></a>.
+  </p>
+</div>
+
