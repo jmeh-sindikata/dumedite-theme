@@ -4,7 +4,7 @@
 Rails.application.routes.draw do
   # brand new controller example
   get '/help/flossk' => 'flossk'
-  get '/help/terms' => 'terms'
+  get '/help/terms_of_use' => 'terms'
   # Additional help page example
   # get '/help/help_out' => 'help#help_out'
 end

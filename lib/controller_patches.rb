@@ -15,7 +15,7 @@ Rails.configuration.to_prepare do
       def flossk
         @title = "Floosk"
       end
-      def terms
+      def terms_of_use
         @title = "Terms of use"
       end
     end
