@@ -1930,6 +1930,7 @@ footer {
 .second-footer {
     background-color: $primary;
     border-top: 1px dashed #FFF;
+	margin-top: auto;
 	&.help {
 		svg {
 			width: 250px;
@@ -2406,6 +2407,12 @@ section.second-form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+	
+	.error-page {
+		width: 50%;
+		margin: auto;
+		color: white;
+	}
 	
 }
 ol, ul {
