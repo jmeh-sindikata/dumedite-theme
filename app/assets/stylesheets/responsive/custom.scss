@@ -1914,12 +1914,15 @@ section.second-form {
 			
 			align-self: flex-start;
 
-			ul {
+			.sidebar-t {
 				width: 50%;
 				margin-bottom: 120px;
 				margin: 7px 50px 0 auto;
 				display: block;
 				border-bottom: none;
+			}
+			ul {
+				
 
 				li {
 					border-top: 1px dashed #fff;
@@ -1974,7 +1977,7 @@ section.second-form {
 					margin-top: 0;
 				}
 				a {
-					text-decoration: dotted;
+					text-decoration-style: dotted;
 					color: white;
 				}
 				ul {
