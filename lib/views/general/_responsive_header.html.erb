@@ -16,17 +16,17 @@
 						<p class="nav-paragraph">Lyp në 862,779 kërkesa prej 45,907 autoriteteve të ndryshme.</p>
 					</div>
 					<div class="qka-eshte">
-						<a href="#">Çka është Flossk?</a>
+						<li class="<%= 'active' if controller?('help') && action?('flossk') %>"><%= link_to_unless_current _("Çka është Flossk?"), help_flossk_path %></li>
 						<span>/</span>
-						<a href="#">Çka është Alavateli?</a>
+						<li class="<%= 'active' if controller?('help') && action?('alaveteli') %>"><%= link_to_unless_current _("Çka është Alavateli?"), help_alaveteli_path %></li>
 						<span>/</span>
-						<a href="#">Kushtet e përdorimit</a>
+						<li class="<%= 'active' if controller?('help') && action?('terms_of_use') %>"><%= link_to_unless_current _("Kushtet e përdorimit"), help_terms_of_use_path %></li>
 					</div>
 					<div class="kontakti">
 						<div class="kontakti-links">
 							<a href="#">Impressum</a>
 							<span>/</span>
-							<a href="#">Kontakti</a>
+							<li class="<%= 'active' if controller?('help') && action?('contact') %>"><%= link_to_unless_current _("Kontakti"), help_contact_path %></li>
 						</div>
 						<a href="#">log*</a>
 					</div>
