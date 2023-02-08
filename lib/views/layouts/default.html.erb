@@ -45,7 +45,7 @@
     </script>
     <%= content_for :javascript_head %>
   </head>
-  <body class="<% if params[:action] == 'frontpage' %>front index-body <% else if controller.controller_name == 'help' %> blue-index-body <% end %> <% if @in_pro_area %>alaveteli-pro<% end %>">
+  <body class="<% if params[:action] == 'frontpage' %>front index-body <% elsif controller.controller_name == 'help' %> blue-index-body <% end %> <% if @in_pro_area %>alaveteli-pro<% end %>">
     <% if is_admin? %>
       <%= render :partial => 'admin_general/admin_navbar' %>
     <% end %>
