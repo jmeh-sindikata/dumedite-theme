@@ -15,6 +15,9 @@ Rails.configuration.to_prepare do
       def flossk
         @title = "Floosk"
       end
+      def terms
+        @title = "Terms of use"
+      end
     end
     def frontpage
       @locale = AlaveteliLocalization.locale
