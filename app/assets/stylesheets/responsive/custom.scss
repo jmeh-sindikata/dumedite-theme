@@ -2301,6 +2301,15 @@ section.second-form {
 	
 	.form-content {
 		color: white;
+		.left_column_flip {
+			ul {
+				padding: 0;
+				margin: 0;
+				li {
+					list-style: disc;
+				}
+			}
+		}
 	}
 }
 ol, ul {
