@@ -5,3 +5,15 @@
 #
 # msgid "Make and browse Freedom of Information (FOI) requests"
 # msgstr "Make and browse Right to Know (RTI) requests"
+
+msgid "Çka është Flossk?"
+msgstr "What is Flossk?"
+
+msgid "Çka është Alavateli?"
+msgstr "What is Alavateli?"
+
+msgid "Kushtet e përdorimit"
+msgstr "Terms of use"
+
+msgid "Kontakti"
+msgstr "Contact"
