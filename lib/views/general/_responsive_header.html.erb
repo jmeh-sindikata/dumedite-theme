@@ -2,7 +2,7 @@
   <p class="print-information">Printed from <%= request.original_url.force_encoding('utf-8') %> on <%= Time.zone.now.to_formatted_s(:long)  %></p>
 </div>
 
-<header>
+<header <% if controller.controller_name == 'help' %> class="header-blue" <% end %>>
 	<div class="header-content">
 		<div>
 			<div class="hamburger">
