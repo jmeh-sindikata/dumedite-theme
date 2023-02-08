@@ -463,6 +463,8 @@ a.link_button_green_large {
 .locale-list {
 	@include respond-min($main_menu-mobile_menu_cutoff) {
 		background-color: transparent;
+		padding: 0;
+		margin: 0;
 	}
 	&.is-open {
 		/* .locale-list-trigger .current-locale {
