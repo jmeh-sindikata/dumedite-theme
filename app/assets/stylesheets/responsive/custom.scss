@@ -58,7 +58,7 @@
 	}
 }
 a:link, a:visited {
-	color: $primary;
+	color: $primary !important;
 }
 .logged-in-menu {
 	@include respond-min($main_menu-mobile_menu_cutoff) {
