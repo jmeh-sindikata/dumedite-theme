@@ -583,7 +583,7 @@ p.locale-list-trigger {
 .locale-list .available-languages a:visited {
 	text-decoration: none;
 	transition: background-color 0.5s ease-out;
-	color: #fff;
+	color: $primary;
 
 	@include respond-min($main_menu-mobile_menu_cutoff) {
 		background-color: white;
