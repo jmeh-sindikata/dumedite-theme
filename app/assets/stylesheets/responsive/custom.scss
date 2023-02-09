@@ -547,8 +547,8 @@ p.locale-list-trigger {
 
 	@include respond-min($main_menu-mobile_menu_cutoff) {
 		position: absolute;
-		top: 30px;
-		left: 0.9375em;
+		top: 40px;
+		left: 0;
 		z-index: 1000;
 		border-radius: 3px;
 		font-size: 1em;
@@ -586,9 +586,9 @@ p.locale-list-trigger {
 	color: #fff;
 
 	@include respond-min($main_menu-mobile_menu_cutoff) {
-		background-color: darken($color_dark_grey, 10%);
+		background-color: white;
 		display: block;
-		padding: 0.5em 1em;
+		padding: 1em;
 		width: 100%;
 	}
 }
@@ -599,7 +599,7 @@ p.locale-list-trigger {
 	background-color: rgba(0, 0, 0, 0.1);
 
 	@include respond-min($main_menu-mobile_menu_cutoff) {
-		background-color: darken($color_mid_grey, 10%);
+		background-color: darken($primary, 10%);
 	}
 
 	color: $color_white;
