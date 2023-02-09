@@ -458,23 +458,28 @@ a.link_button_green_large {
 		background-color: transparent;
 	}
 }
-
+.locale-and-login {
+	display: flex;
+	gap: 10px;
+	height: 40px;
+	align-items: center;
+}
 //* locale-list */
 .locale-list {
 	@include respond-min($main_menu-mobile_menu_cutoff) {
-		position: relative;
 		background-color: transparent;
-		left: 330px;
-		padding-top: 0;
-		top: -18px;
+		padding: 0;
+		margin: 0;
+		width: auto;
+		float: unset;
 	}
 	&.is-open {
-		.locale-list-trigger .current-locale {
+		/* .locale-list-trigger .current-locale {
 			color: $color_white;
 			&:after {
 				border-top: 5px solid $color_white;
 			}
-		}
+		} */
 	}
 }
 
@@ -493,18 +498,20 @@ p.locale-list-trigger {
 }
 
 .locale-list-trigger .current-locale {
-	position: relative;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
 	z-index: 999;
 	border-radius: 3px;
 	color: $primary;
 
 	@include respond-min($main_menu-mobile_menu_cutoff) {
-		padding: 0.66em 2em 0.66em 0.66em;
+		padding: 0 0.66em;
 	}
 	
 	&:after {
 		display: block;
-		position: absolute;
 		content: "";
 		right: 10px;
 		top: 12px;
@@ -528,8 +535,10 @@ p.locale-list-trigger {
 	font-weight: normal;
 
 	@include respond-min($main_menu-mobile_menu_cutoff) {
-		font-size: 0.8125em;
-		line-height: 1em;
+		font-size: 14px;
+		display: flex;
+		align-items: center;
+		gap: 10px;
 	}
 }
 
