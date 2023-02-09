@@ -58,7 +58,7 @@
 	}
 }
 a:link, a:visited {
-	color: $primary !important;
+	color: $primary;
 }
 .logged-in-menu {
 	@include respond-min($main_menu-mobile_menu_cutoff) {
@@ -84,7 +84,7 @@ a:link, a:visited {
 		}
 
 		@include respond-min($main_menu-mobile_menu_cutoff) {
-			color: $link-color;
+			color: $primary;
 
 			&:hover,
 			&:active,
