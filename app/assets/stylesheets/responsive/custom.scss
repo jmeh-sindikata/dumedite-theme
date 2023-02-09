@@ -588,7 +588,7 @@ p.locale-list-trigger {
 	@include respond-min($main_menu-mobile_menu_cutoff) {
 		background-color: white;
 		display: block;
-		padding: 1em;
+		padding: 0;
 		width: 100%;
 	}
 }
@@ -609,6 +609,8 @@ p.locale-list-trigger {
 .no-js .locale-list .available-languages,
 .locale-list.active .available-languages {
 	display: block;
+	padding: 1em;
+	box-shadow: 0 3px 15px 0 rgb(0 0 0 / 10%);
 }
 
 .locale-list.active .current-locale {
