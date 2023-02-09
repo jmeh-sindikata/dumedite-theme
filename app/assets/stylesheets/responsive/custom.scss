@@ -612,12 +612,12 @@ p.locale-list-trigger {
 }
 
 .locale-list.active .current-locale {
-	color: $color_white;
+	color: $primary;
 	border-color: $color_primary;
 
 	@include respond-min($main_menu-mobile_menu_cutoff) {
-		background-color: darken($color_dark_grey, 10%);
-		border-color: $color_black;
+		background-color: transparent;
+		border-color: #ccc;
 		border-bottom-right-radius: 0;
 		border-bottom-left-radius: 0;
 	}
