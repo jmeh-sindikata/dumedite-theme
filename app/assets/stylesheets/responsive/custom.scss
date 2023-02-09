@@ -610,7 +610,7 @@ p.locale-list-trigger {
 .locale-list.active .available-languages {
 	display: block;
 	padding: 1em;
-	box-shadow: 0 3px 15px 0 rgb(0 0 0 / 10%);
+	box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.10);
 }
 
 .locale-list.active .current-locale {
