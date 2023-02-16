@@ -4,38 +4,38 @@
 
 <header <% if controller.controller_name == 'help' %> class="header-blue" <% end %>>
 	<div class="header-content">
-		<div>
+		<div class="hamb-and-logo">
 			<div class="hamburger">
 				<div class="box"></div>
-			</div>
-			<div class="nav-holder">
-				<%= render :partial => 'general/responsive_topnav' %>
-				<div class="dumedite-contact">
-					<div class="navbar-search">
-						<input type="search" name="search" id="searchh" placeholder="Lyp">
-						<p class="nav-paragraph">Lyp në 862,779 kërkesa prej 45,907 autoriteteve të ndryshme.</p>
-					</div>
-					<div class="qka-eshte">
-						<%= link_to _("Çka është Flossk?"), help_flossk_path %>
-						<span>/</span>
-						<%= link_to _("Çka është Alavateli?"), help_alaveteli_path %>
-						<span>/</span>
-						<%= link_to _("Kushtet e përdorimit"), help_terms_of_use_path %>
-					</div>
-					<div class="kontakti">
-						<div class="kontakti-links">
-							<a href="#">Impressum</a>
-							<span>/</span>
-							<%= link_to _("Kontakti"), help_contact_path %>
-						</div>
-						<a href="#">log*</a>
-					</div>
-				</div>
 			</div>
 
 			<a href="/">
 				<%= render :partial => 'general/logo_svg' %>
 			</a>
+		</div>
+		<div class="nav-holder">
+			<%= render :partial => 'general/responsive_topnav' %>
+			<div class="dumedite-contact">
+				<div class="navbar-search">
+					<input type="search" name="search" id="searchh" placeholder="Lyp">
+					<p class="nav-paragraph">Lyp në 862,779 kërkesa prej 45,907 autoriteteve të ndryshme.</p>
+				</div>
+				<div class="qka-eshte">
+					<%= link_to _("Çka është Flossk?"), help_flossk_path %>
+					<span>/</span>
+					<%= link_to _("Çka është Alavateli?"), help_alaveteli_path %>
+					<span>/</span>
+					<%= link_to _("Kushtet e përdorimit"), help_terms_of_use_path %>
+				</div>
+				<div class="kontakti">
+					<div class="kontakti-links">
+						<a href="#">Impressum</a>
+						<span>/</span>
+						<%= link_to _("Kontakti"), help_contact_path %>
+					</div>
+					<a href="#">log*</a>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="header-content" >

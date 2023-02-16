@@ -46,8 +46,8 @@
 .js-loaded {
 	.account-link {
 		&:after {
-			border-top-color: rgba(255, 255, 255, 0.4);
-			right: 10px;
+			border-top-color: $primary;
+			position: static;
 		}
 	}
 }
@@ -57,9 +57,7 @@
 		padding-top: 1.6em;
 	}
 }
-a:link, a:visited {
-	color: $primary;
-}
+
 .logged-in-menu {
 	@include respond-min($main_menu-mobile_menu_cutoff) {
 		color: black;
@@ -113,19 +111,19 @@ a:link, a:visited {
 .sign_in_link,
 .sign_in_link:link,
 .sign_in_link:visited {
-	color: #fff;
-	background-color: #293b8f;
-    padding: 8px 30px 8px 20px;
+	color: $primary;
+	background-color: transparent;
+    padding: 0 0.66em;
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 1em;
+	display: flex;
+	align-items: center;
+	gap: 10px;
 
 	&:hover,
 	&:active,
 	&:focus {
-		color: #fff;
-	}
-	&.not_logged {
-		padding: 8px 20px;
+		color: $primary;
 	}
 }
 
@@ -303,7 +301,8 @@ a.link_button_green,
 a.link_button_green_large {
 	@include button-primary;
 	text-decoration: none;
-	background-color: $primary
+	background-color: $primary;
+	height: 40px;
 }
 
 a.link_button_green_large {
@@ -444,7 +443,9 @@ a.link_button_green_large {
 	background-color: desaturate(lighten($error-color, 30%), 10%);
 	border-color: $error-color;
 }
-
+#wrapper {
+	max-width: 1000px;
+}
 .undescribed_requests {
 	background-color: desaturate(lighten($action-color, 30%), 10%);
 	border-color: $action-color;
@@ -453,6 +454,7 @@ a.link_button_green_large {
 /* LANGUAGE SWITCHER */
 #user_locale_switcher {
 	background-color: $color_primary;
+	position: relative;
 
 	@include respond-min($main_menu-mobile_menu_cutoff) {
 		background-color: transparent;
@@ -535,7 +537,6 @@ p.locale-list-trigger {
 	font-weight: normal;
 
 	@include respond-min($main_menu-mobile_menu_cutoff) {
-		font-size: 14px;
 		display: flex;
 		align-items: center;
 		gap: 10px;
@@ -548,21 +549,18 @@ p.locale-list-trigger {
 	@include respond-min($main_menu-mobile_menu_cutoff) {
 		position: absolute;
 		top: 40px;
-		left: 0;
+		right: 0;
 		z-index: 1000;
 		border-radius: 3px;
-		font-size: 1em;
-		width: 100%;
+		width: 10em;
 		max-width: 10em;
 	}
 }
 
 .locale-list li {
 	list-style-type: none;
-	border-top: 1px solid rgba(255, 255, 255, 0.2);
 
 	@include respond-min($main_menu-mobile_menu_cutoff) {
-		border-color: $color_dark_grey;
 		display: block;
 	}
 
@@ -596,13 +594,12 @@ p.locale-list-trigger {
 .locale-list .available-languages a:hover,
 .locale-list .available-languages a:focus {
 	border-bottom: none;
-	background-color: rgba(0, 0, 0, 0.1);
 
 	@include respond-min($main_menu-mobile_menu_cutoff) {
-		background-color: darken($primary, 10%);
+		text-decoration: underline;
 	}
 
-	color: $color_white;
+	color: $primary;
 }
 
 /* JS interactivity */
@@ -615,11 +612,9 @@ p.locale-list-trigger {
 
 .locale-list.active .current-locale {
 	color: $primary;
-	border-color: $color_primary;
 
 	@include respond-min($main_menu-mobile_menu_cutoff) {
 		background-color: transparent;
-		border-color: #ccc;
 		border-bottom-right-radius: 0;
 		border-bottom-left-radius: 0;
 	}
@@ -630,7 +625,7 @@ p.locale-list-trigger {
 		border-top-color: $color_white;
 	}
 
-	border-top-color: rgba(255, 255, 255, 0.4);
+	border-top-color: $primary;
 }
 
 .locale-list .locale-list-trigger,
@@ -1144,6 +1139,14 @@ header {
 		display: flex;
 		gap: 25px;
 
+		.hamb-and-logo {
+			display: flex;
+			align-items: center;
+			gap: 35px;
+			position: relative;
+			z-index: 9999;
+		}
+
 		#search {
 			background-color: #fff;
 			border: 1px dashed $primary;
@@ -1161,9 +1164,9 @@ header {
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			position: fixed;
+			position: relative;
 			z-index: 100;
-			top: 40px;
+
 			cursor: pointer;
 
 			.box {
@@ -1222,7 +1225,7 @@ header {
 			left: 0;
 			top: 0;
 			padding-top: 125px;
-			padding: 125px 30px 35px 30px;
+			padding: 125px 30px 35px 35px;
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
@@ -1230,6 +1233,7 @@ header {
 
 			ul {
 				margin-bottom: 120px;
+				padding: 0;
 
 				li {
 					border-top: 1px dashed #fff;
@@ -1309,11 +1313,10 @@ header {
 		}
 
 		.logo {
-			width: 300px;
-			position: fixed;
+			width: 250px;
+			position: relative;
 			z-index: 99;
-			left: 80px;
-			top: 25px;
+
 
 			path {
 				transition: all 0.5s ease;
@@ -1441,7 +1444,7 @@ header {
 		}
 
 		.logo {
-			width: 300px;
+			width: 250px;
 			max-width: 100%;
 
 			path {
@@ -1692,7 +1695,7 @@ header {
 			}
 
 			.hamburger {
-				top: 33px;
+
 
 				.box {
 					background-color: #fff;
@@ -1777,7 +1780,7 @@ header {
 
 		.header-content {
 			.hamburger {
-				top: 33px;
+
 			}
 
 			input {
@@ -1789,18 +1792,61 @@ header {
 	}
 }
 
-section.form {
+section.form.general {
 	padding: 0 35px 30px 35px;
+	.form-holder {
+		grid-template-columns: repeat(2, 1fr);
+		.form-content {
+			form {
+				margin: 0;
+				button {
+					margin: 0;
+				}
+				.inputs {
+					select {
+						margin: 0;
+					}
+					input {
+						margin: 0;
+					}
+					textarea {
+						margin: 0;
+					}
+				}
+			}
+		}
+		.form-content-second {
+			.text-content {
+				.filan-text {
+					p {
+						margin: 0;
+					}
+				}
+				>div {
+					p {
+						margin: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+section.form {
+	padding: 0;
 	margin-top: auto;
 
 	.form-holder {
 		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		gap: 15px;
+		grid-template-columns: 35% 65%;
 
 		.form-content {
 			align-self: flex-end;
-
+			#left_column_flip {
+				float: unset;
+				width: 100%;
+				padding: 0;
+			}
 			form {
 				display: flex;
 				gap: 17px;
@@ -2010,20 +2056,18 @@ footer {
 }
 
 section.second-form {
-	margin-bottom: auto;
-	margin-top: 0;
+	margin: 0 auto;
+	width: 1000px;
 
 	.form-holder {
-		gap: 0;
+		gap: 100px;
 
 		.form-content {
 			
 			align-self: flex-start;
 
 			&.sidebar-t {
-				width: 50%;
-				margin-bottom: 120px;
-				margin: 10px 50px 0 auto;
+				margin: 10px 0 0 0;
 				display: block;
 				border-bottom: none;
 				color: white;
@@ -2093,6 +2137,7 @@ section.second-form {
 					margin-top: 0;
 					font-size: 28px;
 					line-height: 36px;
+					color: white;
 				}
 				a {
 					text-decoration-style: dotted;
@@ -2103,13 +2148,15 @@ section.second-form {
 					margin: 0;
 					li {
 						list-style: disc;
+						list-style-position: inside;
+						display: block;
+						border: none;
 					}
 				}
 			}
 
 			&:last-child {
 				grid-template-columns: 1fr;
-				width: 60%;
 
 				.text-content {
 					p {
@@ -2447,10 +2494,29 @@ section.second-form {
 	}
 
 	.sign_in_link {
-		background-color: white;
-		color: $primary;
+		background-color: transparent;
+		color: white;
+		&:hover {
+			color: white;
+		}
 	}
-	
+	.locale-list.active{
+		.current-locale {
+			&::after {
+				color: white;
+			}
+		}
+	}
+	.locale-list-trigger 
+	{
+		.current-locale {
+			color: white;
+
+			&::after {
+				border-top-color: white;
+			}
+		}
+	}
 }
 ol, ul {
 	list-style: none;
@@ -2466,4 +2532,67 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+a:link, a:visited {
+	color: $primary;
+}
+#content {
+	padding: 0;
+}
+#user_profile_search{
+	#search_form {
+		> div {
+			display: grid;
+			grid-template-columns: 2fr 2fr 1fr;
+			gap: 15px
+		}
+		input,
+		select {
+			height: 40px;
+			width: 100%;
+			border: 1px dashed $primary;
+		}
+	}
+}
+
+#header_right,
+#header_left {
+	padding: 0;
+	width: 100%;
+	float: unset;
+	margin: 0;
+}
+#header_right {
+	order: 2;
+}
+#user_profile_header {
+	margin: 0;
+	display: grid;
+	grid-template-columns: 7fr 3fr;
+	gap: 100px;
+	&::before,
+	&::after {
+		content: none;
+	}
+}
+
+div.user_about_me {
+	margin: 0 0 30px 0;
+	padding: 0;
+}
+
+.admin{
+	.navbar-inverse {
+		.brand,
+		.nav > li > a {
+			color: white !important;
+		}
+		.navbar-inner {
+			background-color: $primary !important;
+		}
+	}
+	.navbar {
+		margin-bottom: 0 !important;
+	}
 }

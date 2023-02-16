@@ -1,10 +1,10 @@
 <script>
-  jQuery('#user_locale_switcher').find('.locale-list-trigger').each(function() {
-    jQuery(this).click(function(){
-      jQuery(this).parent().toggleClass('active');
+jQuery('#user_locale_switcher').find('.locale-list-trigger').each(function() {
+    jQuery(this).click(function() {
+        jQuery(this).parent().toggleClass('active');
     });
-  });
-  $(document).ready(function () {
+});
+$(document).ready(function() {
     const hamburger = document.querySelector('.hamburger');
     const mainNav = document.querySelector('.nav-holder');
     const logo = document.querySelector('.logo');
@@ -13,21 +13,41 @@
     let open = false;
 
     hamburger.addEventListener("click", () => {
-
-
-      hamburger.classList.toggle('open-hamburger');
-      mainNav.classList.toggle('open-nav-holder');
-      logo.classList.toggle("open-logo");
-      locale.classList.toggle("is-open");
-    })
-
-    body.addEventListener('click', (event) => {
-      if (mainNav.contains(event.target) && mainNav.classList.contains('open-nav-holder')) {
         hamburger.classList.toggle('open-hamburger');
         mainNav.classList.toggle('open-nav-holder');
         logo.classList.toggle("open-logo");
         locale.classList.toggle("is-open");
-      }
     })
+
+    if(body){
+        body.addEventListener('click', (event) => {
+            if (mainNav.contains(event.target) && mainNav.classList.contains('open-nav-holder')) {
+                hamburger.classList.toggle('open-hamburger');
+                mainNav.classList.toggle('open-nav-holder');
+                logo.classList.toggle("open-logo");
+                locale.classList.toggle("is-open");
+            }
+        })
+    }
+});
+
+$(function() {
+  var $accountLink = $('.trigger-dropdown-menu');
+  var $accountMenu = $('.t-dropdown.active');
+  $accountLink.click(function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      $accountMenu = $('.' + $(this).data('menu-target'));
+      $accountMenu.slideToggle(250).toggleClass('active');
+      return false;
+  });
+  $(document).click(function() {
+      // hide the menu when we click off it
+      $accountMenu.slideUp(250);
+  });
+  $accountMenu.click(function(e) {
+      // but don't hide when we click the menu
+      e.stopPropagation();
+  });
 });
 </script>

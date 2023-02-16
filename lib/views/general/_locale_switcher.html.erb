@@ -1,0 +1,18 @@
+
+<div id="user_locale_switcher" class="locale-list">
+    <% if @locales[:available].any? %>
+        <p class="locale-list-trigger trigger-dropdown-menu <% @locales[:current] %>" data-menu-target="locale-list-menu">
+        <strong class="current-locale"><%= locale_name(@locales[:current]) %></strong>
+        </p>
+
+        <div class="logged-in-menu locale-list-menu">
+            <ul class="logged-in-menu__links">
+                <% @locales[:available].each do |locale| %>
+                    <li class="available-languages__item">
+                    <%= link_to locale_name(locale), current_path_with_locale(locale) %>
+                    </li>
+                <% end %>
+            </ul>
+        </div>
+    <% end %>
+</div>

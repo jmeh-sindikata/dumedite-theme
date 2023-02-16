@@ -1,5 +1,5 @@
 <% cache_if_caching_fragments("frontpage-#{@locale}", :expires_in => 5.minutes) do %>
-  <section class="form">
+  <section class="form <%= controller.controller_name %>">
     <div class="form-holder">
       <div class="form-content">
         <form action="#">
