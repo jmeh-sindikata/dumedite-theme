@@ -1,4 +1,4 @@
-<% @title = "FOI officer questions" %>
+<% @title = "Pyetje prej zyrtarëve të QDP" %>
 <section class="form second-form">
   <div class="form-holder">
     <%= render :partial => 'sidebar' %>
@@ -6,164 +6,105 @@
       <div id="left_column_flip" class="left_column_flip">
         <h1 id="officers"><%= @title %> <a href="#officers">#</a> </h1>
         <dl>
-          <dt id="top">I just got here from bottom of an FOI request, what is going on? <a href="#top">#</a> </dt>
+          <dt id="top">Sapo arrita këtu prej një kërkese të QDP, çfarë po ndodh? <a href="#top">#</a> </dt>
           <dd>
-            <p><%= site_name %> is a service run by a charity. It helps ordinary members
-              of the public make FOI requests, and easily track and share the responses.</p>
-            <p>The FOI request you received was made by someone using <%= site_name %>. You can
-              simply reply to the request as you would any other request from an individual.
-              The only difference is that your response will be automatically published on
-              the Internet.
+            <p><%= site_name %> është një shërbim i drejtuar nga një OJQ. Ndihmon anëtarët e zakonshëm të publikut të bëjnë kërkesa të QDP, dhe të ndjekin lehtësisht dhe të ndajnë përgjigjet.</p>
+            <p>Kërkesa e QDP që keni marrë u bë nga dikush që përdor Dumeditë. Ju thjesht mund t'i përgjigjeni kërkesës ashtu siç do të bëni ndonjë kërkesë tjetër nga një individ. Dallimi i vetëm është se përgjigjja juaj do të publikohet automatikisht në internet.
             </p>
-            <p>If you have privacy or other concerns, please read the answers below.
-              You might also like to read the <a
-          href="<%= help_about_path %>">introduction to <%= site_name %></a> to find out more about what
-              the site does from the point of view of a user. You can also search the
-              site to find the authority that you work for, and view the status of
-              any requests made using the site.
-              <p>Finally, we welcome comments and
-                thoughts from FOI officers, please <a href="<%= help_contact_path %>">get in touch</a>.
+            <p>Nëse keni shqetësime rreth privatësisë apo të tjera, ju lutemi lexoni përgjigjet më poshtë. Ju  mund të lexoni <a
+          href="<%= help_about_path %>"> hyrje në <%= site_name %></a> për të mësuar më shumë rreth asaj që bën faqja nga këndvështrimi i një përdoruesi. Ju gjithashtu mund të kërkoni në uebsite për të gjetur institucionin për të cilin punoni, dhe të shikoni statusin e çdo kërkese të bërë duke përdorur uebfaqen.
+          </p>
+              <p>Ne mirëpresim komente dhe mendime nga zyrtarët e QDP, ju lutemi <a href="<%= help_contact_path %>">na kontaktoni</a>.
               </p>
             </dd>
-            <dt id="responses">Why are you publishing responses to FOI requests? <a href="#responses">#</a> </dt>
-            <dd>We think there are lots of benefits. Most importantly it will encourage the
-              public to be more interested and involved in the work of government. We
-              also hope that it will reduce the number of duplicate requests on any
-              subject that a public body will receive. Given that Freedom of Information
-              responses contain public information, which anybody could easily request
-              again from the public authority, we think there should be no reason not to
-              publish it widely.
+            <dt id="responses">Pse jeni duke i publikuar përgjigjet për kërkesat e QDP? <a href="#responses">#</a> </dt>
+            <dd>Ne mendojmë se ka shumë përfitime. Më e rëndësishmja është se do të inkurajoj publikun të jetë më i interesuar dhe i përfshirë në punën e qeverisë. Ne gjithashtu shpresojmë se do të zvogëloj numrin e kërkesave të  dublikuara për çdo temë që do të marrë një organ publik. Duke pasur parasysh që  përgjigjet për Qasjen në dokumente publike përmbajnë informacione publike, të cilat dikush mund ti kërkoj lehtësisht përsëri nga institucioni publik, ne mendojmë se nuk duhet të ketë asnjë arsye për të mos i publikuar ato.
+
             </dd>
-            <dt id="realpeople">Are the people making requests real people? <a href="#realpeople">#</a> </dt>
-            <dd>Yes. For the purposes of keeping track of responses we use
-              computer-generated email addresses for each request. However, before
-              they can send a request, each user must register on the site with a
-              unique email address that we then verify. You can search this site and
-              find a page listing all requests that each person has made.
+            <dt id="realpeople">A janë njerëzit që bëjnë kërkesa njerëz të vërtetë? <a href="#realpeople">#</a> </dt>
+            <dd>Po. Për qëllimet e përcjelljes së përgjigjeve, ne përdorim adresat e postës elektronike të krijuara nga kompjuteri për secilën kërkesë. Sidoqoftë, para se të mund të dërgojnë një kërkesë, secili përdorues duhet të regjistrohet në uebfaqe me një adresë unike të postës elektronike që ne pastaj verifikojmë. Ju mund të kërkoni në këtë faqe dhe të gjeni një faqe që rendit të gjitha kërkesat që ka bërë secili person.
+
             </dd>
-            <dt id="email_only">An email isn't a sufficient address for an FOI request! <a href="#email_only">#</a> </dt>
-            <dd>Yes it is. In the UK, this
-              <a href="https://www.whatdotheyknow.com/request/1142/response/2894/attach/5/20080806100741260.pdf">letter from the ICO to Rother District Council</a> gives guidance on the matter, specifically
-              in the context of requests made via WhatDoTheyKnow, a similar site to <%= site_name %>.
+            <dt id="email_only">Një email nuk është një adresë e mjaftueshme për një kërkesë të QDP! <a href="#email_only">#</a> </dt>
+            <dd>Po,është. Sipas ligjit për qasjen në dokumente publike, kërkuesi zgjedh metodën që ajo ose ai do të donte të përdorte për të bërë kërkesa.
             </dd>
-            <dt id="vexatious">Aren't you making lots of vexatious requests? <a href="#vexatious">#</a> </dt>
+            <dt id="vexatious">A nuk po bëni shumë kërkesa shqetësuese? <a href="#vexatious">#</a> </dt>
             <dd>
-              <p><%= site_name %> is not making any requests. We are sending requests on
-                behalf of our users, who are real people making the requests. </p>
-              <p>Look at it like this - if lots of different people made requests from
-                different Hotmail email addresses, then you would not think that Microsoft were
-                making vexatious requests. It is exactly the same if lots of requests are made
-                via <%= site_name %>. Moreover, since all requests are public it is much easier
-                for you to see if one of our users is making vexatious requests. </p>
+              <p><%= site_name %> nuk po bën asnjë kërkesë. Ne po dërgojmë kërkesa në emër të përdoruesve tanë, të cilët janë njerëz të vërtetë që bëjnë kërkesat. </p>
+              <p>Shikoni këtë kështu - nëse shumë njerëz të ndryshëm do të bënin kërkesa nga adresa të ndryshme të postës elektronike Gmail, atëherë nuk do të mendonit se Google po bënte kërkesa shqetësuese. Ȅshtë  e njëjta gjë nëse shumë kërkesa bëhen përmes Dumeditë. Për më tepër, pasi të gjitha kërkesat janë publike, është shumë më e lehtë për ju të shihni nëse një nga përdoruesit tanë po bën kërkesa shqetësuese.
+ </p>
             </dd>
-            <dt id="spam_problems">I can see a request on <%= site_name %>, but we never got it by email!<a href="#spam_problems">#</a> </dt>
+            <dt id="spam_problems">Po shoh një kërkesë në Dumeditë, por nuk e kemi marrë atë me email!<a href="#spam_problems">#</a> </dt>
             <dd>
-              <p>If a request appears on the site, then we have attempted to send it to
-                the authority by email. Any delivery failure messages will automatically
-                appear on the site. You can check the address we're using with the "View FOI
-                email address" link which appears on the page for the authority. <a
-          href="<%= help_contact_path %>">Contact us</a> if there is a better address we can
-                use.</p>
-              <p>Requests are sometimes not delivered because they are quietly removed by
-                "spam filters" in the IT department of the authority. Authorities can make
-                sure this doesn't happen by asking their IT departments to "whitelist"
-                any email from <strong>@<%= AlaveteliConfiguration::incoming_email_domain %></strong>.
-                If you <a href="<%= help_contact_path %>">ask us</a> we will resend any request,
-                and/or give technical details of delivery so an IT department can chase
-                up what happened to the message.
+              <p>Nëse një kërkesë shfaqet në uebfaqe, atëherë ne jemi përpjekur ta dërgojmë atë në institucionin përkatës me email. Çdo dështim i dorëzimit të kërkesës do të shfaqet automatikisht në uebsite. Ju mund të kontrolloni adresën që ne po përdorim në lidhjen "Shikoni adresën e postës elektronike" e cila shfaqet në faqe për institucionin. <a href="<%= help_contact_path %>">Kontaktoni me ne </a> nëse ka një adresë më të mirë që mund të përdorim. </p>
+              <p>Kërkesat ndonjëherë nuk dorëzohen sepse ato hiqen në heshtje nga "filtrat e spamit" në departamentin e IT të institucionit. Institucionet mund të sigurohen që kjo të mos ndodh duke i kërkuar departamentit të tyre të IT-së për të  futur në "whitelist” (listën e lejuar) çdo email nga @dumedite.org. Nëse na <a href="<%= help_contact_path %>">kërkoni</a>, ne do të dërgojmë prapë  çdo kërkesë, dhe/ose të japim detaje teknike të dorëzimit në mënyrë që  departamenti i IT të mund të ndjek atë që ka ndodhur me mesazhin.
               </p>
-              <p>Finally, you can respond to any request from your web browser, without
-                needing any email, using the "respond to request" link at the bottom of
-                each request page.
+              <p>Më në fund, ju mund t'i përgjigjeni çdo kërkese nga ueb i juaj shfletues, pa pasur nevojë për ndonjë email, duke përdorur lidhjen "Përgjigju ndaj kërkesës" në fund të secilës faqe të kërkesës.
               </p>
             </dd>
-            <dt id="days">How do you calculate the deadline shown on request pages?<a href="#days">#</a> </dt>
+            <dt id="days">Si e llogarisni afatin e kaluar në faqet e kërkesës?<a href="#days">#</a> </dt>
             <dd>
-              <p>The Freedom of Information Act says:</p>
+            Ligji për qasjen në dokumentet publike thotë:
+Një institucion publik duhet të bashkëpunoj menjëherë dhe në çdo rast jo më vonë se 7 ditë pas datës së regjistrimit të kërkesës.
+
+Detaji se si llogariten fundjavat, dhe çfarë ndodh nëse kërkesa arrin jashtë orarit të zyrës, është vetëm detaj. Ajo që ka rëndësi këtu është se ligji thotë se institucionet duhet të përgjigjen menjëherë.
+
+Nëse keni një arsye të mirë pse kërkesa do të marrë një kohë për të përpunuar, personat që kanë dërguar kërkesë e konsiderojnë me të vërtetë të dobishme nëse mund të dërgoni një email të shpejtë me një fjali ose dy duke ju treguar se çfarë po ndodh.
+
+Zyrtarët e QDP shpesh duhet të bëjnë shumë punë të palodhur për t'iu përgjigjur kërkesave, dhe kjo nuk shihet nga publiku. Ne mendojmë se do t'i ndihmonte të gjithë që ky kompleksitet të jetë i dukshëm.
+
+              <p>Ligji për qasjen në dokumentet publike thotë:</p>
               <blockquote>
-                <p>A public authority must comply with section 1(1) <strong>promptly</strong> and
-                  in any event not later than the twentieth working day following the date of
-                  receipt.</p>
+                <p>Një institucion publik duhet të bashkëpunoj menjëherë dhe në çdo rast jo më vonë se 7 ditë pas datës së regjistrimit të kërkesës.</p>
               </blockquote>
-              <p>The nerdy detail of exactly how weekends are counted, and what happens if
-                the request arrives out of office hours, is just that - detail. What matters
-                here is that the law says authorities must respond <strong>promptly</strong>.</p>
-              <p>If you've got a good reason why the request is going to take a while to
-                process, requesters find it really helpful if you can send a quick email with a
-                sentence or two saying what is happening. </p>
-              <p>FOI officers often have to do a lot of <strong>hard work</strong> to answer
-                requests, and this is hidden from the public. We think it would help everyone
-                to have more of that complexity visible.</p>
+              <p>Detaji se si llogariten fundjavat, dhe çfarë ndodh nëse kërkesa arrin jashtë orarit të zyrës, është vetëm detaj. Ajo që ka rëndësi këtu është se ligji thotë se institucionet duhet të përgjigjen <strong>menjëherë</strong>.</p>
+              <p>Nëse keni një arsye të mirë pse kërkesa do të marrë një kohë për të përpunuar, personat që kanë dërguar kërkesë e konsiderojnë me të vërtetë të dobishme nëse mund të dërgoni një email të shpejtë me një fjali ose dy duke ju treguar se çfarë po ndodh.</p>
+              <p>Zyrtarët e QDP shpesh duhet të bëjnë shumë punë të palodhur për t'iu përgjigjur kërkesave, dhe kjo nuk shihet nga publiku. Ne mendojmë se do t'i ndihmonte të gjithë që ky kompleksitet të jetë i dukshëm.</p>
             </dd>
-            <dt id="days2">But really, how do you calculate the deadline?<a href="#days2">#</a> </dt>
+            <dt id="days2">Por me të vërtetë, si e llogarisni afatin?<a href="#days2">#</a> </dt>
             <dd>
-              <p>Please read the answer to the previous question first. Legally, authorities
-                must respond <strong>promptly</strong> to FOI requests. If they fail to do that,
-                it is best if they show the hard work they are doing by explaining what is
-                taking the extra time to do.
+              <p>Ju lutemi lexoni së pari përgjigjen e pyetjes së mëparshme. Ligjërisht, institucionet duhet t'i përgjigjen menjëherë kërkesave të QDP. Nëse ata nuk arrijnë ta bëjnë këtë, është më mirë nëse tregojnë punën e vështirë që po bëjnë duke shpjeguar se çfarë po merr kohën shtesë për të bërë.
+
               </p>
-              <p>That said, <%= site_name %> does show the maximum legal deadline
-                for response on each request. Here's how we calculate it.</p>
+              <p>Dumeditë tregon afatin maksimal ligjor për përgjigje për secilën kërkesë. Ja se si e llogarisim ne.</p>
               <ul>
-                <li>If the day we deliver the request by email is a working day, we count that
-                  as "day zero", even if it was delivered late in the evening. Days end at
-                  midnight.  We then count the next working day as "day one", and so on up to
-                  <strong><%= AlaveteliConfiguration::reply_late_after_days %> working days</strong>.</li>
-                <li>If the day the request email was delivered was a non-working day, we count
-                  the next working day as "day one". Delivery is delivery, even if it happened on
-                  the weekend. Some authorities disagree with this, our lawyer disagrees with them. </li>
-                <li>Requesters are encouraged to mark when they have <strong>clarified</strong>
-                  their request so the clock resets, but sometimes they get this wrong. If you
-                  see a problem with a particular request, let us know and we'll fix it.</li>
+                <li>Nëse dita që ne e dorëzojmë kërkesën me email është një ditë pune, ne e konsiderojmë se si "dita zero", edhe nëse ajo u dorëzua vonë në mbrëmje. Ditët mbarojnë në mesnatë. Ne pastaj numërojmë ditën tjetër të punës si "Dita e parë", etj.
+</li>
+                <li>Nëse dita kur u dorëzua emaili i kërkesës ishte një ditë pushimi, ne numërojmë ditën tjetër të punës si "Dita e parë".
+Kërkuesit inkurajohen të shënojnë kur ata kanë sqaruar kërkesën e tyre në mënyrë që ora të rivendoset, por ndonjëherë ata e gabojnë këtë. Nëse shihni një problem me një kërkesë të veçantë, na tregoni dhe ne do ta rregullojmë.
+</li>
               </ul>
-              <p>The date thus calculated is shown on requests with the text "By law,
-                Liverpool City Council should normally have responded by...".
+              <p>Data e llogaritur në këtë mënyrë tregohet në kërkesat me tekstin "me ligj, komuna e Prishtinës normalisht duhet të jetë përgjigjur nga …
               </p>
             </dd>
-            <dt id="large_file">How can I send a large file, which won't go by email?<a href="#large_file">#</a> </dt>
-            <dd>Instead of email, you can respond to a request directly from your web
-              browser, including uploading a file. To do this, choose "respond to request" at
-              the bottom of the request's page. <a href="<%= help_contact_path %>">Contact us</a> if it
-              is too big for even that (more than, say, 50Mb).
+            <dt id="large_file">Si mund të dërgoj një skedar të madh, i cili nuk shkon me email?<a href="#large_file">#</a> </dt>
+            <dd>Në vend të emailit, ju mund t'i përgjigjeni një kërkese direkt nga shfletuesi juaj  i ueb-it, duke përfshirë ngarkimin e një skedari. Për ta bërë këtë, zgjedhni "Përgjigjuni kërkesës" në fund të faqes së kërkesës. Kontaktoni me ne nëse skedari është i madh edhe për atë (më shumë sesa, të themi, 50MB).
             </dd>
-            <dt id="names">Why do you publish the names of civil servants and the text of emails? <a href="#names">#</a> </dt>
-            <dd>We consider what officers or servants do in the course of their employment
-              to be public information. We will only remove content in exceptional
-              circumstances, see our <a href="<%= help_privacy_path(:anchor => 'takedown') %>">take down policy</a>.
+            <dt id="names">Pse publikoni emrat e nënpunësve civil dhe tekstin e postës elektronike?  <a href="#names">#</a> </dt>
+            <dd>Ne konsiderojmë se çfarë bëjnë oficerët ose zyrtarët gjatë punës së tyre është informacion publik. Ne vetëm do të heqim përmbajtjen në rrethana të jashtëzakonshme, shih politikën tonë për <a href="<%= help_privacy_path(:anchor => 'takedown') %>">heqje të informatave</a>.
             </dd>
-            <dt id="mobiles">Do you publish email addresses or mobile phone numbers? <a href="#mobiles">#</a> </dt>
+            <dt id="mobiles">A i publikoni adresat e postës elektronike ose numrat e telefonit celular? <a href="#mobiles">#</a> </dt>
             <dd>
-              <p>To prevent spam, we automatically remove most emails and some mobile numbers from
-                responses to requests.  Please <a href="<%= help_contact_path %>">contact us</a> if we've
-                missed one.
-                For technical reasons we don't always remove them from attachments, such as certain PDFs.</p>
-              <p>If you need to know what an address was that we've removed, please <a
-        href="<%= help_contact_path %>">get in touch with us</a>.
+              <p>Për të parandaluar spam, ne automatikisht heqim shumicën e postave elektronike dhe disa numra celular nga përgjigjet në kërkesa. Ju lutemi na <a href="<%= help_contact_path %>">kontaktoni</a> nëse kemi humbur ndonjë gjë. Për arsye teknike, ne jo gjithmonë i heqim ato nga dokumentet e bashkëngjitura, siç janë PDF të caktuara.</p>
+             
+              <p>Nëse duhet të dini se cila adresë ishte që ne kemi hequr <a
+        href="<%= help_contact_path %>">ju lutemi na kontaktoni</a>.
                 <% if AlaveteliConfiguration::enable_annotations %>
-                  Occasionally, an email address forms an important part of a response
-                  and we will post it up in an obscured form in an annotation.
+                  Nëse duhet të dini se cila adresë ishte që ne kemi hequr, ju lutemi kontaktoni me ne. Herë pas here, një adresë emaili formon një pjesë të rëndësishme të një përgjigje dhe ne do ta postojmë atë në një formë të errësuar në një shënim.
                 <% end %>
-              </p>
+              </p 
+          
             </dd>
-            <dt id="copyright"><a id="commercial"></a>What is your policy on copyright of documents?<a href="#copyright">#</a> </dt>
-            <dd>Our Freedom of Information law is "applicant blind", so anyone in the
-              world can request the same document and get a copy of it.
-              If you think our making a document available on the internet infringes your
-              copyright, you may <a href="<%= help_contact_path %>">contact us</a> and ask us
-              to take it down.  However, to save tax payers' money by preventing duplicate
-              requests, and for good public relations, we'd advise you not to do that.
+            <dt id="copyright"><a id="commercial"></a>Cila është politika juaj për të drejtat e autorit të dokumenteve?<a href="#copyright">#</a> </dt>
+            <dd>Ligji ynë për qasje në dokumente publike është "i verbër" se kush e bënë, kështu që kushdo në botë mund të kërkoj të njëjtin dokument dhe të marrë një kopje të tij. Nëse mendoni se duke bërë një dokument të qasshëm në internet shkel të drejtat e autorit, ju mund të na kontaktoni dhe na kërkoni ta largojmë atë. Sidoqoftë, për të kursyer paratë e tatimpaguesve duke parandaluar kërkesat dublikate dhe për marrëdhënie më të mira me publikun, ne ju këshillojmë të mos e bëni këtë.
             </dd>
-            <dt id="allowed_responses">My response to an old request on <%= site_name %> has been bounced!<a href="#allowed_responses">#</a> </dt>
-            <dd>After six months of inactivity, <%= site_name %> limits who can respond to a request to stop
-              spammers targeting old requests. At that point, the request can only be responded to by someone who's
-              from the authority. After twelve months, the request is closed to responses from anyone. If you need an
-              old request to be re-opened so that you can respond to it, please <a href="<%= help_contact_path %>">
-                contact us</a>.
+            <dt id="allowed_responses">Përgjigja ime ndaj një kërkese të vjetër në Dumeditë është kthyear! <a href="#allowed_responses">#</a> </dt>
+            <dd>Pas gjashtë muajve të pasivitetit, Dumeditë kufizon kush mund t'i përgjigjet një kërkese për të ndaluar mashtruesit që synojnë kërkesat e vjetra. Në atë pikë, kërkesa mund të përgjigjet vetëm nga dikush që është nga institucioni. Pas dymbëdhjetë muajsh, kërkesa është e mbyllur për përgjigje nga kushdo. Nëse keni nevojë për një kërkesë të vjetër për t'u rihapur në mënyrë që të mund t'i përgjigjeni, ju lutemi <a href="<%= help_contact_path %>">na kontaktoni</a>.
             </dd>
           </dl>
-          <p><strong>If you haven't already</strong>, read <a href="<%= help_about_path %>">the introduction</a> --&gt;
+          <p><strong>Nëse nuk e keni lexuar ende</strong>, lexoni <a href="<%= help_about_path %>">hyrjen</a> --&gt;
             <br>
-            <strong>Otherwise</strong>, the <a href="<%= help_credits_path %>">credits</a> or the <a href="<%= help_api_path %>">programmers API</a> --&gt;
+            <strong>Përndryshe</strong>, lexoni <a href="<%= help_credits_path %>">mirënjohjet</a> ose <a href="<%= help_api_path %>">API-në e programuesve</a> --&gt;
             <div id="hash_link_padding"></div>
           </div>
         </div>
