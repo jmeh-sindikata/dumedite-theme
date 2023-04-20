@@ -12,7 +12,7 @@
     <li class="<%= 'active' if controller?('help') && action?('api') %>"><%= link_to_unless_current "Programmers API", help_api_path %></li>
     <li><%= link_to_unless_current "Advanced search", advanced_search_path %></li>
     <% if feature_enabled?(:alaveteli_pro) %>
-      <li><%= link_to_unless_current "Pro", help_pro_path %></li>
+      <li class="<%= 'active' if controller?('help') && action?('pro') %>"><%= link_to_unless_current "Pro", help_pro_path %></li>
     <% end %>
   </ul>
 

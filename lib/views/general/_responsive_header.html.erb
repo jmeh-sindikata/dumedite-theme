@@ -14,6 +14,20 @@
 			</a>
 		</div>
 		<div class="nav-holder">
+			<% if @locales[:available].any? %>
+				<ul class="languages-and-login-mobile">
+					<% @locales[:available].each do |locale| %>
+						<li>
+							<%= link_to locale_name(locale), current_path_with_locale(locale) %>
+						</li>
+						<% if ! (controller.action_name == 'signin' or controller.action_name == 'signup' or controller.action_name == 'login') %>
+							<li>
+								<%= render partial: 'general/log_in_bar' %>
+							</li>
+						<% end %>
+					<% end %>
+				</ul>
+			<% end %>
 			<%= render :partial => 'general/responsive_topnav' %>
 			<div class="dumedite-contact">
 				<div class="navbar-search">
