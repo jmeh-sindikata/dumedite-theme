@@ -1,24 +1,24 @@
 
 <div class="form-content sidebar-t">
   <ul class="no_bullets">
-    <li class="<%= 'active' if controller?('help') && action?('flossk') %>"><%= link_to_unless_current "Flossk", help_flossk_path %></li>
-    <li class="<%= 'active' if controller?('help') && action?('about') %>"><%= link_to_unless_current "Introduction", help_about_path %></li>
-    <li class="<%= 'active' if controller?('help') && action?('requesting') %>"><%= link_to_unless_current "Making requests", help_requesting_path %></li>
-    <li class="<%= 'active' if controller?('help') && action?('privacy') %>"><%= link_to_unless_current "Your privacy", help_privacy_path %></li>
-    <li class="<%= 'active' if controller?('help') && action?('terms_of_use') %>"><%= link_to_unless_current "Terms of use", help_terms_of_use_path %></li>
-    <li class="<%= 'active' if controller?('help') && action?('officers') %>"><%= link_to_unless_current "FOI officers", help_officers_path %></li>
-    <li class="<%= 'active' if controller?('help') && action?('alaveteli') %>"><%= link_to_unless_current "About the software", help_alaveteli_path %></li>
-    <li class="<%= 'active' if controller?('help') && action?('credits') %>"><%= link_to_unless_current "Credits", help_credits_path %></li>
-    <li class="<%= 'active' if controller?('help') && action?('api') %>"><%= link_to_unless_current "Programmers API", help_api_path %></li>
-    <li><%= link_to_unless_current "Advanced search", advanced_search_path %></li>
+    <li class="<%= 'active' if controller?('help') && action?('flossk') %>"><%= link_to_unless_current "FLOSSK", help_flossk_path %></li>
+    <li class="<%= 'active' if controller?('help') && action?('about') %>"><%= link_to_unless_current "Njoftim", help_about_path %></li>
+    <li class="<%= 'active' if controller?('help') && action?('requesting') %>"><%= link_to_unless_current "Shtrimi i kërkesave", help_requesting_path %></li>
+    <li class="<%= 'active' if controller?('help') && action?('privacy') %>"><%= link_to_unless_current "Privatsia juaj", help_privacy_path %></li>
+    <li class="<%= 'active' if controller?('help') && action?('terms_of_use') %>"><%= link_to_unless_current "Kushtet e përdorimit", help_terms_of_use_path %></li>
+    <li class="<%= 'active' if controller?('help') && action?('officers') %>"><%= link_to_unless_current "Zyrtarët për QDP", help_officers_path %></li>
+    <li class="<%= 'active' if controller?('help') && action?('alaveteli') %>"><%= link_to_unless_current "Për softuerin", help_alaveteli_path %></li>
+    <li class="<%= 'active' if controller?('help') && action?('credits') %>"><%= link_to_unless_current "Mirënjohjet", help_credits_path %></li>
+    <li class="<%= 'active' if controller?('help') && action?('api') %>"><%= link_to_unless_current "API për programerët", help_api_path %></li>
+    <li><%= link_to_unless_current "Kërkim i avancuar", advanced_search_path %></li>
     <% if feature_enabled?(:alaveteli_pro) %>
       <li class="<%= 'active' if controller?('help') && action?('pro') %>"><%= link_to_unless_current "Pro", help_pro_path %></li>
     <% end %>
   </ul>
 
-  <h2 id="contact" class="contact">Contact us</h2>
-  <p>If your question isn't answered here, or you just wanted to let us know
-    something about the site, <a href="<%= help_contact_path %>"><%= _("contact us") %></a>.
+  <h2 id="contact" class="contact">Na kontaktoni</h2>
+  <p>Nëse pyetja juaj nuk është përgjigjur këtu, ose thjesht dëshironi të na njoftoni
+     diçka rreth sajtit, <a href="<%= help_contact_path %>"><%= _("na kontaktoni") %></a>.
   </p>
 </div>
 

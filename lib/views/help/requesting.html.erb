@@ -1,4 +1,4 @@
-<% @title = "Making requests" %>
+<% @title = "Shtrimi i kërkesave" %>
   
 <section class="form second-form">
   <div class="form-holder">
@@ -8,286 +8,159 @@
         <h1 id="making_requests"><%= @title %> <a href="#making_requests">#</a></h1>
         <dl>
       
-          <dt id="which_authority">I'm not sure which authority to make my request to, how can I find out? <a href="#which_authority">#</a> </dt>
+          <dt id="which_authority">Nuk jam i sigurt se cilit institucion t'ia dërgoj kërkesën time, si mund ta gjej? <a href="#which_authority">#</a> </dt>
       
           <dd>
-            <p>It can be hard to untangle government's complicated structure, and work out
-              who holds the information that you want. Here are a few tips:
+            <p>Mund të jetë e vështirë të zgjedhësh strukturën e ndërlikuar të qeverisë dhe të gjesh se kush mban informacionin që dëshiron. Këtu janë disa këshilla:
             </p>
             <ul>
-              <li>Browse or search <%= site_name %> looking for similar requests to yours.</li>
-              <li>When you've found an authority you think might have the information, use
-                the "home page" link on the right hand side of their page to check what they do
-                on their website.</li>
-              <li>Contact the authority by phone or email to ask if they hold the kind of
-                information you're after.</li>
-              <li>Don't worry excessively about getting the right authority. If you get it
-                wrong, they ought to advise you who to make the request to instead.
+              <li>Shfletoni ose kërkoni dumeditë duke kërkuar kërkesa të ngjashme me tuajat.</li>
+              <li>Kur gjeni një institucion që mendoni se mund të ketë informacionin, përdorni lidhjen "faqja kryesore" në anën e djathtë të faqes së tyre për të kontrolluar se çfarë bëjnë në faqen e tyre të internetit.
+</li>
+              <li>Kontaktoni institucionin me telefon ose email për të pyetur nëse ata mbajnë llojin e informacionit që kërkoni.</li>
+              <li>Mos u shqetësoni shumë për gjetjen e institucionit të duhur. Nëse e keni gabim, ata duhet t'ju këshillojnë se kujt t'ia bëni kërkesën.
               </li>
-              <li>If you've got a thorny case, please <a href="<%= help_contact_path %>">contact us</a> for help.</li>
+              <li>Nëse keni ndonjë problem me rastin apo kërkesën tuaj, ju lutemi <a href="<%= help_contact_path %>">na kontaktoni</a>  për ndihmë.</li>
             </ul>
       
           </dd>
       
       
       
-          <dt id="missing_body">You're missing the public authority that I want to request from! <a href="#missing_body">#</a> </dt>
+          <dt id="missing_body">Ju mungon institucioni publik prej të cilit dua të kërkoj informacion! <a href="#missing_body">#</a> </dt>
       
           <dd>
-            <p>Please <a href="<%= new_change_request_path %>">contact us</a> with the name of the public authority and,
-              if you can find it, their contact email address for Freedom of Information requests.
+            <p>Ju lutem na kontaktoni me emrin e institucionit publik dhe, nëse mund ta gjeni, adresën e tyre të emailit të kontaktit për kërkesat për Qasje në Dokumentet Publike.
             </p>
-            <p>If you'd like to help add a whole category of public authority to the site, we'd love
-              to hear from you too.
-            </p>
+            
       
           </dd>
       
-          <dt id="authorities">Why do you include some authorities that aren't formally subject to FOI?<a href="#authorities">#</a> </dt>
-      
-          <dd>
-            <p><%= site_name %> lets you make requests for information to a range of
-              organisations:</p>
-      
-            <ul>
-              <li> Those formally subject to the FOI Act</li>
-              <li> Those formally subject to the Environmental Regulations (a less well
-                defined group)</li>
-              <li> Those which voluntarily comply with the FOI Act</li>
-              <li> Those which aren't subject to the Act but we think should be, on grounds
-                such as them having significant public responsibilities.
-              </li>
-            </ul>
-      
-            <p>In the last case, we're using the site to lobby for expansion of the
-              scope of the FOI Act. Even if an organisation is not legally obliged to respond
-              to an FOI request, they can still do so voluntarily.
-            </p>
-      
-          </dd>
-      
-          <dt id="focused">Why must I keep my request focused?<a href="#focused">#</a> </dt>
+        
+          <dt id="focused">Pse duhet ta mbaj të fokusuar kërkesën time?<a href="#focused">#</a> </dt>
       
           <dd>
       
             <p>
-              Please put in your request only what is needed so that someone can
-              easily identify what information you are asking for. Please do
-              <i>not</i> include any of the following:
+              Ju lutemi vendosni në kërkesën tuaj vetëm atë që ju nevojitet në mënyrë që dikush të mund të identifikoj lehtësisht se çfarë informacioni kërkoni. Ju lutemi <i>mos</i> përfshini asnjë nga këto më poshtë: 
             </p>
       
             <ul>
-              <li>arguments about your cause</li>
-              <li>statements that could defame or insult others</li>
+              <li>Argumentet për çështjen e juaj</li>
+              <li>Deklarata që mund të shpifin ose ofendojnë të tjerët</li>
             </ul>
       
             <p>
-              If you do, we may have to remove your request to avoid problems with
-              libel law, which is a pain for both you and us. Short, succinct messages
-              make it easier for authorities to be clear what information you are
-              requesting, which means you will get a reply more quickly.
+              Nëse e bëni këtë, mund të na duhet ta heqim kërkesën tuaj për të shmangur problemet me ligjin për shpifjen, e cila është një vështirësi për ju dhe për ne. Mesazhet e shkurtra dhe të përmbledhura e bëjnë më të lehtë për institucionet që të kenë të qartë se çfarë informacioni po kërkoni, që do të thotë se do të merrni një përgjigje më shpejt.
             </p>
       
             <p>
-              If you want information to support an argument or campaign, Freedom of
-              Information is a powerful tool. Although you may not use this site to
-              run your campaign, we encourage you to use it to get the information you
-              need. We also encourage to run your campaign elsewhere - one effective
-              and very easy way is to <%= link_to 'start your own blog',
-                "http://wordpress.com/"%>.
+              Nëse doni informacion për të mbështetur një argument ose fushatë, Qasja në Dokumentet Publike është një mjet i fuqishëm. Edhe pse mund të mos e përdorni këtë faqe për të drejtuar fushatën tuaj, ne ju inkurajojmë ta përdorni atë për të marrë informacionin që ju nevojitet. Ne gjithashtu ju inkurajojmë që të drejtoni fushatën tuaj diku tjetër - një mënyrë efektive dhe shumë e lehtë është <%= link_to 'filloni blogun tuaj', "http://wordpress.com/"%>.
               <% if AlaveteliConfiguration::enable_annotations %>
-                You are welcome to link to your campaign from this site in an
-                annotation to your request (you can make annotations after submitting
-                the request).
+                Jeni të mirëpritur ta lidhni fushatën tuaj nga kjo faqe në një shënim për kërkesën tuaj (ju mund të bëni shënime pas dorëzimit të kërkesës).
               <% end %>
+
             </p>
       
           </dd>
       
-          <dt id="fees">Does it cost me anything to make a request?<a href="#fees">#</a> </dt>
+          <dt id="fees">A më kushton ndonjë gjë për të bërë një kërkesë? <a href="#fees">#</a> </dt>
       
           <dd>
       
-            <p>Making an FOI request is nearly always free.</p>
-      
-            <p>Authorities often include unnecessary, scary, boilerplate in
-              acknowledgement messages saying they "may" charge a fee. Ignore such notices.
-              They hardly ever will actually charge a fee.  If they do, they can only charge you if
-              you have specifically agreed in advance to pay.  <a
-              href="http://www.ico.gov.uk/upload/documents/library/freedom_of_information/practical_application/chargingafee.pdf">More
-              details</a> from the Information Commissioner.
-            </p>
-      
-            <p>Sometimes an authority will refuse your request, saying that the cost
-              of handling it exceeds £600 (for central government) or £450 (for all other
-              public authorities). At this point you can refine your
-              request. e.g. it would be much cheaper for an authority to tell you the amount
-              spent on marshmallows in the past year than in the past ten years.
-            </p>
-      
+            <p>Jo nëse nuk i kushton asgjë institucionit ta skanoj atë kërkesë. Bërja e një kërkese QDP është pothuajse gjithmonë falas.
+</p>
+
           </dd>
       
       
       
-          <dt id="quickly_response">How quickly will I get a response? <a href="#quickly_response">#</a> </dt>
+          <dt id="quickly_response">Sa shpejt do të marrë përgjigje? <a href="#quickly_response">#</a> </dt>
       
           <dd>
-            <p>By law, public authorities must respond <strong>promptly</strong> to
-              requests.
+            <p>Sipas ligjit, institucionet publike duhet t'u përgjigjen <strong>menjëherë</strong> kërkesave.
             </p>
       
-            <p>Even if they are not prompt, in nearly all cases they must respond within
-              20 working days. If you had to clarify your request, or they are a school,
-              or one or two other cases, then they may have more time
-              (<a href="<%= help_officers_path(:anchor => 'days') %>">full details</a>).
-            </p>
+            <p>Edhe nëse nuk kthejnë përgjigje menjëherë, pothuajse në të gjitha rastet duhet të përgjigjen brenda 7 ditëve kalendarike nga dita e regjistrimit të kërkesës. Megjithatë, nëse justifikohet, ata mund të kërkojnë 15 ditë të tjera kalendarike. Shih (<a href="<%= help_officers_path(:anchor => 'days') %>">detajet</a>).
             <p><%= site_name %> will email you if you don't get a timely response.  You can
-              then send the public authority a message to remind them, and tell them if they
+              then send the public institution a message to remind them, and tell them if they
               are breaking the law.</p>
       
           </dd>
       
-          <dt id="no_response">What if I never get a response?<a href="#no_response">#</a> </dt>
+          <dt id="no_response">Çka nëse nuk marr kurrë përgjigje?<a href="#no_response">#</a> </dt>
       
           <dd>
-            <p>There are several things you can do if you never get a response.</p>
+            <p>Ka disa gjëra që mund të bëni nëse nuk merrni kurrë një përgjigje.</p>
             <ul>
-              <li>Sometimes there has been a genuine problem and the authority never
-                received the request. It is worth telephoning the authority and politely
-                checking that they received the request. It was sent to them by email.
+              <li>Ndonjëherë ka pasur një problem të vërtetë dhe institucioni nuk e ka marrë kurrë kërkesën. Ia vlen të telefononi institucionin dhe të kontrolloni me mirësjellje nëse e kanë marrë kërkesën. Atyre u është dërguar me email.
               </li>
-              <li>If they have not received it, the problem is most likely due to
-                "spam filters". Refer the authority to the measures in the answer
-                '<a href="<%= help_officers_path(:anchor => 'spam_problems') %>">I can see a request on <%= site_name %>, but we never got it by email!</a>'
-                in the FOI officers section of this help.
+              <li>Nëse nuk e kanë marrë, problemi ka shumë të ngjarë që ka ndodhur për shkak të "filtrave të spam". Referojeni institucionin në përgjigjen '<a href="<%= help_officers_path(:anchor => 'spam_problems') %>">Mund të shoh një kërkesë në Dumeditë, por nuk e kemi marrë kurrë me email!!</a>' në seksionin e Zyrtarëve të QDP të kësaj ndihme. 
               </li>
-              <li>If you're still having no luck, then you can ask for an internal review,
-                and then complain to the Information Commissioner about the authority.
-                Read our page '<a href="<%= help_general_path(:template => 'unhappy') %>">Unhappy about the response you got?</a>'.
+              <li>Nëse ende nuk keni fat, atëherë mund të ankoheni ndaj institucionit në Agjencinë për Informim dhe Privatësi. Lexoni faqen tonë '<a href="<%= help_general_path(:template => 'unhappy') %>">Të pakënaqur me përgjigjen që morët?</a>'.
             </ul>
           </dd>
       
-          <dt id="not_satifised">What if I'm not satisfied with the response? <a href="#not_satifised">#</a> </dt>
-          <dd>If you didn't get the information you asked for, or you didn't get it in time,
-            then read our page '<a href="<%= help_general_path(:template => 'unhappy') %>">Unhappy about the response you got?</a>'.
+          <dt id="not_satifised">Po sikur të mos jem i kënaqur me përgjigjen? <a href="#not_satifised">#</a> </dt>
+          <dd>Nëse nuk e keni marrë informacionin që keni kërkuar, ose nuk e keni marrë në kohë, atëherë lexoni faqen tonë '<a href="<%= help_general_path(:template => 'unhappy') %>">Të pakënaqur me përgjigjen që morët?</a>'.
           </dd>
       
-          <dt id="reuse">It says I can't re-use the information I got!<a href="#reuse">#</a> </dt>
+          <dt id="reuse">Thotë se nuk mund ta ripërdor informacionin që kam marrë!<a href="#reuse">#</a> </dt>
           <dd>
-            <p>Authorities often add legal boilerplate about the
-              "<a href="http://www.opsi.gov.uk/si/si2005/20051515">Re-Use of Public Sector
-                Information Regulations 2005</a>", which at first glance implies you may not
-              be able do anything with the information.
-            </p>
-      
-            <p>You can, of course, write articles about the information or summarise it, or
-              quote parts of it. We also think you should feel free to republish the
-              information in full, just as we do, even though in theory you might not be
-              allowed to do so.  See <a href="<%= help_officers_path(:anchor => 'copyright') %>">our policy on copyright</a>.</p>
+            <p>Ju mund të shkruani artikuj rreth informacionit ose ta përmbledhni atë, ose të citoni pjesë të tij. Ne gjithashtu mendojmë se duhet të ndiheni të lirë të ribotoni informacionin plotësisht, ashtu sikur ne, edhe pse në teori mund të mos ju lejohet ta bëni këtë. Shih politikën tonë për <a href="<%= help_officers_path(:anchor => 'copyright') %>">të drejtat e autorit</a>.</p>
       
           </dd>
       
-          <dt id="ico_help">Can you tell me more of the nitty gritty about the process of making requests? <a href="#ico_help">#</a> </dt>
+          <dt id="ico_help">A mund të më tregoni më shumë për gjërat më të rëndësishme në lidhje me procesin e bërjes së kërkesave? <a href="#ico_help">#</a> </dt>
       
           <dd>
-            <p>Have a look at the
-              <a href="http://www.ico.gov.uk/for_the_public/access_to_official_information.aspx">access to official information</a>
-              pages on the Information Commissioner's website.</p>
+            <p>Hidhni një sy  <a href="https://aip.rks-gov.net/en/access-to-public-documents/">qasjes në dokumente publike</a> në faqen e internetit të Agjencisë për Informim dhe Privatësi</p>
       
-            <p>If you're requesting information from a Scottish public authority,
-              the process is very similar. There are differences around time
-              limits for compliance.
-              See the <a href="http://www.itspublicknowledge.info/nmsruntime/saveasdialog.asp?lID=1858&amp;sID=321">Scottish
-                Information Commissioner's guidance</a> for details.</p>
           </dd>
       
-          <dt id="data_protection">Can I request information about myself? <a href="#data_protection">#</a> </dt>
+          <dt id="data_protection">A mund të kërkoj informacion për veten time? <a href="#data_protection">#</a> </dt>
       
           <dd>
-            <p>No. Requests made using <%= site_name %> are public, made under the Freedom of
-              Information Act, and cannot help you find information about a private
-              individual.</p>
+            <p>Jo. Kërkesat e bëra duke përdorur dumeditë janë publike, të bëra sipas Ligjit për Qasje në Dokumente Publike dhe nuk mund t'ju ndihmojnë të gjeni informacione për një individ privat.</p>
       
-            <p>If you would like to know what information a public
-              authority holds about yourself, you should make a "Subject Access Request" in
-              private using Data Protection law.  The leaflet "<a
-              href="http://www.ico.gov.uk/upload/documents/library/data_protection/introductory/subject_access_rights.pdf">How to access your information</a>" (on the Information Commissioner's
-              website) explains how to do this.</p>
+            <p>Nëse dëshironi të dini se çfarë informacioni mban një institucion publik për veten tuaj, duhet të bëni një kërkesë privatisht duke përdorur ligjin për Mbrojtjen e të Dhënave. "<a
+              href="https://aip.rks-gov.net/en/personal-data-protection/#">Kjo faqe </a>"</p>
       
-            <p>If you see that somebody has included personal information, perhaps
-              unwittingly, in a request, please <a href="<%= help_contact_path %>">contact us</a>
-              immediately so we can remove it.</p>
+            <p>Nëse shihni se dikush ka përfshirë informacion personal, ndoshta pa dashje, në një kërkesë, ju lutemi <a href="<%= help_contact_path %>">na kontaktoni</a>na kontaktoni menjëherë që ne ta largojmë atë.</p>
           </dd>
       
       
-          <dt id="private_requests">I'd like to keep my request secret! (At least until I publish my story) <a href="#private_requests">#</a> </dt>
-      
-          <dd><p><%= site_name %> is currently only designed for public requests. All
-              responses that we receive are automatically published on the website for anyone
-              to read.  </p>
-            <p>You should contact the public authority directly if you would like to
-              make a request in private.  If you're interested in buying a system which helps
-              you manage FOI requests in secret, then <a href="<%= help_contact_path %>">contact us</a>.
+          <dt id="private_requests">Dua ta mbaj të fshehtë kërkesën time! (të paktën derisa të publikoj storien time) <a href="#private_requests">#</a> </dt>
+       
+          <dd><p> Nëse jeni gazetar, na kontaktoni në dumedite@flossk.org për të marrë qasje në një përdorim të tillë.</p>
+            <p>Përndryshe, të gjitha përgjigjet që marrim publikohen automatikisht në faqen e internetit që të gjithë t'i lexojnë. Ju duhet të kontaktoni drejtpërdrejt institucionin publik nëse dëshironi të bëni një kërkesë privatisht. 
             </p>
           </dd>
       
-          <dt id="eir">Why can I only request information about the environment from some authorities? <a href="#eir">#</a> </dt>
+          <dt id="multiple">A mund të bëj të njëjtën kërkesë për shumë institucione, p.sh. për të gjitha komunat? <a href="#multiple">#</a> </dt>
       
-          <dd>
-            <p>Some public authorities, such as <a href="https://www.whatdotheyknow.com/body/south_east_water">South East Water</a>,
-              don't come under the Freedom of Information Act, but do come under another law called
-              the Environmental Information Regulations (EIR).
-            </p>
-      
-            <p>It's a very similar law, so you make a request
-              to them using <%= site_name %> in just the same way as an FOI request. The only
-              difference is that on the page where you write your request, it reminds you
-              that you can only request "environmental information" and tells you what that
-              means. It is quite broad.
-            </p>
-      
-            <p>You can, of course, request environmental information from other
-              authorities. Just make a Freedom of Information (FOI) request as normal. The
-              authority has a duty to work out if the Environmental Information Regulations
-              (EIR) is the more appropriate legislation to reply under.
-            </p>
-          </dd>
-      
-          <dt id="multiple">Can I make the same to request to lots of authorities, e.g. all councils? <a href="#multiple">#</a> </dt>
-      
-          <dd>We ask you to first send a test version of your request to a few
-            authorities. Their responses will help you improve the wording of your request,
-            so that you get the best information when you send the request to all of
-            the authorities. There is currently no automated system for sending the request
-            to the other authorities, you must copy and paste it by hand.
+          <dd>Ju kërkojmë që fillimisht të dërgoni një verzion testues të kërkesës suaj tek disa institucione. Përgjigjet e tyre do t'ju ndihmojnë të përmirësoni formulimin e kërkesës suaj, në mënyrë që të merrni informacionin më të mirë kur dërgoni kërkesën tek të gjitha institucionet. Aktualisht nuk ekziston një sistem i automatizuar për dërgimin e kërkesës tek institucionet e tjera, duhet ta kopjoni dhe ta vendosni (copy & paste) atë në mënyrë manuale.
       
           </dd>
       
-          <dt id="offsite">I made a request off the site, how do I upload it to the archive?<a href="#offsite">#</a> </dt>
+          <dt id="offsite">Kam bërë një kërkesë jashtë dumedite, si ta ngarkoj në arkiv?<a href="#offsite">#</a> </dt>
       
-          <dd><%= site_name %> is an archive of requests made through the site,
-            and does not try to be an archive of all FOI requests. We'll never support uploading
-            other requests. For one thing, we wouldn't be able to verify that other
-            responses actually came from the authority. If this really matters to you,
-            you can always make the same request again via <%= site_name %>.
+          <dd>Dumeditë është një arkiv i kërkesave të bëra përmes faqes, dhe nuk përpiqet të jetë një arkiv i të gjitha kërkesave për QDP. Ne kurrë nuk do të mbështesim ngarkimin e kërkesave të tjera. Së pari, ne nuk do të ishim në gjendje të verifikonim nëse përgjigjet e tjera vinin në të vërtetë nga institucioni. Nëse kjo ka vërtetë rëndësi për ju, gjithmonë mund të bëni të njëjtën kërkesë përsëri përmes dumeditë.
           </dd>
       
           <% if AlaveteliConfiguration::enable_annotations %>
-            <dt id="moderation">How do you moderate request annotations? <a href="#moderation">#</a> </dt>
+            <dt id="moderation">Si i moderoni shënimet e kërkesave? <a href="#moderation">#</a> </dt>
       
             <dd>
-              <p>Annotations on <%= site_name %> are to help
-                people get the information they want, or to give them pointers to places they
-                can go to help them act on it. We reserve the right to remove anything else.
+              <p>Shënimet në dumeditë janë për t'i ndihmuar njerëzit të marrin informacionin që dëshirojnë, ose për t'u dhënë atyre udhëzime për vendet ku mund të shkojnë për t'i ndihmuar ata të veprojnë sipas tij. Ne rezervojmë të drejtën për të hequr çdo gjë tjetër.
               </p>
-              <p>Endless, political discussions are not allowed.
-                Post a link to a suitable forum or campaign site elsewhere.</p>
+              <p>Diskutimet politike të pafunda nuk lejohen. Postoni linkun në një forum të përshtatshëm ose faqe fushate diku tjetër.</p>
             </dd>
           <% end %>
       
         </dl>
       
-        <p><strong>Next</strong>, read about <a href="<%= help_privacy_path %>">your privacy</a> --&gt;
+        <p><strong>Në vazhdim</strong>, lexoni për <a href="<%= help_privacy_path %>">privatsinë tuaj</a> --&gt;
       
           <div id="hash_link_padding"></div>
       </div>
