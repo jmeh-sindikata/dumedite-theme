@@ -1,5 +1,6 @@
 <% @title = 'Pro' %>
 
+<<<<<<< HEAD
 <section class="form second-form">
   <div class="form-holder">
     <%= render :partial => 'sidebar' %>
@@ -17,27 +18,21 @@
         </h2>
 
         <p>
-          Pro users can set a privacy period on a request to delay publication while
-          you work on your story or investigation.
+Përdoruesit Pro mund të vendosin një periudhë privatësie në një kërkesë për të vonuar publikimin ndërsa punoni në shkrimin ose hetimin tuaj.
         </p>
 
         <p>
-          When a request is private we guarantee that it will only be visible on
-          <%= AlaveteliConfiguration.site_name %> for the period you select.
-          <%= AlaveteliConfiguration.pro_site_name %> administrators will also be able
-          to view your request, but will only do so in the event that they need to fix
-          a problem with it (e.g. failed delivery to the authority). They will not
-          reveal the contents of your request or any response you get to anyone else.
-          The authority may still publish it in a disclosure log as usual.
+        Kur një kërkesë është private, ne garantojmë se do të jetë e dukshme vetëm në Dumeditë për periudhën që ju zgjedhni. Administratorët e Dumeditë Pro do të mund të shikojnë gjithashtu kërkesën tuaj, por do ta bëjnë këtë vetëm në rast se duhet të rregullojnë ndonjë problem me të (p.sh. dërgimi i dështuar tek institucioni). Ata nuk do t'i zbulojnë askujt tjetër përmbajtjen e kërkesës suaj ose ndonjë përgjigje që merrni. Institucioni megjithatë mund ta publikoj atë në ndonjë raportim si zakonisht.
         </p>
 
         <h3 id="how-long-can-i-keep-requests-private">
-          How long can I keep requests private?
+          Sa gjatë mund ta mbaj një kërkesë private?
         <a href="#how-long-can-i-keep-requests-private">#</a>
         </h3>
 
         <p>
-          Privacy periods can be set for 3, 6 and 12 month periods.
+          Periudhat e privatësisë mund të caktohen për periudha 3, 6 dhe 12 mujore.
+
         </p>
 
         <p>
@@ -46,149 +41,136 @@
         </p>
 
         <p>
-          You will be automatically notified a week before the privacy period expires,
-          and on the date of expiry.
+          Do të njoftoheni automatikisht një javë përpara skadimit të periudhës së privatësisë dhe në datën e skadimit.
         </p>
 
         <p>
-          Once the privacy period ends, your request and following correspondence,
-          including <strong>your name</strong>, will be <strong>
-          <%= link_to 'displayed publicly',
-            help_privacy_path(anchor: 'public_request') %></strong> on this website.
+          Pasi të përfundoj periudha e privatësisë, kërkesa juaj dhe korrespondenca e mëposhtme, duke përfshirë <strong>your name</strong>, emrin tuaj <strong> do të shfqen <strong>
+          <%= link_to 'publikisht',
+            help_privacy_path(anchor: 'public_request') %></strong> në këtë faqe interneti.
         </p>
 
         <h3 id="i-need-more-time-can-i-extend-a-privacy-period">
-          I need more time. Can I extend a privacy period?
+Më duhet më shumë kohë. A mund ta shtyj periudhën e privatësisë?
         <a href="#i-need-more-time-can-i-extend-a-privacy-period">#</a>
         </h3>
 
         <p>
-          Privacy periods can be extended, but only in the week before the expiry
-          date.
+          Periudhat e privatësisë mund të zgjaten, por vetëm në javën para datës së skadimit.
         </p>
 
         <p>
           <%= image_tag 'alaveteli-pro/screenshot-embargo-extension.jpg',
-                        alt: 'Extending a privacy period' %>
+                        alt: 'Zgjatja e periudhës së privatësisë' %>
         </p>
 
         <p>
-          There is no limit to the number of times a privacy period may be extended,
-          but each extension requires manual confirmation.
+          Nuk ka kufi për herat që mund të zgjatet një periudhë e privatësisë, por çdo zgjatje kërkon konfirmim manual.
         </p>
 
         <h3 id="how-do-i-publish-a-request">
-          How do I publish a request?
+         Si të publikoj një kërkesë? 
         <a href="#how-do-i-publish-a-request">#</a>
         </h3>
 
         <p>
-          Requests can be published at any time.
+Kërkesat mund të publikohen në çdo kohë.
         </p>
 
         <p>
           <%= image_tag 'alaveteli-pro/screenshot-embargo-publish.jpg',
-                        alt: 'Publish a request' %>
+                        alt: 'Publikimi i kërkesës' %>
         </p>
 
         <h3 id="can-i-make-private-batch-requests">
-          Can I make private batch requests?
+A mund të bëj një grumbull kërkesash private?
         <a href="#can-i-make-private-batch-requests">#</a>
         </h3>
 
         <p>
-          Privacy periods can also be set on batch requests, and their operation
-          follows the same principles as individual requests. Changes to a privacy
-          period on one request belonging to a batch are mirrored to all requests in
-          the batch.
+          Periudhat e privatësisë mund të vendosen gjithashtu për një grumbull kërkesash dhe funksionimi i tyre ndjek të njëjtat parime si kërkesat individuale. Ndryshimet në një periudhë të privatësisë në një kërkesë që i përket një grumbulli pasqyrohen në të gjitha kërkesat në grumbull.
+
         </p>
 
         <h2 id="batch">
-          Batch
+          Grumbull
         <a href="#batch">#</a>
         </h2>
 
         <p>
-          Batch makes it easy to send and manage requests to multiple authorities.
+Kërkesat e grumbulluara (Batch) e bëjnë të lehtë dërgimin dhe menaxhimin e kërkesave tek institucionet e shumta.
         </p>
 
         <h3 id="how-do-i-make-a-batch-request">
-          How do I make a batch request?
+Si duhet ta bëj një grumbull kërkesash?
         <a href="#how-do-i-make-a-batch-request">#</a>
         </h3>
 
         <p>
-          Batch allows you to select a list of authorities and write a template
-          request. The request gets sent individually to each authority like a mail
-          merge.
+          Grumbulli i kërkesave ju lejon të zgjedhni një listë të autoriteteve dhe të shkruani një kërkesë shabllon. Kërkesa i dërgohet çdo autoriteti individualisht si një shkrirje postare.
         </p>
 
         <p>
           <%= image_tag 'alaveteli-pro/screenshot-batch-selection.jpg',
-                        alt: 'Select authorities for a batch' %>
+                        alt: 'Zgjedh institucionet për grumbull' %>
         </p>
 
         <p>
           <%= image_tag 'alaveteli-pro/screenshot-batch-write.jpg',
-                        alt: 'Write a batch template' %>
+                        alt: 'Shkruaj një shabllon për grumbull' %>
         </p>
 
         <h3 id="how-do-i-manage-a-batch-request">
-          How do I manage a batch request?
+Si ta menaxhoj një grumbull kërkesash? 
         <a href="#how-do-i-manage-a-batch-request">#</a>
         </h3>
 
         <p>
-          Progress of a batch can be managed with a convenient progress meter to see
-          how close you are to getting responses from all authorities and making it
-          easy to choose which action to take next.
+     Progresi i një grupi kërkesash mund të menaxhohet me një matës të përshtatshëm të përparimit për të parë se sa afër jeni me marrjen e përgjigjeve nga të gjitha autoritetet dhe duke e bërë të lehtë zgjedhjen e veprimit të mëpasshëm.
         </p>
 
         <p>
           <%= image_tag 'alaveteli-pro/screenshot-batch-list.jpg',
-                        alt: 'Managing batch requests' %>
+                        alt: 'Menaxhimi i kërkesave grumbull' %>
         </p>
 
         <h3 id="how-do-i-manage-batch-privacy-periods">
-          How do I manage batch privacy periods?
+Si t`i menaxhoj periudhat e privatësisë së grumbullit të kërkesave?
         <a href="#how-do-i-manage-batch-privacy-periods">#</a>
         </h3>
 
         <p>
-          Batches can be made private, and privacy periods easily managed across the
-          batch.
+          Grumbujt e kërkesave mund të bëhen private, edhe periudha e privatësisë mund të menaxhohet lehtë në grumbullin e kërkesave.
         </p>
 
         <p>
           <%= image_tag 'alaveteli-pro/screenshot-batch-privacy.jpg',
-                        alt: 'Manage batch privacy' %>
+                        alt: 'Menaxhimi i privatsisë së grumbullit' %>
         </p>
 
         <h3 id="how-many-authorities-can-i-add-to-a-batch">
-          How many authorities can I add to a batch?
+Sa grumbuj kërkesash mund të bëj? 
         <a href="#how-many-authorities-can-i-add-to-a-batch">#</a>
         </h3>
 
         <p>
-          The maximum number of authorities that can be added to a batch is
+          Numri maksimal i institucioneve që mund të shtohen në një grumbull kërkesash është 
           <%= AlaveteliConfiguration.pro_batch_authority_limit %>.
         </p>
 
         <h3 id="how-many-batch-requests-can-i-make">
-          How many batch requests can I make?
+Sa grumbuj kërkesash mund të bëj? 
         <a href="#how-many-batch-requests-can-i-make">#</a>
         </h3>
 
         <p>
-          We recommend sending a pilot batch to a sample of authorities to test the
-          request. Once you know the authorities hold the type of data that you’re
-          asking for you can then request from the remaining authorities.
+          Ne rekomandojmë dërgimin e një grumbulli kërkesash pilot tek një mostër e institucioneve për të testuar kërkesën. Pasi të dini se institucionet mbajnë llojin e të dhënave që po kërkoni, atëherë mund të kërkoni nga institucionet e mbetura.
+
         </p>
 
         <p>
-          There’s no limit to the number of batches that can be sent, but Pro users
-          are required to abide by our guidelines about writing
-          <%= link_to 'responsible requests',
+          Nuk ka asnjë kufizim për numrin e grumbujve të kërkesave që mund të dërgohen, por përdoruesve Pro u kërkohet të respektojnë udhëzimet tona për shkrimin e 
+          <%= link_to 'kërkesave të përgjegjshme',
             help_requesting_path(anchor: 'responsible') %>.
         </p>
       </div>
