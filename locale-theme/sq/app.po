@@ -51,7 +51,7 @@ msgstr ""
 "Project-Id-Version: alaveteli\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-22 13:14+0000\n"
-"PO-Revision-Date: 2024-02-22 14:05+0100\n"
+"PO-Revision-Date: 2024-03-01 13:42+0100\n"
 "Last-Translator: Valon <vbrestovci@gmail.com>, 2011\n"
 "Language-Team: Albanian (http://www.transifex.com/mysociety/alaveteli/language/sq/)\n"
 "Language: sq\n"
@@ -59,7 +59,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.4\n"
+"X-Generator: Poedit 3.4.2\n"
 
 msgid ""
 "\n"
@@ -68,19 +68,19 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"[{{site_name}} shënim: Teksti i lartshënuar është koduar keq, dhe i janë hequr karakteret e çuditshme.]"
+"Shënim [ {{site_name}}: Teksti i mësipërm ishte i koduar keq dhe u hoqën karaktere të çuditshme. ]"
 
 msgid " (<strong>no ranty</strong> politics, read our <a href=\"{{url}}\">moderation policy</a>)"
 msgstr " (pa politikë <strong>llafazane</strong>, lexo <a href=\"{{url}}\">politikat e moderimit</a>)"
 
 msgid " (<strong>patience</strong>, especially for large files, it may take a while!)"
-msgstr " <strong>(Durim,</strong> sidomos për skedar të mëdhenj, mund të marr më shumë kohë!)"
+msgstr " <strong>(Durim,</strong> sidomos për fotografi të mëdha, mund të marrë më shumë kohë!)"
 
 msgid " (you)"
 msgstr " (ti)"
 
 msgid " - view and make Access to Public Documents requests"
-msgstr " -  shfleto dhe bëj kërkesa për të Drejtën e Qasjes në Dokumente Publike"
+msgstr " - shfleto dhe bëj kërkesa për të Drejtën e Qasjes në Dokumente Publike"
 
 msgid " < "
 msgstr " < "
@@ -92,7 +92,7 @@ msgid " <strong>Privacy note:</strong> Your email address will be given to"
 msgstr " <strong>Shënim privatësie:</strong> Adresa e juaj e postës elektronike do t'i jepet"
 
 msgid " <strong>Summarise</strong> the content of any information returned. "
-msgstr " <strong>Përmbledh</strong> përmbajtjen e informacioneve të kthyera (përgjigjura) "
+msgstr " <strong>Përmbledh</strong> përmbajtjen e informacioneve të kthyera (përgjigjura). "
 
 msgid " > "
 msgstr " > "
@@ -101,7 +101,7 @@ msgid " >> "
 msgstr " >> "
 
 msgid " Advise on how to <strong>best clarify</strong> the request."
-msgstr " Këshilloni se si të <strong>sqaroni më së miri</strong> kërkesën."
+msgstr " Këshillo se si <strong>më së miri të sqarohet</strong> një kërkesë."
 
 msgid " Ideas on what <strong>other documents to request</strong> which the authority may hold. "
 msgstr " Ide se çfarë <strong>dokumentesh tjera të kërkohen</strong> që mund t'i posedoj institucioni. "
@@ -113,7 +113,7 @@ msgid " Offer better ways of <strong>wording the request</strong> to get the inf
 msgstr " Propozo mënyra më të mira të <strong>formulimit të kërkesës</strong> për të marrë informacion. "
 
 msgid " Say how you've <strong>used the information</strong>, with links if possible."
-msgstr " Trego se si ke <strong>përdorur informacionin,</strong> me ueb vegza nëse është e mundur."
+msgstr " Trego se si ke <strong>përdorur informacionin</strong>, me ueb vegza nëse është e mundur."
 
 msgid " Suggest <strong>where else</strong> the requester might find the information. "
 msgstr " Sugjero <strong>ku tjetër</strong> kërkuesi mund të gjej informacionin. "
@@ -152,7 +152,7 @@ msgid "'{{link_to_user}}', a person"
 msgstr "'{{link_to_user}}', një person"
 
 msgid "(You will be asked to sign in as {{user_name}})"
-msgstr "(Do të kërkohet të regjistroheni si {{user_name}})"
+msgstr "(Do të kërkohet të regjistrohesh si {{user_name}})"
 
 msgid "(hide)"
 msgstr "(fsheh)"
@@ -193,10 +193,10 @@ msgid "<a href=\"{{browse_url}}\">Browse all</a> or <a href=\"{{add_url}}\">ask 
 msgstr "<a href=\"{{browse_url}}\">Shfletoni të gjitha</a> ose <a href=\"{{add_url}}\">kërkoni nga ne që të shtojmë një</a>."
 
 msgid "<a href=\"{{new_request_link}}\">Make a new EIR request</a> to {{public_body_name}}"
-msgstr "<a href=\"{{new_request_link}}\">Bëj një kërkesë të re</a> të {{public_body_name}}"
+msgstr "<a href=\"{{new_request_link}}\">Bëj një kërkesë të re</a> te {{public_body_name}}"
 
 msgid "<a href=\"{{new_request_link}}\">Make a new APD request</a> to {{public_body_name}}"
-msgstr "<a href=\"{{new_request_link}}\">Bëj një kërkesë të re për qasje </a> te {{public_body_name}}"
+msgstr "<a href=\"{{new_request_link}}\">Bëj një kërkesë të re për qasje në dokumente publike</a> te {{public_body_name}}"
 
 msgid "<a href=\"{{sign_in_link}}\">Sign in</a> to get updates on things you follow or re-enable email alerts."
 msgstr "<a href=\"{{sign_in_link}}\">Regjistrohu</a> për të marrë lajme për gjërat që i ndjek ose riaktivizo njoftimet me email."
@@ -205,7 +205,7 @@ msgid "<a href=\"{{url}}\">Do you want to request private information about your
 msgstr "<a href=\"{{url}}\">Do të kërkosh informacione private për vetën tënde?</a>"
 
 msgid "<a href=\"{{url}}\">Keep it <strong>focused</strong></a>, you'll be more likely to get what you want."
-msgstr "Mbaje <strong>të fokusuar</strong>, gjasat janë më të mëdha që të marrësh përgjigjen e dëshiruar (<a href=\"{{url}}\">pse?</a>)."
+msgstr "<a href=\"{{url}}\">Mbajeni atë <strong>të fokusuar</strong></a>, do të keni më shumë gjasa të merrni atë që dëshironi."
 
 msgid "<a href=\"{{url}}\">Sign in</a> to change password, subscriptions and more ({{user_name}} only)"
 msgstr "<a href=\"{{url}}\">Kyçu</a> për të ndryshuar fjalëkalimin, abonimet dhe të tjera (vetëm për {{user_name}})"
@@ -222,31 +222,31 @@ msgstr[0] "<div class=\"alaveteli-widget__count\">{{count}}</div> personi do të
 msgstr[1] "<div class=\"alaveteli-widget__count\">{{count}}</div> njerëzit duan të dinë"
 
 msgid "<p>All done! Thank you very much for your help.</p><p>There are <a href=\"{{helpus_url}}\">more things you can do</a> to help {{site_name}}.</p>"
-msgstr "<p>U përfundua! Shumë faleminderit për ndihmën tënde. </p><p>Ka <a href=\"{{helpus_url}}\">shumë gjëra që ti mund të bësh</a> për të ndihmuar {{site_name}}. </p>"
+msgstr "<p>Të gjitha u bënë! Shumë faleminderit për ndihmën tënde. </p><p>Ka <a href=\"{{helpus_url}}\">shumë gjëra që ti mund të bësh</a> për të ndihmuar {{site_name}}. </p>"
 
 msgid "<p>Thanks for changing the text about you on your profile.</p><p><strong>Next...</strong> You can upload a profile photograph too.</p>"
-msgstr "<p>Faleminderit për ndryshimin e tekstit për vetën tënde në profilin e juaj. </p><p> <strong>Pastaj ...</strong> Gjithashtu mund ta ngarkosh (upload) një fotografi në profilin tënd.</p>"
+msgstr "<p> Faleminderit për ndryshimin e tekstit për vetën tënde në profil. </p><p> <strong>Pastaj ...</strong> Gjithashtu mund ta ngarkosh (upload) një fotografi në profilin tënd.</p>"
 
 msgid "<p>Thanks for updating your profile photo.</p><p><strong>Next...</strong> You can put some text about you and your research on your profile.</p>"
-msgstr "<p>Faleminderit që rifreskuat fotografinë e profilit tënd. </p><p> <strong>Pastaj ...</strong>Mund të shkruash një tekst për veten dhe për temat e hulumtimit tënd në profilin e juaj.</p>"
+msgstr "<p>Faleminderit që rifreskuat fotografinë e profilit tënd. </p><p> <strong>Pastaj ...</strong> Mund të shkruash një tekst për veten dhe për temat e hulumtimit tënd në profil.</p>"
 
 msgid "<p>We recommend that you edit your request and remove the email address. If you leave it, the email address will be sent to the authority, but will not be displayed on the site.</p>"
-msgstr "<p>Ne ju rekomandojmë që ta editoni kërkesën tuaj dhe ta hiqni adresën e emailit. Nëse e lini atë, adresa e emailit do t`i dërgohet autoritetit, por nuk do të shfaqet në sajt.</p>"
+msgstr "<p>Ne ju rekomandojmë që ta editoni kërkesën tuaj dhe ta hiqni adresën e emailit. Nëse e lini atë, adresa e emailit do t`i dërgohet institucionit, por nuk do të shfaqet në sajt.</p>"
 
 msgid "<p>You do not need to include your email in the request in order to get a reply (<a href=\"{{url}}\">details</a>).</p>"
-msgstr "<p>Nuk keni nevojë të përfshini adresën e emailit tënd në këtë kërkesë që të marrësh përgjigje (<a href=\"{{url}}\">detaje</a> ). </p>"
+msgstr "<p> Nuk keni nevojë të përfshini adresën e emailit tënd në këtë kërkesë që të marrësh përgjigje (<a href=\"{{url}}\">detaje</a> ). </p>"
 
 msgid "<p>You do not need to include your email in the request in order to get a reply, as we will ask for it on the next screen (<a href=\"{{url}}\">details</a>).</p>"
-msgstr "<p>Nuk keni nevojë të përfshini adresën e emailit tënd në këtë kërkesë që të marrësh përgjigje, sepse ne do ta kërkojmë atë në faqen vijuese (<a href=\"{{url}}\">detaje</a> )"
+msgstr "<p>Nuk keni nevojë të përfshini adresën e emailit tënd në këtë kërkesë që të marrësh përgjigje, sepse ne do ta kërkojmë atë në faqen vijuese (<a href=\"{{url}}\">detaje</a>).</p>"
 
 msgid "<p>Your request contains a <strong>postcode</strong>. Unless it directly relates to the subject of your request, please remove any address as it will <strong>appear publicly on the Internet</strong>.</p>"
 msgstr "<p> Kërkesa jote përmban <strong>kodin postar</strong>. Nëse nuk lidhet direkt me temën e kërkesës tuaj, të lutem largo çdo adresë sepse do të jetë <strong> publike në internet</strong>. </p>"
 
 msgid "<p>{{site_name}} is currently in maintenance. You can only view existing requests. You cannot make new ones, add followups or annotations, or otherwise change the database.</p> <p>{{read_only}}</p>"
-msgstr "<p>{{site_name}} është aktualisht në mirëmbajtje teknike. Ju vetëm mund të shikoni kërkesat ekzistuese. Nuk mund të bësh kërkesa të reja, të shtosh mesazhe vazhduese apo të bësh ndonjë ndryshim në bazën e të dhënave. </p><p>{{read_only}}</p>"
+msgstr "<p>{{site_name}} është aktualisht në mirëmbajtje teknike. Vetëm mund të shikosh kërkesat ekzistuese. Nuk mund të bësh kërkesa të reja, të shtosh mesazhe vazhduese apo të bësh ndonjë ndryshim në bazën e të dhënave. <p><p>{{read_only}}</p>"
 
 msgid "<p>{{site_name}} is currently in maintenance. You can only view existing requests. You cannot make new ones, add followups or otherwise change the database.</p> <p>{{read_only}}</p>"
-msgstr "<p>{{site_name}} është aktualisht në mirëmbajtje. Ju vetëm mund të shikoni kërkesat ekzistuese. Nuk mund të bësh kërkesa të reja, të shtosh mesazhe vazhduese apo të bësh ndonjë ndryshim në bazën e të dhënave. <p><p>{{read_only}}</p>"
+msgstr "<p>{{site_name}} është aktualisht në mirëmbajtje. Vetëm mund të shikosh kërkesat ekzistuese. Nuk mund të bësh kërkesa të reja, të shtosh mesazhe vazhduese apo të bësh ndonjë ndryshim në bazën e të dhënave. </p><p>{{read_only}}</p>"
 
 msgid "<strong><code>commented_by:tony_bowden</code></strong> to search annotations made by Tony Bowden, typing the name as in the URL."
 msgstr "<strong><code>komentuar_nga:filan_fisteku</code></strong> për të kërkuar shënimet nga Filan Fisteku, shtypeni emrin si në URL."
@@ -276,7 +276,7 @@ msgstr ""
 "    prezente, duhet të shkruash <code>AND</code> në mënyrë eksplicite nëse do që vetëm ato të përfshihen."
 
 msgid "<strong><code>variety:</code></strong> to select type of thing to search for, see the <a href=\"{{varieties_url}}\">table of varieties</a> below."
-msgstr "<strong><code>variety:</code></strong> për të zgjedhur atë që do të kërkosh, shih <a href=\"{{varieties_url}}\">tabelën e varianteve</a> më poshtë."
+msgstr "<strong><code>variety:</code></strong> për të zgjedhur tipin e asaj që do të kërkosh, shih <a href=\"{{varieties_url}}\">tabelën e varianteve</a> më poshtë."
 
 msgid "<strong>Advice</strong> on how to get a response that will satisfy the requester. </li>"
 msgstr "<strong>Këshillo</strong> se si të merrni një përgjigje që do të kënaqte kërkuesin. </li>"
@@ -285,10 +285,10 @@ msgid "<strong>All the information</strong> has been sent"
 msgstr "<strong>Të gjitha informatat</strong> janë dërguar"
 
 msgid "<strong>Anything else</strong>, such as clarifying, prompting, thanking"
-msgstr "<strong>Diçka tjetër,</strong> p.sh. sqarim, falenderim"
+msgstr "<strong>Diçka tjetër</strong>, p.sh. sqarim, falënderim"
 
 msgid "<strong>Automatic anti-spam measures are in place</strong> for this older request. Please <a href=\"{{url}}\">let us know</a> if a further response is expected or if you are having trouble responding."
-msgstr "<strong>Masat automatike anti-spam janë vendosur</strong> për këtë kërkesë të vjetër. Ju lutem <a href=\"{{url}}\">na njoftoni</a> nëse ende pritet përgjigje ose nëse keni problem për t'u përgjigjur."
+msgstr "<strong>Masat automatike anti-spam janë vendsour</strong> për këtë kërkesë të vjetër. Ju lutem <a href=\"{{url}}\">na njoftoni</a> nëse ende pritet përgjigje ose nëse keni problem për t'u përgjigjur."
 
 msgid "<strong>By law, they have to respond</strong> (<a href=\"{{url}}\">why?</a>)."
 msgstr "<strong>Sipas Ligjit ata duhet të përgjigjen</strong> (<a href=\"{{url}}\">pse?</a>)."
@@ -308,22 +308,25 @@ msgid "<strong>Challenging a refusal?</strong> Here are some snippets that may h
 msgstr "<strong>Po sfidoni një refuzim?</strong> Ja disa fjalë që mund të ndihmojnë:"
 
 msgid "<strong>Clarification</strong> has been requested"
-msgstr "Është kërkuar<strong>sqarim</strong>"
+msgstr "Është kërkuar <strong>sqarim</strong>"
 
 msgid "<strong>Donate</strong> to {{site_name}}"
 msgstr "<strong>Dhuro</strong> për {{site_name}}"
 
 msgid "<strong>Journalist, Academic or Power User?</strong> {{pro_site_link}} is an all-in-one APD toolkit including everything you need to keep on top of complex APD-driven investigations."
-msgstr "<strong>Gazetar, Akademik ose Përdorues i Fuqishëm?</strong> {{pro_site_link}} është një veglari e qasjes në dokumente publike që përfshin krejt çfarë ju duhet për hulumtime të fuqizuara nga qasja në dokumente publike."
+msgstr "<strong>Gazetar, Akademik ose Përdorues i Fuqishëm?</strong> {{pro_site_link}} është një veglari për qasje në dokumente publike që përfshin krejt çfarë ju duhet për hulumtime të fuqizuara nga qasja në dokumente publike."
 
 msgid "<strong>No response</strong> has been received <small>(maybe there's just an acknowledgement)</small>"
 msgstr "<strong>Asnjë përgjigje</strong> nuk është marrë <small>(ndoshta ke marrë konfirmim të pranimit)</small>"
 
 msgid "<strong>Note:</strong> Because we're testing, requests are being sent to {{email}} rather than to the actual authority."
-msgstr "<strong>Note:</strong> Duke qenë se po testohen, kërkesat do të dërgohen tek {{email}} dhe jo tek institucioni përkatës."
+msgstr "<strong>Note:</strong> Duke qene se po testohen, kërkesat do të dërgohen tek {{email}} dhe jo tek institucioni përkatës."
 
 msgid "<strong>Note:</strong> We will send an email to your new email address. Follow the instructions in it to confirm changing your email."
-msgstr "<strong>Shenim:</strong>Do të dërgojmë email në adresën tënde të re. Përcjelli udhëzimet për të konfirmuar ndërrimin e emailit."
+msgstr ""
+"<strong>Shënim:</strong>\n"
+"    Do të dërgojmë email në adresën tënde të re. Përcjelli\n"
+"    udhëzimet për të konfirmuar ndërrimin e emailit."
 
 msgid "<strong>Note:</strong> We will send you an email to confirm you are the owner of this account. Follow the instructions in it to change your password."
 msgstr "<strong>Note:</strong> Do ju dërgojmë një email për të konfirmuar që ju jeni zotëruesi i kësaj llogarie. Ndiqni udhëzimet në të për të ndryshuar fjalëkalimin tuaj."
@@ -341,10 +344,10 @@ msgid "<strong>Some of the information</strong> has been sent "
 msgstr "<strong>Disa nga informacionet</strong> janë dërguar "
 
 msgid "<strong>Thank</strong> the public authority or the requester."
-msgstr "<strong>Falënderojeni</strong> institucionin publik ose kërkuesin."
+msgstr "<strong>Falënderoji</strong> institucion publik ose kërkuesin."
 
 msgid "<strong>Thank</strong> the public authority or {{user_name}}."
-msgstr "<strong>Falënderojeni</strong> institucionin publik ose {{user_name}}."
+msgstr "<strong>Falënderoje</strong> institucion publik ose {{user_name}}."
 
 msgid "<strong>Warning:</strong> This message has <strong>not yet been sent</strong> for an unknown reason."
 msgstr "<strong>Vërejtje:</strong> Kjo porosi <strong>ende nuk është dërguar</strong> për arsye të panjohur."
@@ -385,7 +388,7 @@ msgid "A powerful, fully-featured APD toolkit for journalists"
 msgstr "Një veglari e fuqishme e QDP për gazetarë"
 
 msgid "A public authority"
-msgstr "Institucioni publik"
+msgstr "Një Institucion publik"
 
 msgid "A response will be sent <strong>by postal mail</strong>"
 msgstr "Përgjigja do të dërgohet <strong>me postë</strong>"
@@ -406,7 +409,7 @@ msgid "About you:"
 msgstr "Rreth jush:"
 
 msgid "About {{count}} APD requests found"
-msgstr "U gjetën rreth {{count}} kërkesa për Qasje në Dokumente Publike"
+msgstr "Rreth {{count}} kërkesa për Qasje në Dokumente Publike u gjetën"
 
 msgid "Academic paper"
 msgstr "Punim akademik"
@@ -439,7 +442,7 @@ msgid "Add an annotation to your request with choice quotes, or a <strong>summar
 msgstr "Shto shënim në kërkesën tënde me citate të zgjedhura, apo me <strong>përmbledhje të përgjigjes</strong>."
 
 msgid "Add authority - {{public_body_name}}"
-msgstr "Shto institucion - {{public_body_name}}"
+msgstr "Shto institucionin - {{public_body_name}}"
 
 msgid "Add the authority:"
 msgstr "Shto një institucion:"
@@ -529,7 +532,7 @@ msgid "Annotations are so anyone, including you, can help the requester with the
 msgstr "Shënimet shërbejnë për të gjithë, duke përfshirë edhe ty, që të mund ti ndihmosh kërkuesit me kërkesën e tyre. Për shembull:"
 
 msgid "Annotations will be posted publicly here, and are <strong>not</strong> sent to {{public_body_name}}."
-msgstr "Shënimet do të shfaqen publikisht këtu, dhe<strong>nuk</strong> dërgohen te {{public_body_name}}."
+msgstr "Shënimet do të shfaqen publikisht këtu, dhe <strong>nuk</strong> dërgohen te {{public_body_name}}."
 
 msgid "Anonymous user"
 msgstr "Përdorues anonim"
@@ -538,7 +541,7 @@ msgid "Any device"
 msgstr "Çfarëdo pajisje"
 
 msgid "Anyone with the link will be able to view this request."
-msgstr "Kushdo me këtë lidhje do të mundet ta shoh këtë kërkesë."
+msgstr "Kushdo me lidhje do të mundet ta shoh këtë kërkesë."
 
 msgid "Are we missing a public authority?"
 msgstr "Na mungon ndonjë institucion publik?"
@@ -550,7 +553,7 @@ msgid "Are you sure?"
 msgstr "A je i sigurt?"
 
 msgid "Are you sure? If you regenerate your one time passcode you will need to update your password manager or re-print it."
-msgstr "Jeni i sigurt? Nëse rigjeneroni kod-kalimin (passcode) vetëm një herë, atëherë do keni nevojë të përditësoni menaxherin e fjalëkalimit ose ta ri-shtypni atë."
+msgstr "Jeni i sigurt? Nëse rigjeneroni kod-kalimin(passcode) vetëm një herë, atëherë do keni nevojë të përditësoni manaxherin e fjalëkalimit ose ta ri-shtypni atë."
 
 msgid "Are you the owner of any commercial copyright on this page?"
 msgstr "A je pronar i ndonjë të drejte autoriale komerciale në këtë faqe?"
@@ -652,10 +655,10 @@ msgid "Browse all requests &rarr;"
 msgstr "Shfleto të gjitha kërkesat &rarr;"
 
 msgid "Browse and search requests"
-msgstr "Shiko dhe kërko kërkesat"
+msgstr "Shfleto dhe kërko kërkesat"
 
 msgid "Browse and search requests (page {{count}})"
-msgstr "Shiko dhe kërko kërkesat (page {{count}})"
+msgstr "Shfleto dhe kërko kërkesat (page {{count}})"
 
 msgid "Browse latest requests"
 msgstr "Shfleto kërkesat më të fundit"
@@ -664,7 +667,7 @@ msgid "Browse latest responses"
 msgstr "Shfleto përgjigjet më të fundit"
 
 msgid "Browse requests"
-msgstr "Shiko kërkesat"
+msgstr "Shfleto kërkesat"
 
 msgid "By law, they have to respond."
 msgstr "Sipas ligjit, ata janë të detyruar të përgjigjen."
@@ -742,7 +745,7 @@ msgid "Clarification sent to {{public_body_name}} by {{info_request_user}} on {{
 msgstr "Sqarimi u dërgua tek {{public_body_name}} nga {{info_request_user}} më {{date}}."
 
 msgid "Clarify your APD request - {{request_title}}"
-msgstr "Sqaro kërkesën tënde për QDP - {{request_title}}"
+msgstr "Sqaro kërkesën tënde QDP - {{request_title}}"
 
 msgid "Classify an APD response from {{authority_name}}"
 msgstr "Klasifiko një përgjigje për kërkesë për informatë zyrtare prej {{authority_name}}"
@@ -754,10 +757,10 @@ msgid "Clear photo"
 msgstr "Fshij foton"
 
 msgid "Click on the link below to send a message to {{public_body_name}} telling them to reply to your request. You might like to ask for an internal review, asking them to find out why response to the request has been so slow."
-msgstr "Kliko në vegzën më poshtë për të dërguar një mesazh të {{public_body_name}} duke u thënë atyre që të përgjigjen në kërkesën tënde. Mund të dëshirosh të kërkosh rishqyrtim të brendshëm, duke u kërkuar atyre për të gjetur se pse përgjigja ndaj kërkesës ka qenë kaq e ngadaltë."
+msgstr "Kliko në vegzën më poshtë për të dërguar një mesazh te {{public_body_name}} duke u thënë atyre që të përgjigjen në kërkesën tënde. Mund të dëshirosh të kërkosh rishqyrtim të brendshëm, duke u kërkuar atyre për të gjetur se pse përgjigja ndaj kërkesës ka qenë kaq e ngadaltë."
 
 msgid "Click on the link below to send a message to {{public_body_name}} telling them to reply to your request. You might like to ask for an internal review, asking them to find out why their response to the request has been so slow."
-msgstr "Kliko në vegzën më poshtë për të dërguar një mesazh të {{public_body_name}} duke u thënë atyre që të përgjigjen në kërkesën tënde. Mund të dëshirosh të kërkosh rishqyrtim të brendshëm, duke u kërkuar atyre të tregojnë pse përgjigja ndaj kërkesës ka qenë kaq e ngadaltë."
+msgstr "Kliko në vegzën më poshtë për të dërguar një mesazh te {{public_body_name}} duke u thënë atyre që të përgjigjen në kërkesën tënde. Mund të dëshirosh të kërkosh rishqyrtim të brendshëm, duke u kërkuar atyre të tregojnë pse përgjigja ndaj kërkesës ka qenë kaq e ngadaltë."
 
 msgid "Click on the link below to send a message to {{public_body}} reminding them to reply to your request."
 msgstr "Kliko në vegzën e mëposhtme për t'i dërguar mesazh {{public_body}} për t'ua përkujtuar që t'i përgjigjen kërkesës tënde."
@@ -781,7 +784,7 @@ msgid "Confirm password:"
 msgstr "Fjalëkalimi: (përsërite)"
 
 msgid "Confirm you want to follow all successful APD requests"
-msgstr "Konfirmo që do të marrësh email për gjitha kërkesat e sukseshme për QDP"
+msgstr "Konfirmo që do të marrësh email për gjitha kërkesat e sukseshme QDP"
 
 msgid "Confirm you want to follow new requests"
 msgstr "Konfirmo që do të përcjellësh kërkesat e reja"
@@ -814,7 +817,7 @@ msgid "Confirm your new email address on {{site_name}}"
 msgstr "Konfirmo adresën e email-it tënd të ri në {{site_name}}"
 
 msgid "Considered by administrators as not an APD request."
-msgstr "Konsideruar nga administratorët jo si një kërkesë për Qasje në Dokumente Publike."
+msgstr "Konsideruar nga administratorët jo si një kërkesë për qasje në dokumente publike."
 
 msgid "Considered by administrators as vexatious."
 msgstr "Konsideruar nga administratorët si bezdisëse dhe fshehur nga faqja."
@@ -888,11 +891,12 @@ msgstr "Interpretimi i të dhënave"
 msgid "Date:"
 msgstr "Data:"
 
+#, fuzzy
 msgid "Dear [Authority name],"
 msgstr "I/E nderuar,"
 
 msgid "Dear {{name}},"
-msgstr "I/E nderuar {{name}},"
+msgstr "I/E nderuar {{name}} ,"
 
 msgid "Dear {{placeholder_body_name}},"
 msgstr "Të nderuar {{placeholder_body_name}},"
@@ -949,7 +953,7 @@ msgid "Don't have a superuser account yet?"
 msgstr "Nuk keni ende një llogari super-përdoruesi?"
 
 msgid "Don't want to address your message to {{person_or_body}}?  You can also write to:"
-msgstr "Nuk dëshiron t'ia adresosh mesazhin tënd {{person_or_body}}? Gjithashtu mund t'i shkruash:"
+msgstr "Nuk dëshiron t'ia adresosh mesazhin tënd {{person_or_body}}?  Gjithashtu mund t'i shkruash:"
 
 msgid "Done"
 msgstr "Mbaroi"
@@ -985,13 +989,13 @@ msgid "Either the email or password was not recognised, please try again."
 msgstr "Adresa e email-it apo fjalëkalimi nuk janë njohur, të lutem provo përsëri."
 
 msgid "Either the email or password was not recognised, please try again. Or create a new account using the form on the left."
-msgstr "Adresa e email-it apo fjalëkalimi nuk janë të njohur, të lutem provo përsëri. Ose krijo një llogari të re duke përdorur formularin në të djathtë."
+msgstr "Adresa e email-it apo fjalëkalimi nuk janë të njohur, të lutem provo përsëri. Ose krijo një llogari të re duke përdor formularin në të djathtë."
 
 msgid "Email Alerts Disabled"
 msgstr "Njoftimet me email janë çkyçur"
 
 msgid "Email alerts for things you follow have now been disabled."
-msgstr "Njofitmet me email për gjërat që i ndiqni tani janë çkyçur."
+msgstr "Njoftimet me email për gjërat që i ndiqni tash janë çkyçur."
 
 msgid "Email doesn't look like a valid address"
 msgstr "Adresa e postës elektronike nuk duket si një adresë e vlefshme"
@@ -1009,7 +1013,7 @@ msgid "Enable two factor authentication"
 msgstr "Aktivizo verfikimin me 2 faktorë"
 
 msgid "Enter words that you want to find separated by spaces, e.g. <strong>climbing lane</strong>"
-msgstr "Shkruaj fjalët që do t'i gjesh të ndara me hapësirë, psh. <strong>asfaltim rruge</strong>"
+msgstr "Shkuraj fjalët që do t'i gjesh të ndara me hapësirë, psh. <strong>asfaltim rruge</strong>"
 
 msgid "Enter your response below. You may attach one file (use email, or <a href=\"{{url}}\">contact us</a> if you need more)."
 msgstr "Shtoni përgjigjen tuaj si më poshtë. Mund të bashkangjitni një dokumet (përdor postën elektronike, ose <a href=\"{{url}}\">na kontaktoni</a> nëse dëshironi më shumë)."
@@ -1030,7 +1034,10 @@ msgid "Every citizen has the right to access information held by public authorit
 msgstr "Çdo qytetar ka të drejtën për të pasur informacionet e çdo institucioni publik."
 
 msgid "Everything that you enter on this page, including <strong>your name</strong>, will be <strong>displayed publicly</strong> on this website <a href=\"{{url}}\">forever</a>"
-msgstr "Çdo gjë që ke shkruar në këtë faqe, duke përfshirë edhe <strong>emrin tënd</strong>, do të <strong>shfaqet përgjithmonë publikisht</strong> në këtë faqe (<a href=\"{{url}}\">pse?</a>)"
+msgstr ""
+"Çdo gjë që ke shkruar në këtë faqe, duke përfshirë edhe <strong>emrin tënd</strong>, \n"
+"                do të <strong>shfaqet përgjithmonë publikisht</strong> në\n"
+"                këtë faqe (<a href=\"{{url}}\">pse?</a>)"
 
 msgid "Expand all correspondence"
 msgstr "Zgjero të gjithë korrespondencën"
@@ -1039,7 +1046,7 @@ msgid "Extract data"
 msgstr "Nxjerr të dhënat"
 
 msgid "Extract relevant information from each successful freedom of information request and enter it into the provided fields. This will populate the data file for this project."
-msgstr "Nxirrni informacionin përkatës nga çdo kërkesë e suksesshme për lirinë e informacionit dhe futeni atë në fushat e dhëna. Kjo do të plotësojë skedarin e të dhënave për këtë projekt."
+msgstr "Nxjerr informatat relevante nga secila kërkesë e suksesshme për qasje në dokumente publike dhe vendose në fushat e dhëna. Kjo do të populloj skedarin e të dhënave për këtë projekt."
 
 msgid "Extraction couldn't be saved."
 msgstr "Ekstrakti nuk mund të ruhej."
@@ -1060,7 +1067,7 @@ msgid "APD requests by '{{user_name}}'"
 msgstr "Kërkesa për QDP nga '{{user_name}}'"
 
 msgid "APD requests {{start_count}} to {{end_count}} of about {{total_count}}"
-msgstr "Kërkesat për QDP {{start_count}} deri në {{end_count}} nga rreth {{total_count}}"
+msgstr "Kërkesat për qasje {{start_count}} të {{end_count}} nga rreth {{total_count}}"
 
 msgid "APD response requires admin ({{reason}}) - {{request_title}}"
 msgstr "Përgjigja për QDP kërkon admin ({{reason}}) - {{request_title}}"
@@ -1200,7 +1207,7 @@ msgid "Access to Public Documents law no longer applies to this authority. Follo
 msgstr "Ligjet mbi të Drejtën e Qasjes në Dokumente Publike nuk janë të aplikueshme për këtë institucion. Mesazhet vijuese dërgohen te <strong>{{authority_email}}</strong>."
 
 msgid "Access to Public Documents law no longer applies to {{public_body_name}}."
-msgstr "Ligji për të Drejtën e Qasjes në Dokumente Publike nuk aplikohet më për {{public_body_name}}."
+msgstr "Ligji për të Drejtën e Qasjes në Dokumente Publike nuk aplikohet më për  {{public_body_name}}."
 
 msgid "Access to Public Documents requests made"
 msgstr "Kërkesat e bëra për të Drejtën e Qasjes në Dokumente Publike"
@@ -1209,7 +1216,7 @@ msgid "Access to Public Documents requests made by this person"
 msgstr "Kërkesat për të Drejtën e Qasjes në Dokumente Publike të bëra nga ky person"
 
 msgid "Access to Public Documents requests made by you"
-msgstr "Kërkesat për të Drejtën e Qasjes në Dokumente Publike të bërë prej jush"
+msgstr "Kërkesat për të Drejtën e Qasjes në Dokumente Publike të bëra prej jush"
 
 msgid "Access to Public Documents requests made using this site"
 msgstr "Kërkesat për të Drejtën e Qasjes në Dokumente Publike të bëra duke përdorur këtë faqe"
@@ -1284,7 +1291,7 @@ msgid "Help us classify requests that haven't been updated"
 msgstr "Na ndihmoni të klasifikojmë kërkesat që nuk janë përditësuar"
 
 msgid "Here <strong>described</strong> means when a user selected a status for the request, and the most recent event had its status updated to that value. <strong>calculated</strong> is then inferred by {{site_name}} for intermediate events, which weren't given an explicit description by a user. See the <a href=\"{{search_path}}\">search tips</a> for description of the states."
-msgstr "Këtu <strong>i përshkruar</strong> do të thotë kur një përdorues zgjodhi një status për kërkesën dhe ngjarjes më të fundit iu përditësua statusi në atë vlerë. <strong>llogaritur</strong> më pas nxirret nga {{site_name}} për ngjarjet e ndërmjetme, të cilave nuk u është dhënë një përshkrim i qartë nga një përdorues. Shikoni <a href=\"{{search_path}}\">këshillat e kërkimit</a> për përshkrimin e gjendjeve."
+msgstr "Këtu <strong>described</strong> do të thotë kur përdoruesit selektojnë një status për kërkesën dhe kur ngjarja më e re e ka statusin të përditësuar në atë vlerë. <strong> përllogaritur</strong> më pas nënkuptohet nga {{site_name}} për ngjarje të ndërmjetshme, për të cilat përdoruesi nuk ka dhënë një përshkrim të caktuar. Shihni <a href=\"{{search_path}}\">search tips</a> për përshkrimin e statuseve."
 
 msgid "Here are some snippets that may help you <strong>challenge a refusal</strong>:"
 msgstr "Ja disa copëza teksti që ju mund të ju ndihmojnë të<strong>sfidoni një refuzim</strong>:"
@@ -1332,7 +1339,7 @@ msgid "I am requesting an <strong>internal review</strong>"
 msgstr "Po kërkoj <strong>rishqyrtimin të brendshëm</strong>"
 
 msgid "I am writing to request an internal review of {{public_body_name}}'s handling of my APD request '{{info_request_title}}'."
-msgstr "Une po ju shkruaj për të kërkuar një rishqyrtim të brendshëm të {{public_body_name}}'s që trajton kërkesën time për QDP '{{info_request_title}}'."
+msgstr "Une po ju shkruaj për të kërkuar një rishqyrtim të brendshëm të{{public_body_name}}'s që trajton kërkesën time për të QDP{{info_request_title}}'."
 
 msgid "I don't like these ones &mdash; give me some more!"
 msgstr "Nuk më pëlqejnë këto kërkesa &mdash; më jep disa të tjera!"
@@ -1353,7 +1360,7 @@ msgid "I'm still <strong>waiting</strong> for the internal review"
 msgstr "Akoma po <strong>pres</strong> rishqyrtimin e brendshëm"
 
 msgid "I'm waiting for an <strong>internal review</strong> response"
-msgstr "Unë jam duke pritur për një përgjigje <strong>rishqyrtimi të brendshëm</strong>"
+msgstr "Po pres përgjigje për <strong>rishqyrtim të brendshëm</strong>"
 
 msgid "I've been asked to <strong>clarify</strong> my request"
 msgstr "Më kanë kërkuar të <strong>qartësoj</strong> kërkesën time"
@@ -1374,7 +1381,7 @@ msgid "If the address is wrong, or you know a better address, please <a href=\"{
 msgstr "Nëse adresa është e gabuar, ose ju dini një adresë më të mirë, të lutem <a href=\"{{url}}\">na kontakto</a>."
 
 msgid "If the error was a delivery failure, and you can find an up to date APD email address for the authority, please tell us using the form below."
-msgstr "Nëse gabimi ishte një dështim në dërgim dhe ju mund të gjeni një adresë elektonike të përditësuar të institucionit për QDP, ju lutem na thoni duke përdorur formularin si më poshtë."
+msgstr "Nëse gabimi ishte një dështim në dërgim dhe ju mund të gjeni një adresë elektonike të përditësuar të institucionit për të QDP, ju lutem na thoni duke përdorur formularin si më poshtë."
 
 msgid "If this is a recent message, check back tomorrow, as we check for new logs periodically."
 msgstr "Nëse ky është një mesazh i rishtëm, rishiko nesër pasi i kontrollojmë logjet periodikisht."
@@ -1383,13 +1390,16 @@ msgid "If this is incorrect, or you would like to send a late response to the re
 msgstr "Nëse kjo është e pasaktë, ose dëshironi t'i dërgoni një përgjigje të vonuar kërkesës ose një email për një temë tjetër të {{user}}, atëherë ju lutemi dërgoni email në {{contact_email}} për të na kërkuar të rihapim kërkesën. Më pas mund ta ridërgoni përgjigjen."
 
 msgid "If you are dissatisfied by the response you got from the public authority, you have the right to complain (<a href=\"{{url}}\">details</a>)."
-msgstr "Nëse je i pakënaqur me përgjigjen nga institucioni publik, ke të drejtën të ankohesh (<a href=\"{{url}}\">detajet</a>)."
+msgstr ""
+"Nëse je i pakënaqur me përgjigjen nga\n"
+"            institucioni publik, ke të drejtën të\n"
+"            ankohesh (<a href=\"{{url}}\">detajet</a>)."
 
 msgid "If you are still having trouble, please <a href=\"{{url}}\">contact us</a>."
 msgstr "Nëse ende po keni probleme, të lutem <a href=\"{{url}}\">na kontakto</a>."
 
 msgid "If you are the requester, then you may {{sign_in_link}} to view the attachment."
-msgstr "Nëse jeni kërkuesi, atëherë ju mund të {{sign_in_link}} për të parë bashkëngjitjen."
+msgstr "Nëse jeni kërkuesi, atëherë mund të {{sign_in_link}} për të parë shtojcën."
 
 msgid "If you are the requester, then you may {{sign_in_link}} to view the message."
 msgstr "Nëse jeni ju kërkuesi, atëherë mund të {{sign_in_link}} për të parë mesazhin."
@@ -1404,19 +1414,21 @@ msgid "If you believe this request is not suitable, you can report it for attent
 msgstr "Nëse besoni se kjo kërkesë është e papërshtatshme, ju mund të raportoni atë për vëmendjen e administratorëve të faqes duke përdorur këtë formular"
 
 msgid "If you can spare a few minutes to complete our short survey, it will help us make the site better. Just follow the link below."
-msgstr "Nëse keni ca minuta për ta plotësuar sondazhin tonë të shkurtër, do të na ndihmoj ta bëjmë faqen më të mirë. Vetëm ndiqeni lidhjen më poshtë."
+msgstr "Nëse keni ca minuta për ta plotësuar sondazhin tonë të shkurtër, do të na ndihmoni ta bëjmë faqen më të mirë. Vetëm ndiqeni lidhjen më poshtë."
 
 msgid "If you can't click on it in the email, you'll have to <strong>select and copy it</strong> from the email.  Then <strong>paste it into your browser</strong>, into the place you would type the address of any other webpage."
-msgstr "Nëse ti nuk mund të klikosh në e-mail, duhet që ta <strong>përzgjedhësh dhe t'a kopjosh </strong>.   Pastaj <strong>e bashkangjit (paste)</strong>në fushën e adresës të shfletuesit tënd."
+msgstr ""
+"Nëse ti nuk mund të klikosh mbi të në e-mail, duhet që ta <strong>përzgjedhësh dhe t'a kopjosh </strong>.  Pastaj <strong>e bashkangjit (paste) \n"
+"</strong>në fushën e adresës të platformës së kërkimit tuaj."
 
 msgid "If you can, scan in or photograph the response, and <strong>send us a copy to upload</strong>."
 msgstr "Nëse mund të skanoni ose fotografoni përgjigjen, dhe të <strong>na e dërgoni që ne ta ngarkojmë atë.</strong>."
 
 msgid "If you find this service useful as an APD officer, please ask your web manager to link to us from your organisation's APD page."
-msgstr "Nese ju si nënpunës civil për të Drejtën e Qasjes në Dokumente Publike mendoni se ky shërbim është i dobishëm, ju lutem kërkojini IT-së tuaj të lidh faqen tuaj elektronike me faqen tonë të QDP."
+msgstr "Nese ju si nënpunës civil për të Drejtën e Qasjesnë Dokumente Publike mendoni se ky shërbim është i dobishëm, ju lutem kërkojini IT-së tuaj të lidh faqen tuaj elektronike me faqen tonë të QDP."
 
 msgid "If you found {{site_name}} useful, <a href=\"{{donation_url}}\">make a donation</a> to the charity which runs it."
-msgstr "Nëse mendon se {{site_name}} është i dobishëm, <a href=\"{{donation_url}}\">dërgo një donacion</a> për organizatat që e menaxhojnë atë."
+msgstr "Nëse mendon se {{site_name}} është i dobishëm, <a href=\"{{donation_url}}\">dërgo një donacion</a> për organizatat që e manaxhojnë atë."
 
 msgid "If you got the email <strong>more than two months ago</strong> or <strong>updated your user profile</strong>, then this login link won't work any more. Please try doing what you were doing from the beginning."
 msgstr "Nëse e keni marrë emailin <strong>më shumë se dy muaj më parë</strong> ose <strong>keni përditësuar profilin tuaj të përdoruesit</strong>, atëherë kjo lidhje identifikimi nuk do të funksionoj më. Ju lutemi provoni të bëni atë që po bënit në fillim."
@@ -1425,13 +1437,13 @@ msgid "If you have not done so already, please write a message below telling the
 msgstr "Ju lutem nëse nuk keni dërguar ende mesazh tek institucioni përkatëse për t'i njoftuar që e keni tërhequr kërkesën tuaj, atëherë bëjeni tani. Në të kundërtën, ata nuk do dinë që ju jeni tërhequr."
 
 msgid "If you know the address to use, then please <a href=\"{{url}}\">send it to us</a>. You may be able to find the address on their website, or by phoning them up and asking."
-msgstr "Nëse e dini adresën që duhet të përdorni, atëherë ju lutemi <a href=\"{{url}}\">ta dërgoni atë dhe tek ne</a>. Ju mund ta gjeni adresën në faqen e tyre elektronike, apo duke i marrë në telefon."
+msgstr "Nëse e dini adresën që duhet të përdorni, atëherë ju lutemi <a href=\"{{url}}\">ta dergoni atë dhe tek ne</a>. Ju mund të jeni në gjendje të gjeni adresën në faqen e tyre elektronike, apo duke i marrë në telefon."
 
 msgid "If you reply to this message it will go directly to {{user_name}}, who will learn your email address. Only reply if that is okay."
-msgstr "Nëse i përgjigjeni këtij mesazhi, atëherë përgjigja do të shkoj direkt tek {{user_name}}, të cilët do ta mësojnë adresën tuaj të emailit. Përgjigjuni vetëm nëse jeni dakort për këtë."
+msgstr "Nëse i përgjigjeni këtij mesazhi, atëherë përgjigja do të shkoj direkt tek {{user_name}}, të cilët do të njihen me adresën tuaj të emailit. Pergjigjuni vetëm nëse jeni dakort për këtë."
 
 msgid "If you use web-based email or have \"junk mail\" filters, also check your bulk/spam mail folders. Sometimes, our messages are marked that way."
-msgstr "Nëse përdorni postë elektronike \"web-based\" ose ke filtra të tillë si \"junk mail\", kontrollo edhe folderat bulk/spam. Ndonjëherë, mesazhet tona janë të markuara në këtë mënyrë."
+msgstr "Nëse përdor postë elektronike \"web-based\" ose ke filtra të tillë si \"junk mail\", kontrollo edhe folderat bulk/spam. Ndonjëherë, mesazhet tona janë të markuara në këtë mënyrë."
 
 msgid "If you want to try and get the rest of the information, here's what to do now."
 msgstr "Nëse dëshiron të tentosh që të marrësh edhe pjesën e mbetur të informacionit, ja çfarë mund të bëni."
@@ -1446,7 +1458,7 @@ msgid "If you write about these requests (for example in a forum or a blog) plea
 msgstr "Nëse shkruani për këto kërkesa (për shembull në një forum apo një blog) ju lutem lidheni me këtë faqe."
 
 msgid "If you write about this request (for example in a forum or a blog) please link to this page, and <a href=\"{{url}}\">add an annotation</a> below telling people about your writing."
-msgstr "Nëse shkruani për këtë kërkesë ( për shembull ne një forum apo një blog) ju lutem lidheni me këtë faqe dhe<a href=\"{{url}}\">shto një shënim</a> si më poshtë për t'ju thënë të tjerëve për shkrimet e tua."
+msgstr "Nëse shkruani për këtë kërkesë (për shembull ne një forum apo një blog) ju lutem lidheni me këtë faqe dhe<a href=\"{{url}}\">shto një shënim</a> si më poshtë për t'ju thënë të tjerëve për shkrimet e tua."
 
 msgid "If you write about this request (for example in a forum or a blog) please link to this page."
 msgstr "Nëse shkruani për këtë kërkesë (për shembull në një forum apo një blog) ju lutemi lidheni me këtë faqe."
@@ -1479,7 +1491,7 @@ msgid "Information not held."
 msgstr "Informacioni nuk u mbajt."
 
 msgid "Information on emissions and discharges (e.g. noise, energy, radiation, waste materials)"
-msgstr "Informacion lidhur me emetimet dhe shkarkimet (p.sh. zhurma, energji, rrezatim, mbetje)"
+msgstr "Informacion lidhur me emetimet dhe shkarkimet (p.sh. zhurma, enerjgi, rrezatim, mbetje"
 
 msgid "Internal review"
 msgstr "Shqyrtim i brendshëm"
@@ -1509,13 +1521,13 @@ msgid "It looks like something has gone wrong when sending this message. It coul
 msgstr "Duket sikur diçka shkoi keq gjatë dërgimit të këtij mesazhi. Mund të jetë një problem teknik ose një problem me adresën e emailit që kemi për institucionin."
 
 msgid "It may be that your browser is not set to accept a thing called \"cookies\", or cannot do so.  If you can, please enable cookies, or try using a different browser.  Then press refresh to have another go."
-msgstr "Kjo mund të jetë sepse brauseri juaj nuk është i programuar të pranojë \"cookies\", ose nuk mund ta bëjë këtë. Nëse keni mundësi, të lutem aktivizoni \"cookies\", ose përdorni një brauser (browser) tjetër. Pastaj shtyp \"refresh\" për të provuar edhe një herë."
+msgstr "Kjo mund të jetë sepse brauseri juaj nuk është i programuar të pranojë \"cookies\", ose nuk mund ta bëjë këtë. Nëse keni mundësi, të lutem aktivizoni \"cookies\", ose përdor një brauser (browser) tjetër. Pastaj shtyp \"refresh\" për të provuar edhe një herë."
 
 msgid "Items matching the following conditions are currently displayed on your wall."
 msgstr "Artikujt që i përputhen kushteve të paraqitura aktualisht janë shfaqur në murin tuaj."
 
 msgid "Joined in {{year}}"
-msgstr "Regjistruar në vitin {{year}}"
+msgstr "Bashkuar në vitin {{year}}"
 
 msgid "Joined in {{year}}."
 msgstr "Regjistruar në {{year}}."
@@ -1590,7 +1602,7 @@ msgid "Long overdue"
 msgstr "Tepër i vonuar"
 
 msgid "Long overdue."
-msgstr "Tepër i vonuar."
+msgstr "Tepër e vonuar."
 
 msgid "Made between"
 msgstr "Bërë ndërmjet"
@@ -1614,7 +1626,7 @@ msgid "Make an {{law_used_short}} request"
 msgstr "Bëj një kërkesë {{law_used_short}}"
 
 msgid "Make an {{law_used_short}} request to '{{public_body_name}}'"
-msgstr "Bëni një {{law_used_short}} kërkesë për '{{public_body_name}}'"
+msgstr "Bëni një kërkesë {{law_used_short}} për '{{public_body_name}}'"
 
 msgid "Make an {{legislation}} request to this authority"
 msgstr "Bëj një kërkesë për {{legislation}} te ky institucion"
@@ -1623,7 +1635,7 @@ msgid "Make and browse Access to Public Documents (APD) requests"
 msgstr "Bëj dhe shfleto kërkesa për të Drejtën e Qasjes në Dokumente Publike (QDP)"
 
 msgid "Make sure the information you are asking for is not already publicly available."
-msgstr "Sigurohu që informacioni që po e kërkoni nuk është veçse publik."
+msgstr "Sigurohu që informacioni që po e kërkoni nuk është veç publik."
 
 msgid "Many requests"
 msgstr "Shumë kërkesa"
@@ -1647,7 +1659,7 @@ msgid "More about this authority"
 msgstr "Më shumë për këtë institucion"
 
 msgid "More requests in this batch"
-msgstr "Kërkesa tjera në këtë paketë"
+msgstr "Kërkesa tjera në këtë listë kërkesë"
 
 msgid "More similar requests"
 msgstr "Më shumë kërkesa të ngjashme"
@@ -1704,7 +1716,7 @@ msgid "New response to '{{title}}'"
 msgstr "Përgjigje e re ndaj '{{title}}'"
 
 msgid "New response to your APD request - {{request_title}}"
-msgstr "Përgjigje e re ndaj kërkesës tuaj për të Drejtën e Qasjes në Dokumente Publike - {{request_title}}"
+msgstr "Përgjigje e re ndaj kërkesën tuaj për të Drejtën e Qasjes në Dokumente Publike - {{request_title}}"
 
 msgid "New response to your request"
 msgstr "Përgjigje e re për kërkesën tuaj"
@@ -1809,7 +1821,7 @@ msgid "Oh no! Sorry to hear that your request was refused. Here is what to do no
 msgstr "Na vjen keq që kërkesa jote është refuzuar! Ja se çfarë duhet bërë tani."
 
 msgid "Old e-mail:"
-msgstr "Adresë elektronike e vjetër:"
+msgstr "Adrese elektronike e vjetër:"
 
 msgid "Old email address isn't the same as the address of the account you are logged in with"
 msgstr "Adresa e vjetër elektronike nuk është e njëjtë me adresën e llogarisë me të cilën jeni kyçur për momentin"
@@ -1836,7 +1848,7 @@ msgid "Only the authority can reply to this request, and I don't recognise the a
 msgstr "Vetëm institucioini mund t'i përgjigjet kësaj kërkese, dhe unë nuk e njoh adresën nga ku është dërguar kjo përgjigje"
 
 msgid "Only the authority can reply to this request, but there is no \"From\" address to check against"
-msgstr "Vetëm institucioni mund të përgjigjet kësaj kërkese, por nuk kishte adresë \"Nga: (From:)\" për ta verifikuar dërguesin"
+msgstr "Vetëm institucioni mund të përgjigjet kësaj kërkesë, por nuk kishte adresë \"Nga: (From:)\" për ta verifikuar dërguesin"
 
 msgid "Only the correct combination of confirming your account through an email token and entering the correct one time passcode will allow your account password to be changed."
 msgstr "Vetëm kombinimi i duhur për konfirmimin e llogarisë suaj nëpërmjet postës elektronike dhe vendosjen të kodkalimit njëpërdorishëm do të lejoj llogarinë tuaj të ndryshohet."
@@ -1899,7 +1911,7 @@ msgid "Plans and administrative measures that affect these matters"
 msgstr "Planet dhe masat administrative që ndikojnë këto çështje"
 
 msgid "Play the request categorisation game"
-msgstr "Luaj lojën e kategorizimit të kërkesave"
+msgstr "Luaj në lojën e kategorizimit të kërkesave"
 
 msgid "Play the request categorisation game!"
 msgstr "Luaj lojën e kategorizimit të kërkesave!"
@@ -1911,10 +1923,10 @@ msgid "Please <a href=\"{{url}}\">get in touch</a> with us so we can fix it."
 msgstr "Të lutem <a href=\"{{url}}\">na kontakto</a> që ta rregullojmë atë."
 
 msgid "Please <strong>go to the following requests</strong>, and let us know if there was information in the recent responses to them."
-msgstr "Të lutem<strong> kaloni tek kërkesat vijuese</strong>, dhe na bëni të ditur nëse ka pasur informacion në përgjigjet më të fundit të marra prej tyre."
+msgstr "Të lutem<strong> kaloni tek kërkesat vijuese</strong>, dhe na bëni të ditur nëse ka pasur informacion në përgjgjet më të fundit të marra prej tyre."
 
 msgid "Please <strong>only</strong> write messages directly relating to your request {{request_link}}. If you would like to ask for information that was not in your original request, then <a href=\"{{new_request_link}}\">file a new request</a>."
-msgstr "Të lutem <strong>shkruaj vetëm</strong> mesazhe të ndërlidhura drejtpërdrejti me kërkesën tuaj {{request_link}}. Nëse dëshiron të kërkosh informacion të cilat nuk janë në kërkesën tuaj origjinale, atëherë <a href=\"{{new_request_link}}\">bëj kërkesë të re</a>."
+msgstr "Të lutem <strong>shkruaj vetëm</strong> mesazhe të ndërlidhura drejtpërdrejti me kërkesën tuaj{{request_link}}. Nëse dëshiron të kërkosh informacion të cilat nuk janë në kërkesën tuaj origjinale, atëherë <a href=\"{{new_request_link}}\">bëj kërkesë të re</a>."
 
 msgid "Please ask for environmental information only"
 msgstr "Të lutem kërko vetëm për informacion në lidhje me mjedisin"
@@ -1938,7 +1950,10 @@ msgid "Please click on the link below to cancel or alter these emails."
 msgstr "Të lutem kliko në lidhjen e mëposhtme për të anuluar ose ndryshuar këto mesazhe."
 
 msgid "Please click on the link below to confirm that you want to change the email address that you use for {{site_name}} from {{old_email}} to {{new_email}}"
-msgstr "Ju lutemi klikoni në lidhjen më poshtë për të konfirmuar që dëshironi të ndryshoni adresën e emailit që përdorni për {{site_name}} nga {{old_email}} në {{new_email}}"
+msgstr ""
+"Të lutem kliko në lidhjen e mëposhtme për të konfirmuar se dëshiron të\n"
+"ndryshosh adresën e postës elektronike që përdor në {{site_name}}\n"
+"nga {{old_email}} në {{new_email}}"
 
 msgid "Please click on the link below to confirm your email address."
 msgstr "Të lutem kliko në lidhjen e mëposhtme për të konfirmuar adresën tuaj të postës elektronike."
@@ -1959,7 +1974,7 @@ msgid "Please enable \"cookies\" to carry on"
 msgstr "Të lutem aktivizo \"cookies\" për të vazhduar"
 
 msgid "Please enter a Source URL"
-msgstr "Ju lutem vendosni një burim URL"
+msgstr "Ju lutem vendosni një URL burimi"
 
 msgid "Please enter a password"
 msgstr "Të lutem shkruaj fjalëkalimin"
@@ -2010,27 +2025,29 @@ msgid "Please enter your password"
 msgstr "Të lutem shkruani fjalëkalimin tuaj"
 
 msgid "Please give details explaining why you want a review"
-msgstr "Ju lutemi jepni detaje duke shpjeguar pse dëshironi një rishikim"
+msgstr "Të lutem shkruaj hollësi shpjeguese se për çfarë arsye po kërkon rishqyrtim"
 
 msgid "Please keep it shorter than 500 characters"
 msgstr "Të lutem mbaje tekstin më të shkurtër se 500 karaktere"
 
 msgid "Please keep the summary short, like in the subject of an email. You can use a phrase, rather than a full sentence."
-msgstr "Ju lutemi mbajeni përmbledhjen të shkurtër sikurse në lëndën (subjektin) e një mesazhi elektronik. Mund të shkruash një togfjalësh në vend të një fjalie të plotë."
+msgstr "Të lutem bëje përmbledhjen sa më shkurt, sikurse në lëndën (subjektin) e një mesazhi elektronik. Mund të shkruash një togfjalësh në vend të një fjalie të plotë."
 
 msgid "Please note that in some cases publication of requests and responses will be delayed."
 msgstr "Keni parasysh që në disa raste publikimi i kërkesave dhe përgjigjeve do të vonohet."
 
 msgid "Please only request information that comes under those categories, <strong>do not waste your time</strong> or the time of the public authority by requesting unrelated information."
-msgstr "Ju lutemi kërkoni vetëm informacione që i përkasin atyre kategorive, <strong>mos e humbni kohën tuaj</strong> ose kohën e institucionit publik duke kërkuar informacione që nuk lidhen me to."
+msgstr ""
+"Të lutem kërko vetëm informacion që hyjnë në këto kategori, <strong>mos e humb\n"
+"        kohën</strong> apo kohën e stafit të institucionit duke kërkuar informacion që nuk kanë të bëjnë me të."
 
 msgid "Please pass this on to the person who conducts Access to Public Documents reviews."
-msgstr "Ju lutem kalojeni këtë tek personi i cili shqyrton kërkesat për të Drejtën e Qasjes në Dokumente publike."
+msgstr "Ju lutem kalojeni këtë tek personi i cili shqyrton kërkesat për të Drejtën e Qasjes në Dokumente Publike."
 
 msgid "Please read the recent response and <strong>update the status</strong> so we know whether it contains useful information."
 msgid_plural "Please read the recent responses and <strong>update the status</strong> so we know whether they contain useful information."
 msgstr[0] "Ju lutemi lexoni përgjigjen e fundit dhe <strong>përditësoni statusin</strong> në mënyrë që të dimë nëse përmban informacione të dobishme."
-msgstr[1] "Ju lutemi lexoni përgjigjet e fundit dhe <strong>përditësoni statusin</strong> që të dimë nëse ato përmbajnë informacion të dobishëm."
+msgstr[1] "Ju lutemi lexoni përgjigjet e fundit dhe <strong>përditësoni statusin</strong> në mënyrë që të dimë nëse përmban informacione të dobishme."
 
 msgid "Please select a type"
 msgstr "Ju lutem zgjedh një tip"
@@ -2039,7 +2056,9 @@ msgid "Please select an authority"
 msgstr "Ju lutem zgjedh një institucion"
 
 msgid "Please select each of these requests in turn, and <strong>let everyone know</strong> if they are successful yet or not."
-msgstr "Të lutem selektoni të gjitha kërkesat një pas një, dhe <strong>bëje të ditur për të gjithë</strong> nëse kanë qenë të suksesshme deri më tani apo jo."
+msgstr ""
+"Të lutem selektoni të gjitha kërkesat një pas një, dhe <strong>bëje të njohur për të gjithë</strong>\n"
+"nëse kanë qenë të suksesshme deri me tani apo jo."
 
 msgid "Please sign at the bottom with your name, or alter the \"{{signoff}}\" signature"
 msgstr "Të lutem nënshkruaj në fund me emrin tënd, ose ndrysho \"{{signoff}}\" nënshkrimin"
@@ -2093,7 +2112,7 @@ msgid "Posted on {{date}} by {{author}}"
 msgstr "Postuar më {{date}} nga {{author}}"
 
 msgid "Powered by <a href=\"http://www.alaveteli.org/\">Alaveteli</a>"
-msgstr "Mundësuar nga <a href=\"http://www.alaveteli.org/\">Alaveteli</a>"
+msgstr "Powered by <a href=\"http://www.alaveteli.org/\">Alaveteli</a>"
 
 msgid "Prefer not to receive emails?"
 msgstr "Preferon të mos marrësh mesazhe elektronike?"
@@ -2141,10 +2160,10 @@ msgid "Proposed Email:"
 msgstr "Emaili i propozuar:"
 
 msgid "Public Bodies"
-msgstr "Organet Publike"
+msgstr "Institucionet Publike"
 
 msgid "Public Body"
-msgstr "Organi Publik"
+msgstr "Institucioni Publik"
 
 msgid "Public authorities"
 msgstr "Institucionet publike"
@@ -2159,7 +2178,7 @@ msgid "Public authority statistics"
 msgstr "Statistikat për Institucionet Publike"
 
 msgid "Public bodies that most frequently replied with \"Not Held\""
-msgstr "Institucionet publike që shumë shpesh përgjigjen \"Nuk u Mbajt\""
+msgstr "Organet publike që shumë shpesh përgjigjen \"Nuk u Mbajt\""
 
 msgid "Public bodies with most overdue requests"
 msgstr "Institucionet publiket me shumicën e kërkesave të vonuara"
@@ -2171,7 +2190,7 @@ msgid "Public bodies with the most requests"
 msgstr "Institucionet publike me më shumë kërkesa"
 
 msgid "Public bodies with the most successful requests"
-msgstr "Institucionet publike me kërkesat më të suksesshme"
+msgstr "Institucionet publike me kërkesat më të shumta të suksesshme"
 
 msgid "Publication scheme"
 msgstr "Skema e publikimit"
@@ -2264,7 +2283,7 @@ msgid "Reported for administrator attention."
 msgstr "Raportuar për vëmendjen e administratorit."
 
 msgid "Reporting a request notifies the site administrators. They will respond as soon as possible."
-msgstr "Raportimi i një kërkese njofton administratorin e faqes. Ata do të përgjigjen sa më shpejt të jetë e mundur."
+msgstr "Raportimi i një kërkesë njofton administratorin e faqes. Ata do të përgjigjen sa më shpejt të jetë e mundur.."
 
 msgid "Request '{{request_title}}' to {{public_body_name}}:"
 msgstr "Kërkesa '{{request_title}}' të {{public_body_name}}:"
@@ -2312,7 +2331,7 @@ msgid "Requests are considered successful if they were classified as either 'Suc
 msgstr "Kërkesat konsiderohen të suksesshme nëse ato klasifikohen si 'Të Suksesshme' ose 'Pjesërisht të Suksesshme'."
 
 msgid "Requests for personal information and vexatious requests are not considered valid for APD purposes (<a href=\"/help/about\">read more</a>)."
-msgstr "Kërkesat për informacion personal dhe kërkesat me karakter shqetësues nuk konsiderohen të vlefshme për qëllimet e të Drejtës për Qasje në Dokumente Publike (<a href=\"/help/about\">read more</a>)."
+msgstr "Kërkesat për informacion personal dhe kërkesat me karakter shqetësues nuk konsiderohen të vlefshme për qëllimet e Qasjes në Dokumente Publike (<a href=\"/help/about\">read more</a>)."
 
 msgid "Requests like this"
 msgstr "Kërkesat si kjo"
@@ -2363,7 +2382,7 @@ msgid "Response to this request is <strong>delayed</strong>."
 msgstr "Përgjigja e kësaj kërkese është <strong>vonuar</strong>."
 
 msgid "Response to this request is <strong>long overdue</strong>."
-msgstr "Përgjigja e kësaj kërkese është <strong>vonuar</strong>."
+msgstr "Përgjigja e kësaj kërkese është <strong>vonuar.</strong>."
 
 msgid "Response to your request"
 msgstr "Përgjigje për kërkesën tënde"
@@ -2387,7 +2406,7 @@ msgid "Search"
 msgstr "Kërko"
 
 msgid "Search Access to Public Documents requests, public authorities and users"
-msgstr "Shiko kërkesat e të Drejtës për Qasje në Dokumente Publike, institucionet publike dhe përdoruesits"
+msgstr "Shfleto kërkesat për Qasje në Dokumente Publike, institucionet publike dhe përdoruesit"
 
 msgid "Search contributions by this person"
 msgstr "Kërko për kontribute të bëra nga ky person"
@@ -2402,7 +2421,7 @@ msgid "Search in their website for this information &rarr;"
 msgstr "Kërko në faqet e tyre elektronike për këtë informacion &rarr;"
 
 msgid "Search over<br/><strong>{{number_of_requests}} requests</strong> <span>and</span><br/><strong>{{number_of_authorities}} authorities</strong>"
-msgstr "Kërko mbi<br/><strong>{{number_of_requests}} kërkesa</strong> <span>dhe</span><br/><strong>{{number_of_authorities}} institucioneve publike</strong>"
+msgstr "Kërko mbi<br/> <strong>{{number_of_requests}} kërkesa</strong> <span>dhe</span><br/><strong>{{number_of_authorities}} institucioneve publike</strong>"
 
 msgid "Search queries"
 msgstr "Pyetje për kërkimin"
@@ -2458,7 +2477,7 @@ msgstr "Duke dërguar..."
 msgid "Sent to one authority by {{info_request_user}} on {{date}}."
 msgid_plural "Sent to {{authority_count}} authorities by {{info_request_user}} on {{date}}."
 msgstr[0] "Dërguar tek një institucion nga {{info_request_user}} më {{date}}."
-msgstr[1] "Dërguar tek {{authority_count}} institucione nga {{info_request_user}} më {{date}}."
+msgstr[1] "Dërguar tek {{authority_count}} institucionet nga {{info_request_user}} më {{date}}."
 
 msgid "Set your profile photo"
 msgstr "Vendosni fotografinë tuaj të profilit"
@@ -2536,7 +2555,7 @@ msgid "Snippets related to"
 msgstr "Pjesëza të ndërlidhura me"
 
 msgid "Some notes have been added to your APD request - {{request_title}}"
-msgstr "Disa shënime (komente) iu janë shtuar kërkesës tënde për QDP- {{request_title}}"
+msgstr "Disa shënime (komente) iu janë shtuar kërkesës tënde për të Drejtën e Qasjes në Dokumente Publike- {{request_title}}"
 
 msgid "Some of the information requested has been received"
 msgstr "Disa nga informacionet e kërkuara janë marrë"
@@ -2545,7 +2564,7 @@ msgid "Some people who've made requests haven't let us know whether they were su
 msgstr "Disa persona që kanë bërë kërkesa nuk na kanë bërë të ditur nëse ishin të sukseshme apo jo. Kemi nevojë për ndihmën <strong>tuaj &ndash; përzgjedh një nga këto kërkesa, lexoje atë, dhe njofto të tjerët nëse keni marrë informacionin e kërkuar. Të gjithë do të jenë shumë mirënjohës për këtë."
 
 msgid "Somebody added a note to your APD request - {{request_title}}"
-msgstr "Dikush ka shtuar një shënim në kërkesën tuaj për QDP - {{request_title}}"
+msgstr "Dikush ka shtuar një shënim në kërkesën tuaj për të Drejtën e Qasjes në Dokumente Publike - {{request_title}}"
 
 msgid "Someone has updated the status of your request"
 msgstr "Dikush ka përditësuar statusin e kërkesës suaj"
@@ -2571,7 +2590,7 @@ msgid "Sorry, we couldn't find that page"
 msgstr "Na vjen keq, nuk mundemi ta gjejmë këtë faqe"
 
 msgid "Sorry, we're currently unable to add your annotation. Please try again later."
-msgstr "Na vjen keq, për momentin nuk mund të shtojmë shënimin. Provoni prapë më vonë."
+msgstr "Na vjen keq që për momentin nuk mund të shtojmë shënimin. Provoni prapë me vonë."
 
 msgid "Sorry, we're currently unable to create your account. Please try again later."
 msgstr "Na vjen keq, për momentin nuk jemi të gjendje të krijojmë llogarinë tuaj. Provoni më vonë."
@@ -2583,13 +2602,13 @@ msgid "Sorry, we're currently unable to sign up new users, please try again late
 msgstr "Na vjen keq, për momentin nuk mund të regjistrojmë përdorues të rinj, provoni prapë më vonë"
 
 msgid "Source URL is too long"
-msgstr "Burimi URL është shumë i gjatë"
+msgstr "URL-ja e burimit është shumë e gjatë"
 
 msgid "Source URL:"
 msgstr "Burimi URL:"
 
 msgid "Source:"
-msgstr "Burimi:"
+msgstr "Burim:"
 
 msgid "Spreadsheets"
 msgstr "Tabela"
@@ -2736,7 +2755,9 @@ msgid "Thank you! Your request is long overdue, by more than {{very_late_number_
 msgstr "Faleminderit! Përgjigja në kërkesën tuaj është vonuar së tepërmi, me më shumë se {{very_late_number_of_days}} ditë pune. Shumica e kërkesave duhet të përgjigjen jo më vonë se {{late_number_of_days}} ditë pune. Ju mund të ankoheni për këtë, shih më poshtë."
 
 msgid "Thanks for helping - your work will make it easier for everyone to find successful responses, and maybe even let us make league tables..."
-msgstr "Faleminderit për ndihmë - ndihma juaj do ta bëjë më të lehtë që të tjerët të gjejnë kërkesat e suksesshme, e ndoshta edhe të na mundësoj krijimin e ranglistave..."
+msgstr ""
+"Faleminderit për ndihmë - ndihma juaj do ta bëjë më të lehtë që të tjerët të gjejnë kërkesat e suksesshme, \n"
+"e ndoshta edhe të na mundësoj krijim e ranglistave..."
 
 msgid "Thanks for your suggestion to add {{public_body_name}}. It's been added to the site here:"
 msgstr "Faleminderit për sugjerimin tuaj për të shtuar {{public_body_name}}. Institucioni është shtuar këtu:"
@@ -2745,7 +2766,9 @@ msgid "Thanks for your suggestion to update the email address for {{public_body_
 msgstr "Faleminderit për sugjerimin tuaj për të përditësuar adresën e postës elektronike të {{public_body_name}} me {{public_body_email}}. Adresa është futur tashmë në sistem dhe çdo kërkesë e re do të dërgohet këtu."
 
 msgid "Thanks very much - this will help others find useful stuff. We'll also, if you need it, give advice on what to do next about your requests."
-msgstr "Shumë faleminderit - kjo do të ndihmoj të tjerët të gjejnë gjëra të dobishme. Ne gjithashtu mund të ndihmojmë, nëse keni nevojë, me këshilla si të veproni në vijim me kërkesat tuaja."
+msgstr ""
+"Shumë faleminderit - kjo do të ndihmoj të tjerët të gjejnë gjëra të dobishme. \n"
+"Ne gjithashtu mund të ndihmojmë, nëse keni nevojë, me këshilla si të veproni në vijim me kërkesat tuaja."
 
 msgid "Thanks very much for helping keep everything <strong>neat and organised</strong>. We'll also, if you need it, give you advice on what to do next about each of your requests."
 msgstr "Shumë faleminderit për ndihmën për të mbajtur gjërat të <strong>organizuara dhe në rregull</strong>. Ne gjithashtu mund të ndihmojmë, nëse keni nevojë, me këshilla si të veproni në vijim me kërkesat tuaja."
@@ -2778,22 +2801,22 @@ msgid "The authority email doesn't look like a valid address"
 msgstr "Adresa elektronike e institucionit nuk është e vlefshme"
 
 msgid "The authority only has a <strong>paper copy</strong> of the information."
-msgstr "Institucioni ka vetëm një <strong>kopje në letër</strong> të informacionit."
+msgstr "Institucioni ka vetëm kopje në letër të këtij informacioni."
 
 msgid "The authority say that they <strong>need a postal address</strong>, not just an email, for it to be a valid APD request"
 msgstr "Institucioni thotë se ata kanë <strong>nevojë për një adresë postare,</strong> jo vetëm një adresë të emailit, që ajo të jetë një kërkesë e vlefshme për të Drejtën e Qasjes në Dokumente Publike"
 
 msgid "The authority would like to / has <strong>responded by postal mail</strong> to this request."
-msgstr "Autoriteti dëshiron që / i është përgjigjur kësaj kërkese me postë postare</strong>."
+msgstr "Institucioni do të / është<strong>përgjigjur me postë</strong> në këtë kërkesë."
 
 msgid "The classification of requests (e.g. to say whether they were successful or not) is done manually by users and administrators of the site, which means that they are subject to error."
 msgstr "Klasifikimi i kërkesave (p.sh. ku thuhet janë të suksesshme apo jo) është bërë manualisht nga përdoruesit dhe administratorët e kësaj faqeje, që do të thotë që gabime mund të ndodhin."
 
 msgid "The contact email address for APD requests to the authority."
-msgstr "Adresa e kontaktit për kërkesën e të Drejtën e Qasjes në Dokumente Publike drejtuar institucionit."
+msgstr "Adresa e kontaktit për kërkesat për Qasje në Dokumente Publike drejtuar institucionit."
 
 msgid "The email that you, on behalf of {{public_body}}, sent to {{user}} <{{incoming_email}}> to reply to an {{law_used_short}} request has not been delivered."
-msgstr "Email-i që ju, në emër të {{public_body}}, i dërguar {{user}} <{{incoming_email}}> për t'iu përgjigjur një kërkese {{law_used_short}} nuk është dorëzuar."
+msgstr "Email-i që ju, në emër të {{public_body}}, i dërguat {{user}} <{{incoming_email}}> për t'iu përgjigjur një kërkese {{law_used_short}} nuk është dorëzuar."
 
 msgid "The error bars shown are 95% confidence intervals for the hypothesized underlying proportion (i.e. that which you would obtain by making an infinite number of requests through this site to that authority). In other words, the population being sampled is all the current and future requests to the authority through this site, rather than, say, all requests that have been made to the public body by any means."
 msgstr "Linjat e gabimit janë 95% të intervaleve konfidenciale për përpjestimin e nënkuptuar, që është hipotezuar (p.sh. atë që do të marrësh duke dërguar një numër infinit kërkesash nëpërmjet kësaj faqe tek institucioni). Me fjalë të tjera, popullata që është marrë si kampion testimi janë të gjitha kërkesat aktuale dhe të ardhshme për institucionin nëpërmjet kësaj faqeje, dhe jo kërkesat e bëra nëpërmjet të gjitha formave drejt institucionit përkatës."
@@ -2808,7 +2831,7 @@ msgid "The last incoming message was created in the last day"
 msgstr "Mesazhi i fundit i ardhur është krijuar në ditën e fundit"
 
 msgid "The last incoming message was created over a day ago"
-msgstr "Mesazhi i fundit i ardhur është krijuar më shumë se një ditë më parë"
+msgstr "Mesazhi i fundit i ardhur është krijuar me shumë se një ditë më parë"
 
 msgid "The last outgoing message was created in the last day"
 msgstr "Mesazhi i fundit i dërguar është krijuar në ditën e fundit"
@@ -2904,7 +2927,7 @@ msgid "Then you can cancel the alerts."
 msgstr "Më pas mund të anuloni njoftimet urgjente."
 
 msgid "Then you can change your email address used on {{site_name}}"
-msgstr "Më pas mund të ndryshoni adresën tuaj të emailit që përdorët në {{site_name}}"
+msgstr "Më pas mund të ndryshoni adresën tuaj të emailit që përdoret në {{site_name}}"
 
 msgid "Then you can change your password on {{site_name}}"
 msgstr "Më pas mund të ndryshoni fjalëkalimin që përdorët në {{site_name}}"
@@ -2940,7 +2963,7 @@ msgid "Then you can update the status of your request to {{authority_name}}."
 msgstr "Më pas mund të përditësosh statusin e kërkesës tuaj për {{authority_name}}."
 
 msgid "Then you can upload an APD response. "
-msgstr "Më pas mund të ngarkoni një përgjigje ndaj kërkesës për QDP. "
+msgstr "Më pas mund të ngarkoni një përgjigje ndaj kërkesës për të Drejtën e Qasjes në Dokumente Publike."
 
 msgid "Then you can write follow up message to {{authority_name}}."
 msgstr "Më pas mund të dërgoni mesazh te {{authority_name}}."
@@ -2949,7 +2972,7 @@ msgid "Then you can write your reply to {{authority_name}}."
 msgstr "Më pas mund të dërgoni mesazh te {{authority_name}}."
 
 msgid "Then you will be following all new APD requests."
-msgstr "Më pas do të ndiqni të gjitha kërkesat e reja për QDP."
+msgstr "Më pas do të ndiqni të gjitha kërkesat e reja për të Drejtën e Qasjes në Dokumente Publike."
 
 msgid "Then you will be notified whenever '{{user_name}}' requests something or gets a response."
 msgstr "Më pas do njoftoheni sa herë që '{{user_name}}' bën ndonjë kërkesë apo merr përgjigje."
@@ -2982,7 +3005,7 @@ msgid "There are no requests to extract right now. Great job!"
 msgstr "Nuk ka kërkesa për të ekstraktuar për momentin. Punë e mirë!"
 
 msgid "There are various reasons why we might have done this, sorry we can't be more specific here."
-msgstr "Ka arsye të ndryshme pse ne mund ta kemi bërë këtë, na vjen keq që nuk mund të jemi më specifik këtu."
+msgstr "\"Ka arsye të ndryshme pse ne mund ta kemi bërë këtë, na vjen keq që nuk mund të jemi më specifik këtu."
 
 msgid "There are {{count}} new annotations on your {{law_used_short}} request. Follow this link to see what they wrote."
 msgstr "Ka {{count}} shënime të reja në kërkesën tuaj {{law_used_short}}. Ndiqni këtë lidhje për t'i parë ato."
@@ -3030,13 +3053,13 @@ msgid "They have been given the following explanation:"
 msgstr "Atyre u është dhënë shpjegimi vijues:"
 
 msgid "They have not replied to your {{law_used_short}} request '{{title}}' promptly, as normally required by law"
-msgstr "Nuk janë përgjigjur në kërkesën {{law_used_short}} tënde '{{title}}' me kohë siç kërkohet me ligj"
+msgstr "Nuk janë përgjigjur në kërkesën {{law_used_short}} tënde'{{title}}' me kohë siç kërkohet me ligj"
 
 msgid "They have not replied to your {{law_used_short}} request '{{title}}', as normally required by law"
-msgstr "Nuk janë përgjigjur në kërkesën {{law_used_short}} tënde '{{title}}' me kohë siç kërkohet me ligj"
+msgstr "Nuk janë përgjigjur në kërkesën {{law_used_short}} tënde'{{title}}' me kohë siç kërkohet me ligj"
 
 msgid "They have not replied to your {{law_used_short}} request {{title}} promptly, as normally required by law"
-msgstr "Ata nuk janë përgjigjur menjëherë ndaj kërkesës suaj {{law_used_short}} {{title}}, siç kërkohet normalisht nga ligji"
+msgstr "Ata nuk i janë përgjigjur menjëherë kërkesës suaj {{law_used_short}} {{title}}, siç kërkohet normalisht me ligj"
 
 msgid "They have still not replied to your {{law_used_short}} request {{title}}, as normally required by law"
 msgstr "Ende nuk u janë përgjigjur te kërkesa e {{law_used_short}} {{title}}, siç kërkohet normalisht me ligj"
@@ -3057,7 +3080,7 @@ msgid "This attachment has prominence \"hidden\". {{reason}} You can only see it
 msgstr "Kjo shtojcë ka rëndësi \"hidden\". {{reason}} Ju mund ta shihni atë sepse jeni kyçur si një super përdorues."
 
 msgid "This attachment has prominence \"requester_only\". {{reason}} You can only see it because you are logged in as a super user."
-msgstr "Kjo bashkëngjitje ka rëndësi \"requester_only\". {{reason}} Ju mund ta shihni atë sepse jeni kyçur si një super përdorues."
+msgstr "Kjo bashkëngjitje ka rëndësi \"requester_only\". {{reason}} Ju mund ta shihni atë sepse jeni kyçu si një super përdorues."
 
 msgid "This attachment is hidden, so that only you, the requester, can see it. {{reason}}"
 msgstr "Kjo shtojcë është fshehur, ashtu që vetëm ju, kërkuesi, mund ta shihni atë. {{reason}}"
@@ -3130,7 +3153,7 @@ msgstr "Ky person nuk ka bërë kërkesa për të Drejtën e Qasjes në Dokument
 
 msgid "This person's Access to Public Documents request"
 msgid_plural "This person's Access to Public Documents requests (approximately {{count}})"
-msgstr[0] "Kërkesa për Qasje në Dokumente Publike të këtij personi"
+msgstr[0] "Kërkesa për qasje në dokument publik të këtij personi"
 msgstr[1] "Kërkesat për qasje në dokumente publike të këtij personi (përafërsisht {{count}})"
 
 msgid "This person's annotations"
@@ -3157,7 +3180,7 @@ msgid "This request has been <strong>reported</strong> as needing administrator 
 msgstr "Kjo kërkesë është <strong>raportuar</strong> se kërkon vëmendjen e administratorit."
 
 msgid "This request has been <strong>withdrawn</strong> by the person who made it. There may be an explanation in the correspondence below."
-msgstr "Kjo kërkesë është <strong>tërhequr</strong> nga personi që e bëri atë. Mund të ketë një shpjegim në korrespondencën më poshtë."
+msgstr "Kjo kërkesë është <strong>tërhequr</strong> nga personi që e bëri atë. » Mund të ketë një shpjegim në korrespondencën më poshtë."
 
 msgid "This request has been hidden. {{reason}}"
 msgstr "Kjo kërkesë është fshehur. {{reason}}"
@@ -3172,7 +3195,7 @@ msgid "This request has been reported for administrator attention"
 msgstr "Kjo kërkesë është dërguar për vëmendje të administratorit"
 
 msgid "This request has been reviewed by an administrator and is considered not to be an APD request"
-msgstr "Kjo kërkesë është shikuar nga një administrator dhe konsiderohet se nuk është një kërkesë për QDP"
+msgstr "Kjo kërkesë është shikuar nga një administrator dhe konsiderohet se nuk është një kërkesë QDP"
 
 msgid "This request has been reviewed by an administrator and is considered to be vexatious"
 msgstr "Kjo kërkesë është shikuar nga një administrator dhe konsiderohet se është shqetësuese"
@@ -3181,7 +3204,9 @@ msgid "This request has been set by an administrator to \"allow new responses fr
 msgstr "Për këtë kërkesë, administratori ka vendosur që të mos pranohet përgjigje nga askush"
 
 msgid "This request has had an unusual response, and <strong>requires attention</strong> from the {{site_name}} team."
-msgstr "Kjo kërkesë ka pasur një përgjigje të pazakontë dhe <strong>kërkon vëmendje</strong> nga ekipi i {{site_name}}."
+msgstr ""
+"Kjo kërkesë ka pasur një përgjigje të pazakontë dhe <strong>kërkon \"\n"
+"\"vëmendje</strong> nga ekipi i {{site_name}}."
 
 msgid "This request has prominence \"hidden\". {{reason}} You can only see it because you are logged in as a super user."
 msgstr "Kjo kërkesë ka rëndësi \"e fshehur\". {{reason}} Ju mund ta shihni atë sepse jeni kyçur si një super përdorues."
@@ -3214,7 +3239,10 @@ msgid "This section on public body statistics is currently experimental, so ther
 msgstr "Kjo pjesë e statistikave të institucioneve publike për momentin eksperimentale, kështu që ka disa çështje që duhet të mbahen në mend:"
 
 msgid "This table shows the technical details of the internal events that happened to this request on {{site_name}}. This could be used to generate information about the speed with which authorities respond to requests, the number of requests which require a postal response and much more."
-msgstr "Kjo tabelë paraqet detajet teknike rreth ndodhive të brendshme të kësaj kërkese në {{site_name}}. Kjo mund të përdoret për të nxjerrë informata rreth shpejtësisë me të cilën institucionet i përgjigjen kërkesave, numrit të kërkesave që kërkojnë përgjigje postale dhe gjëra të tjera."
+msgstr ""
+"Kjo tabelë paraqet detajet teknike rreth ndodhive të brendshme të kësaj kërkese në {{site_name}}. Kjo mund të përdoret për të nxjerrë informata rreth\n"
+"shpejtësisë me të cilën institucionet i përgjigjen kërkesave, numrit të kërkesave\n"
+"që kërkojnë përgjigje postale dhe gjëra të tjera."
 
 msgid "This user has been suspended from {{site_name}} "
 msgstr "Ky përdorues është pezulluar nga {{site_name}} "
@@ -3250,7 +3278,7 @@ msgid "To classify the response to this APD request"
 msgstr "Për të klasifikuar përgjigjen e kësaj kërkese për të Drejtën e Qasjes në Dokumente Publike"
 
 msgid "To do that please send a private email to {{postal_email}} {{postal_email_link}} containing your postal address, and asking them to reply to this request. Or you could phone them."
-msgstr "Për të bërë këtë ju lutem dërgoni një email private te {{postal_email}} {{postal_email_link}} e cila përmban adresën tuaj postale, dhe duke u kërkuar atyre të përgjigjen në këtë kërkesë. Ose ju mund t'i telefononi ata."
+msgstr "Për të bërë këtë ju lutem dërgoni një email private te {{postal_email}} {{postal_email_link}} e cila përmban adresën tuaj postale, dhe duke u kërkuar atyre të përgjigjen në këtë kërkesë. Ose ju mund t'iu telefononi atyre."
 
 msgid "To do this, first click on the link below."
 msgstr "Për ta bërë këtë, së pari kliko në lidhjen si më poshtë."
@@ -3271,7 +3299,7 @@ msgid "To follow requests by '{{user_name}}'"
 msgstr "Për të ndjekur kërkesat nga '{{user_name}}'"
 
 msgid "To follow requests made using {{site_name}} to the public authority '{{public_body_name}}'"
-msgstr "Për të ndjekur kërkesat e bëra duke përdorur {{site_name}} drejtuar institucionit publik '{{public_body_name}}'"
+msgstr "Për të ndjekur kërkesat e bëra duke përdorur {{site_name}} drejtuar institucionit publik'{{public_body_name}}'"
 
 msgid "To follow the request '{{request_title}}'"
 msgstr "Për të ndjekur kërkesën '{{request_title}}'"
@@ -3310,13 +3338,13 @@ msgid "To send a message to {{user_name}}"
 msgstr "Për të dërguar mesazh te {{user_name}}"
 
 msgid "To send and publish your APD request"
-msgstr "Për të dërguar dhe publikuar kërkesën për QDP"
+msgstr "Për të dërguar dhe publikuar kërkesën QDP"
 
 msgid "To send your request to another authority, first copy the text of your request below, then <a href=\"{{find_authority_url}}\">find the other authority</a>."
 msgstr "Për të dërguar kërkesën tek një institucion tjetër, më parë kopjoni tekstin nga kërkesa juaj si më poshtë, më pas<a href=\"{{find_authority_url}}\"> gjeni institucionin</a>."
 
 msgid "To update the status of this APD request"
-msgstr "Për të përditësuar statusin e kësaj kërkese për QDP"
+msgstr "Për të përditësuar statusin e kësaj kërkese QDP"
 
 msgid "To upload a response, you must be logged in using an email address from {{authority_name}}"
 msgstr "Për të ngarkuar një përgjigje, duhet të kyçesh duke përdorur një adresë elektronike nga {{authority_name}}"
@@ -3409,13 +3437,13 @@ msgid "URL name is already taken"
 msgstr "Emri URL është tashmë i zënë"
 
 msgid "Unable to change email address on {{site_name}}"
-msgstr "Nuk mund të ndryshohet adresa e emailit në {{site_name}}"
+msgstr "E pamundur për të ndryshuar adresën elektronike të {{site_name}}"
 
 msgid "Unable to send a reply to {{username}}"
-msgstr "Nuk mund të dërgohet një përgjigje te {{username}}"
+msgstr "E pamundur për të dërguar përgjigje te {{username}}"
 
 msgid "Unable to send follow up message to {{username}}"
-msgstr "Nuk mund të dërgohet mesazhi vijues te {{username}}"
+msgstr "E pamundur për të dërguar një mesazh vijues te {{username}}"
 
 msgid "Unavailable"
 msgstr "S'është në dispozicion"
@@ -3460,16 +3488,16 @@ msgid "Update the status of your request to {{authority_name}}"
 msgstr "Përditëso statusin e kërkesës tuaj për {{authority_name}}"
 
 msgid "Upload APD response"
-msgstr "Ngarko përgjigjen për të Drejtën e Qasjes në Dokumente Publike"
+msgstr "Ngarko përgjigjen për këtë QDP"
 
 msgid "Use OR (in capital letters) where you don't mind which word,  e.g. <strong><code>commons OR lords</code></strong>"
 msgstr "Përdor OSE (me shkronja të mëdha), atje ku nuk ke kundërshtim cilat fjalë, p.sh. <code><strong>të përbashkëta ose të mëdhaja</strong></code>"
 
 msgid "Use quotes when you want to find an exact phrase, e.g. <strong><code>\"Liverpool City Council\"</code></strong>"
-msgstr "Përdorni thonjëzat (\" \") kur dëshiron të gjesh një fjalë ekzakte, p.sh. <code><strong>\"Ministria e Arsimit\"</strong></code>"
+msgstr "Përdor thonjëzat (\" \") kur dëshiron të gjesh një fjalë ekzakte, p.sh. <code><strong>\"Ministria e Arsimit\"</strong></code>"
 
 msgid "Use this site to make your request for information – we'll show you how."
-msgstr "Përdorni këtë faqe interneti për të bërë kërkesën tuaj për informacion – ne do ju tregojmë hapat që duhet ndjekur."
+msgstr "Përdor këtë faqe interneti për të bërë kërkesën tuaj për informacion – ne do ju tregojmë hapat që duhet ndjekur."
 
 msgid "Users cannot usually make batch requests to multiple authorities at once because we don’t want public authorities to be bombarded with large numbers of inappropriate requests.  Please <a href=\"{{url}}\">contact us</a> if you think you have good reason to send the same request to multiple authorities at once."
 msgstr "Përdoruesit zakonisht nuk mund t'u bëjnë kërkesa shumë institucioneve në të njëjtën kohë, sepse ne nuk duam që institucionet të bombardohen me një numër të madh kërkesash të papërshtatshme. Ju lutemi <a href=\"{{url}}\">na kontaktoni</a> nëse mendoni se keni arsye të mira për t'ua dërguar të njëjtën kërkesë institucioneve në të njëjtën kohë."
@@ -3484,19 +3512,19 @@ msgid "Vexatious annotation"
 msgstr "Shënim i shqetësues"
 
 msgid "View APD email address"
-msgstr "Shih adresën e postës elektronike për të Drejtën për Qasje në Dokumente Publike"
+msgstr "Shih adresën e postës elektronike për QDP"
 
 msgid "View APD email address for '{{public_body_name}}'"
-msgstr "Shih adresën elektronike për të Drejtën për Qasje në Dokumente Publike nga '{{public_body_name}}'"
+msgstr "Shih adresën elektronike për QDP nga'{{public_body_name}}'"
 
 msgid "View APD email address for {{public_body_name}}"
-msgstr "Shih adresat elektronike për të Drejtën për Qasje në Dokumente Publike nga {{public_body_name}}"
+msgstr "Shih adresat elektronike për QDP nga{{public_body_name}}"
 
 msgid "View Access to Public Documents requests made by {{user_name}}:"
 msgstr "Shih kërkesat për të Drejtën e Qasjes në Dokumente Publike të bëra nga {{user_name}}:"
 
 msgid "View authorities"
-msgstr "Shih institucionin"
+msgstr "Shih institucionet"
 
 msgid "View email"
 msgstr "Shih mesazhin"
@@ -3553,7 +3581,11 @@ msgid "We don't know the delivery status for this message."
 msgstr "Nuk e dijmë statusin e dorëzimit për këtë mesazh."
 
 msgid "We don't know whether the most recent response to this request contains information or not &ndash; if you are {{user_link}} please <a href=\"{{url}}\">sign in</a> and let everyone know."
-msgstr "Nuk e dimë nëse përgjigja më e fundit ndaj kësaj kërkese përmban informacion apo jo &ndash; nëse jeni {{user_link}} ju lutemi <a href=\"{{url}}\">identifikohuni</a> dhe njoftoni të gjithë."
+msgstr ""
+"Ne nuk e dimë nëse përgjigja e fundit në këtë kërkesë përmban\n"
+"    informata apo jo\n"
+"        &ndash;\n"
+" nëse ti je {{user_link}}, të lutem <a href=\"{{url}}\">kyçu </a> dhe bëje këtë të ditur për të tjerët."
 
 msgid "We have <a href=\"{{other_means_url}}\">suggestions</a> on other means to answer your question."
 msgstr "Ne kemi <a href=\"{{other_means_url}}\">sugjerime</a> për metoda të tjera për marrë përgjigje ndaj pyetjes suaj."
@@ -3586,7 +3618,7 @@ msgid "We're glad you got some of the information that you wanted."
 msgstr "Na vjen mirë që keni marrë disa prej informacioneve të kërkuara."
 
 msgid "We're glad you got some of the information that you wanted. If you found {{site_name}} useful, <a href=\"{{donation_url}}\">make a donation</a> to the charity which runs it."
-msgstr "Na vjen mirë që keni marrë disa prej informacioneve të kërkuara. Nëse e keni gjetur {{site_name}} të dobishme, <a href=\"{{donation_url}}\">bëj një donacion</a> për organizatat që menaxhojnë faqen."
+msgstr "Na vjen mirë që keni marrë disa prej informacioneve të kërkuara. Nëse e keni gjetur {{site_name}} të dobishme,  <a href=\"{{donation_url}}\">bëj një donacion</a> për organizatat që menaxhojnë faqen."
 
 msgid "We're waiting for someone to read a recent response and update the status accordingly. Perhaps <strong>you</strong> might like to help out by doing that?"
 msgid_plural "We're waiting for someone to read recent responses and update the status accordingly. Perhaps <strong>you</strong> might like to help out by doing that?"
@@ -3647,13 +3679,15 @@ msgid "What's happened:"
 msgstr "Çfarë ka ndodhur:"
 
 msgid "When you get there, please update the status to say if the response contains any useful information."
-msgstr "Kur të arrish atje, të lutem përditësoni statusin e kërkesës që të tregosh nëse përgjigja ka informacion të dobishëm."
+msgstr ""
+"Kur të arrish atje, të lutem përditësoni statusin e kërkesës që të tregosh nëse përgjigja ka \n"
+"informacion të dobishëm."
 
 msgid "When you receive the paper response, please help others find out what it says:"
 msgstr "Kur të marrësh përgjigjen në letër, të lutem i ndihmoni të tjerët të informohen se çfarë thuhet në të:"
 
 msgid "When you want to change your account password, you will also need to enter your two factor one time passcode. Your one time passcode can only be used once, so a new one will be generated after you've successfully changed your password. You'll need to update your password manager or print the new passcode."
-msgstr "Kur dëshiron të ndryshosh fjalëkalimin e llogarisë, ju duhet gjithashtu të vendosni kodkalimin e vetëm një herë me dy faktorë. Kodikalimi juaj i vetëm një herë mund të përdoret vetëm një herë, kështu që një kodkalim i ri do të gjenerohet pasi të keni ndryshuar me sukses fjalëkalimin tuaj. Do ju nevojitet të përditësoni menaxherin e fjalëkalimeve ose të shtypni kodkalimin e ri."
+msgstr "Kur dëshiron të ndryshosh fjalëkalimin e llogarisë, ju duhet gjithashtu të vendosni kodkalimin e vetëm një herë me dy faktorë. Kodikalimi juaj i vetëm një herë mund të përdoret vetëm një herë, kështu që një kodkalim i ri do të gjenerohet pasi të keni ndryshuar me sukses fjalëkalimin tuaj. Do ju nevojitet të përditësoni manaxherin e fjalëkalimeve ose të shtypni kodkalimin e ri."
 
 msgid "When you're done, <strong>come back here</strong>, <a href=\"{{url}}\">reload this page</a> and file your new request."
 msgstr "Kur të kesh mbaruar, <strong>kthehu këtu,</strong> <a href=\"{{url}}\">rifresko këtë faqe</a> dhe bëj kërkesën tënde të re."
@@ -3686,7 +3720,7 @@ msgid "Write about this on Medium"
 msgstr "Shkruaj për këtë në Medium"
 
 msgid "Write your APD follow up message to {{authority_name}}"
-msgstr "Shkruaj mesazhin tënd pasues për QDP te {{authority_name}}"
+msgstr "Shkruaj mesazhin tënd pasues QDP te {{authority_name}}"
 
 msgid "Write your request in <strong>simple, precise language</strong>."
 msgstr "Shkruaje kërkesën tënde me <strong>gjuhë të thjeshtë, dhe të saktë</strong>."
@@ -3695,13 +3729,13 @@ msgid "Yes"
 msgstr "Po"
 
 msgid "You already created the same batch of requests on {{date}}. You can either view the <a href=\"{{existing_batch}}\">existing batch</a>, or edit the details below to make a new but similar batch of requests."
-msgstr "Ju tashmë keni krijuar të njëjtën listë kërkesash më {{date}}. Ju ose mund të shikoni <a href=\"{{existing_batch}}\">listën ekzistuese</a> ose të modifikoni detajet më poshtë për të bërë një listë të re por të ngjashme kërkesash."
+msgstr "Ju tashmë keni krijuar të njëjtën listë kërkesash më {{date}}. Ju ose mund të shikoni <a href=\"{{existing_batch}}\">listën ekzistues</a> ose të modifikoni detajet më poshtë për të bërë një listë të re por të ngjashme kërkesash."
 
 msgid "You are a <strong>contributor</strong> on this project"
 msgstr "Je një <strong>kontribues</strong> në këtë projekt"
 
 msgid "You are already a member of this project"
-msgstr "Tashmë jeni anëtar i këtij projekti"
+msgstr "Tashëm jeni anëtar i këtij projekti"
 
 msgid "You are already following new requests"
 msgstr "Tashmë jeni duke ndjekur kërkesat e reja"
@@ -3761,13 +3795,13 @@ msgid "You are no longer following <a href=\"{{successful_requests_url}}\">succe
 msgstr "Nuk po ndiqni më <a href=\"{{successful_requests_url}}\">kërkesat e suksesshme</a>."
 
 msgid "You are now <a href=\"{{wall_url_user}}\">following</a> updates about '{{link_to_authority}}', a public authority."
-msgstr "Tani jeni <a href=\"{{wall_url_user}}\">duke ndjekur</a> përditësimet e '{{link_to_authority}}', një institucioni publik."
+msgstr "Tani jeni <a href=\"{{wall_url_user}}\">duke ndjekur</a> përditësimet e'{{link_to_authority}}', një institucioni publik."
 
 msgid "You are now <a href=\"{{wall_url_user}}\">following</a> updates about '{{link_to_request}}', a request."
 msgstr "Tani jeni <a href=\"{{wall_url_user}}\">duke ndjekur</a> përditësimet '{{link_to_request}}', për një kërkesë."
 
 msgid "You are now <a href=\"{{wall_url_user}}\">following</a> updates about '{{link_to_user}}', a person."
-msgstr "Tani jeni <a href=\"{{wall_url_user}}\">duke ndjekur</a> përditësimet e '{{link_to_user}}', një personi."
+msgstr "Tani jeni <a href=\"{{wall_url_user}}\">duke ndjekur</a> përditësimet e'{{link_to_user}}', një personi."
 
 msgid "You are now <a href=\"{{wall_url_user}}\">following</a> updates about <a href=\"{{new_requests_url}}\">new requests</a>."
 msgstr "Tani jeni <a href=\"{{wall_url_user}}\">duke ndjekur</a> përditësimet e <a href=\"{{new_requests_url}}\">kërkesave të reja</a>."
@@ -3792,8 +3826,8 @@ msgstr "Ju mund të rigjeneroni kodkalimin tuaj të vetëm një herë në çdo k
 
 msgid "You can see the request and remind the body to respond with the following link:"
 msgid_plural "You can see the requests and remind the bodies to respond with the following links:"
-msgstr[0] "Mund të shohësh kërkesën dhe rikujtosh institucionit të përgjigjet përmes kësaj lidhjeje:"
-msgstr[1] "Mund të shohësh kërkesat dhe rikujtosh institucioneve të përgjigjen përmes kësaj lidhjeje:"
+msgstr[0] "Mund të shohësh kërkesën dhe rikujtosh institucioneve të përgjigjen përmes kësaj lidhjeje:"
+msgstr[1] "Mund ta shohësh kërkesat dhe rikujtosh institucioneve të përgjigjen përmes kësaj lidhjeje:"
 
 msgid "You can see the request and tell the body to respond with the following link. You might like to ask for an internal review, asking them to find out why their response to the request has been so slow."
 msgid_plural "You can see the requests and tell the bodies to respond with the following links. You might like to ask for internal reviews, asking the bodies to find out why responses to the requests have been so slow."
@@ -3827,19 +3861,22 @@ msgid "You have made no Access to Public Documents requests using this site."
 msgstr "Nuk ke bërë kërkesa për të Drejtën e Qasjes në Dokumente Publike duke përdorur këtë faqe."
 
 msgid "You have now changed the text about you on your profile."
-msgstr "Tani keni ndryshuar tekstin për veten në profilin tuaj."
+msgstr "Ju keni ndryshuar tani tekstin për ju në profilin tuaj."
 
 msgid "You have now changed your email address used on {{site_name}}"
 msgstr "Tashmë keni ndryshuar adresën tuaj të postës elektronike që përdorët në {{site_name}}"
 
 msgid "You have the <strong>right</strong> to request information from any publicly-funded body, and get answers. {{site_name}} helps you make an Access to Public Documents request. It also publishes all requests online."
-msgstr "Ju keni <strong>të drejtën</strong> për të kërkuar informacion nga çdo agjenci që funksionon me fondet publike dhe të merrni përgjigje. {{site_name}} ju ndihmon si të bëni kërkesat për të Drejtën e Qasjes (QDP). Gjithashtu kjo faqe publikon të gjitha kërkesat online ."
+msgstr "Ju keni <strong>të drejtën</strong> për të kërkuar informacion nga çdo agjenci që funksionon me fondet publike dhe të merrni përgjigje. {{site_name}} ju ndihmon si të bëni kërkesat për të Drejtën e Qasjes në Dokumente Publike (QDP). Gjithashtu kjo faqe publikon online të gjitha kërkesat."
 
 msgid "You just tried to sign up to {{site_name}}, when you already have an account. Your name and password have been left as they previously were. Please click on the link below."
-msgstr "Keni tentuar të regjistroheni në {{site_name}}, kur tashmë je i regjistruar. Emri dhe fjalëkalimi kanë mbetur siç kanë qenë më parë. Të lutem kliko në lidhjen e mëposhtme."
+msgstr ""
+"Keni tentuar të regjistroheni në {{site_name}}, kur tashmë je i regjistruar. Emri dhe fjalëkalimi kanë mbetur siç kanë qenë më parë. \n"
+"\n"
+"Të lutem kliko në lidhjen e mëposhtme."
 
 msgid "You know what caused the error, and can <strong>suggest a solution</strong>, such as a working email address."
-msgstr "Ju e dini se çfarë shkaktoi gabimin dhe mund të <strong>sugjeroni një zgjidhje</strong>, p.sh. një adresë funksionale të institucionit."
+msgstr "Ju e dini se çfarë shkaktoi gabimin dhe mund të <strong>sugjeroni një zgjidhje,</strong>p.sh. një adresë funksionale të institucionit."
 
 msgid "You left an annotation ({{date}})"
 msgstr "Ju keni lënë një shënim ({{date}})"
@@ -3848,7 +3885,10 @@ msgid "You may <strong>include attachments</strong>. If you would like to attach
 msgstr "Ju keni mundësinë <strong>të përfshini dokumente të bashkangjitura</strong>. Nëse dëshironi të bashkangjitni një dokument që është shumë i madh për mesazhin elektronik, përdorni formularin si më poshtë."
 
 msgid "You may be able to find one on their website, or by phoning them up and asking. If you manage to find one, then please <a href=\"{{help_url}}\">send it to us</a>."
-msgstr "Ju mund të jeni në gjendje të gjeni një në faqen e tyre të internetit, ose duke i telefonuar dhe pyetur. Nëse arrin të gjesh një, atëherë <a href=\"{{help_url}}\">na dërgo</a>."
+msgstr ""
+"Ju keni mundësinë të gjeni atë\n"
+"    në faqen e tyre të internetit, ose duke iu telefonuar atyre. Nëse keni arritur të gjeni adresën,\n"
+"    atëherë të lutem <a href=\"{{help_url}}\">na e dërgoni të njëjtën</a>."
 
 msgid "You may be able to find one on their website, or by phoning them up and asking. If you manage to find one, then please send it to us:"
 msgstr "Ndoshta ju do mundeni të gjeni një të tillë në faqen e tyre të internetit, ose duke i telefonuar ata. Nëse arrini ta gjeni atëherë ju lutemi na e dërgoni:"
@@ -3878,7 +3918,7 @@ msgid "You previously submitted that exact follow up message for this request."
 msgstr "Më parë ke dërguar të njëjtin mesazh vazhdues për këtë kërkesë."
 
 msgid "You should get a response within {{late_number_of_days}} days, or be told if it will take longer (<a href=\"{{review_url}}\">details</a>)."
-msgstr "Normalisht duhet të merrni një përgjigje brenda {{late_number_of_days}} ditë pune, ose të njoftoheni se do të marrë kohë më të gjatë (<a href={{review_url}}\">detajet</a>)."
+msgstr "Normalisht duhet të merrni një përgjigje brenda  {{late_number_of_days}} ditë pune, ose të njoftoheni se do të marrë kohë më të gjatë (<a href={{review_url}}\">detajet</a>)."
 
 msgid "You should have received a copy of the request by email, and you can respond by <strong>simply replying</strong> to that email. For your convenience, here is the address:"
 msgstr "Ju duhet të kishit marrë një kopje të kërkesës me postë elektronike dhe ju mund t'i përgjigjeni thjeshtë duke <strong> ju përgjigjur</strong> këtij mesazhi. Për lehtësinë tuaj, ja ku ndodhet adresa:"
@@ -3893,16 +3933,16 @@ msgid "You will be unable to make new requests, send follow ups or send messages
 msgstr "Nuk do të jeni në gjendje të bëni kërkesa të reja, të dërgoni përcjellje ose të dërgoni mesazhe të përdoruesit e tjerë. Mund të vazhdoni të shikoni kërkesat e tjera dhe të konfiguroni lajmërimet me email."
 
 msgid "You will be unable to make new requests, send follow ups, add annotations or send messages to other users. You may continue to view other requests, and set up email alerts."
-msgstr "Nuk do mundeni të realizoni kërkesa të reja, të dërgoni mesazhe vijuese, të shtoni shënime apo të dërgoni mesazhe tek përdoruesit e tjerë. Ju mund të vazhdoni të shihni kërkesat e tjera dhe të programoni lajmërimet elektronike."
+msgstr "Nuk do mundeni të kryeni kërkesa të reja, të dërgoni mesazhe vijuese, të shtoni shënime apo të dërgoni mesazhe tek përdoruesit e tjerë. Ju mund të vazhdoni të shihni kërkesat e tjera dhe të programoni lajmërimet elektronike."
 
 msgid "You will no longer be emailed updates for those alerts"
 msgstr "Nuk do të merrni më përditësimet me postë elektronike për këto lajmërime"
 
 msgid "You will now be emailed updates about '{{link_to_authority}}', a public authority."
-msgstr "Tani do të merrni përditësimet me postë elektronike rreth '{{link_to_authority}}', një institucioni publik."
+msgstr "Tani do të merrni përditësimet me postë elektronike rreth'{{link_to_authority}}', një institucioni publik."
 
 msgid "You will now be emailed updates about '{{link_to_request}}', a request."
-msgstr "Tani do të merrni përditësimet me postë elektronike rreth '{{link_to_request}}', një kërkese."
+msgstr "Tani do të merrni përditësimet me postë elektronike rreth '{{link_to_request}}', një kërkesë."
 
 msgid "You will now be emailed updates about '{{link_to_user}}', a person."
 msgstr "Tani do të merrni përditësimet me postë elektronike rreth '{{link_to_user}}', një personi."
@@ -3926,7 +3966,7 @@ msgid "You're in. <a href=\"#\" id=\"send-request\">Continue sending your reques
 msgstr "Jeni brenda. <a href=\"#\" id=\"send-request\">Vazhdoni të dërgoni kërkesat tuaja</a>"
 
 msgid "You're long overdue a response to your APD request - {{request_title}}"
-msgstr "Ju keni një përgjigje tejet të vonuar për kërkesën tuaj për të Drejtën e Qasjes në Dokumente Publike {{request_title}}"
+msgstr "Ju keni një përgjigje tejet të vonuar për kërkesën tuaj QDP - {{request_title}}"
 
 msgid "You're not following anything."
 msgstr "Nuk po ndiqni ndonjë gjë."
@@ -3935,13 +3975,18 @@ msgid "You've now cleared your profile photo"
 msgstr "Tani keni pastruar fotografinë e profilit"
 
 msgid "Your <strong>name will appear publicly</strong> (<a href=\"{{why_url}}\">why?</a>) on this website and in search engines. <a href=\"{{help_url}}\">Thinking of using a pseudonym?</a>"
-msgstr "<<strong>Emri juaj do të shfaqet publikisht</strong> (<a href=\"{{why_url}}\">pse?</a>) në këtë faqe interneti dhe në platforma të kërkimit (p.sh. Google). <a href=\"{{help_url}}\">Po mendoni të përdorni një pseudonim?</a>"
+msgstr ""
+"<strong>Emri juaj do të shfaqet publikisht </strong>\n"
+"        (<a href=\"{{why_url}}\">pse?</a>)\n"
+"        në këtë faqe dhe në platformat e kërkimit (p.sh. Google). \n"
+"        Nëse mendon ta përdorësh një pseudonim, të lutem\n"
+"        <a href=\"{{help_url}}\">së pari lexo këtë</a>"
 
 msgid "Your APD request - {{request_title}} has been made public on {{site_name}}"
-msgstr "Kërkesa juaj për QDP - {{request_title}} është bërë publike në {{site_name}}"
+msgstr "Kërkesa juaj QDP - {{request_title}} është bërë publike në {{site_name}}"
 
 msgid "Your APD request - {{request_title}} will be made public on {{site_name}} this week"
-msgstr "Kërkesa juaj për QDP - {{request_title}} do të bëhet publike në {{site_name}} këtë javë"
+msgstr "Kërkesa juaj QDP - {{request_title}} do të bëhet publike në {{site_name}} këtë javë"
 
 msgid "Your Access to Public Documents request"
 msgid_plural "Your Access to Public Documents requests (approximately {{count}})"
@@ -3973,7 +4018,7 @@ msgid "Your email:"
 msgstr "Emaili juaj elektronik:"
 
 msgid "Your follow up has not been sent because this request has been stopped to prevent spam. Please <a href=\"{{url}}\">contact us</a> if you really want to send a follow up message."
-msgstr "Mesazhi juaj vijues nuk është dërguar për shkak se kërkesa është ndaluar për të parandaluar spam-et. Të lutem <a href=\"{{url}}\">na kontaktoni</a> nëse vërtetë dëshironi të dërgoni mesazhin vijues."
+msgstr "Mesazhi juaj vijues nuk është dërguar për shkak se kërkesa është ndaluar për të parandaluar spam-et.  Të lutem <a href=\"{{url}}\">na kontaktoni</a> nëse vërtetë dëshironi të dërgoni mesazhin vijues."
 
 msgid "Your follow up message has been saved but not yet sent to {{authority_name}} due to an error."
 msgstr "Mesazhi juaj vijues është ruajtur por nuk është dërguar ende te {{authority_name}} për shkak të një gabimi."
@@ -4003,7 +4048,9 @@ msgid "Your name and annotation will appear in <strong>search engines</strong>."
 msgstr "Emri dhe shënimi juaj do të shfaqen në <strong>platformat e kërkimit (p.sh. Google).</strong>."
 
 msgid "Your name, request and any responses will appear in <strong>search engines</strong> (<a href=\"{{url}}\">details</a>)."
-msgstr "Emri, kërkesa dhe çdo përgjigje juaj, do të shfaqen në<strong>platformat e kërkimit (p.sh. Google)</strong> (<a href=\"{{url}}\">detajet</a>)."
+msgstr ""
+"Emri, kërkesa dhe çdo përgjigje juaj, do të shfaqen në\n"
+"<strong>platfromat e kërkimit (p.sh. Google)</strong> (<a href=\"{{url}}\">detajet</a>)."
 
 msgid "Your name:"
 msgstr "Emri juaj:"
@@ -4024,7 +4071,7 @@ msgid "Your request"
 msgstr "Kërkesa juaj"
 
 msgid "Your request '{{request}}' at {{url}} has been reviewed by moderators."
-msgstr "Kërkesa juaj '{{request}}' tek {{url}} është shqyrtuar nga moderatorët."
+msgstr "Kërkesa juaj'{{request}}' tek {{url}} është shqyrtuar nga moderatorët."
 
 msgid "Your request on {{site_name}} hidden"
 msgstr "Kërkesa juaj në {{site_name}} është fshehur"
@@ -4033,10 +4080,10 @@ msgid "Your request to add an authority has been sent. Thank you for getting in 
 msgstr "Kërkesa juaj për të shtuar një institucion është dërguar. Faleminderit që na kontaktuat! Do lidhemi së shpejti së bashku."
 
 msgid "Your request to update the address for {{public_body_name}} has been sent. Thank you for getting in touch! We'll get back to you soon."
-msgstr "Kërkesa juaj për të përditësuar adresën e {{public_body_name}} është dërguar. Faleminderit që na kontaktuat! Do lidhemi së shpejti së bashku."
+msgstr "Kërkesa juaj për të përditësuar adresën e {{public_body_name}} është dërguar. Faleminderit që na kontaktuat! Do lidhemi së shpejti së bashku.."
 
 msgid "Your request was called '{{info_request}}'. Letting everyone know whether you got the information will help us keep tabs on"
-msgstr "Kërkesa juaj është thirrur '{{info_request}}'. Njoftimi i të gjithëve nëse e keni marrë apo jo atë informacion do të na ndihmoj për monitorim"
+msgstr "\"Kërkesa juaj është thirrur '{{info_request}}'. Njoftimi i të gjithëve nëse e keni marrë apo jo atë informacion do të na ndihmoj për monitorim"
 
 msgid "Your requests will be <strong>sent</strong> shortly!"
 msgstr "Kërkesa juaj do të <strong>dërgohet</strong> së shpejti!"
@@ -4054,7 +4101,7 @@ msgid "Your selected authorities"
 msgstr "Ju selektuat institucionet"
 
 msgid "Your thoughts on what the {{site_name}} <strong>administrators</strong> should do about the request."
-msgstr "Mendimet tuaja në {{site_name}} së çfarë duhet të bëjnë <strong>administratorët </strong> me kërkesën."
+msgstr "Mendimet tuaja në {{site_name}} së çfarë duhet të bëjnë  <strong>administratorët </strong> me kërkesën."
 
 msgid "Your {{count}} annotation"
 msgid_plural "Your {{count}} annotations"
@@ -4064,11 +4111,11 @@ msgstr[1] "{{count}} shënime tuaja"
 msgid "Your {{count}} batch request"
 msgid_plural "Your {{count}} batch requests"
 msgstr[0] "{{count}} listë kërkesë prej jush"
-msgstr[1] "{{count}} listë kërkesash prej jush"
+msgstr[1] "{{count}} list kërkesash prej jush"
 
 msgid "Your {{count}} private Access to Public Documents request"
 msgid_plural "Your {{count}} private Access to Public Documents requests"
-msgstr[0] "{{count}} kërkesat tuaja private për Qasje në Dokumente Publike"
+msgstr[0] "{{count}} kërkesat tuaja private për Qasjen në Dokumente Publike"
 msgstr[1] "{{count}} kërkesat tuaja private për Lirinë e Qasjes"
 
 msgid "Your {{law_used_full}} request has been sent"
@@ -4096,7 +4143,7 @@ msgid "[Authority name]"
 msgstr "[Emri i institucionit]"
 
 msgid "[APD #{{request}} email]"
-msgstr "[Mesazhi për #{{request}} për të Drejtën e Qasjes në Dokumente Publike]"
+msgstr "[Mesazhi për #{{request}} për QDP]"
 
 msgid "[Name Removed]"
 msgstr "[Emri u hoq]"
@@ -4123,7 +4170,7 @@ msgid "[{{public_body}} request email]"
 msgstr "[Mesazhi për kërkesë tek {{public_body}}]"
 
 msgid "[{{site_name}} contact email]"
-msgstr "[adresa e kontaktit {{site_name}}]"
+msgstr "[adresa e kontaktit {{site_name}} ]"
 
 msgid "admin"
 msgstr "admin"
@@ -4180,7 +4227,7 @@ msgid "complete"
 msgstr "kompletuar"
 
 msgid "contact us"
-msgstr "na kontaktoni"
+msgstr "Na kontaktoni"
 
 msgid "delivered"
 msgstr "dorëzuar"
@@ -4258,7 +4305,7 @@ msgid "request hide events"
 msgstr "kërko ngjarje të fshehura"
 
 msgid "requesting an internal review"
-msgstr "duke kërkuar rishqyrtim të brendshëm"
+msgstr "kërkon rishqyrtim të brendshëm"
 
 msgid "requests"
 msgstr "kërkesat"
@@ -4291,7 +4338,7 @@ msgid "successful requests"
 msgstr "kërkesat e suksesshme"
 
 msgid "the main APD contact address for {{public_body}}"
-msgstr "adresa kryesore kontaktuese për të Drejtën e Qasjes në Dokumente Publike tek {{public_body}}"
+msgstr "adresa kryesore kontaktuese për Qasje në Dokumente Publike tek {{public_body}}"
 
 #. TRANSLATORS: This phrase completes the following sentences:
 #. Request an internal review from...
@@ -4299,7 +4346,7 @@ msgstr "adresa kryesore kontaktuese për të Drejtën e Qasjes në Dokumente Pub
 #. Send a public reply to...
 #. Don't want to address your message to... ?
 msgid "the main APD contact at {{public_body}}"
-msgstr "kontakti kryesor për të Drejtën e Qasjes në Dokumente Publike tek {{public_body}}"
+msgstr "kontakti kryesor për Qasje në Dokumente Publike tek {{public_body}}"
 
 msgid "the {{site_name}} team"
 msgstr "ekipi i {{site_name}}"
@@ -4320,7 +4367,7 @@ msgid "unknown reason "
 msgstr "arsye e panjohur "
 
 msgid "unknown status {{state}}"
-msgstr "status i panjohur {{state}}"
+msgstr "status i panjohur {{status}}"
 
 msgid "unknown status {{status}}"
 msgstr "status i panjohur {{status}}"
@@ -4362,7 +4409,7 @@ msgstr[1] "{{count}} Shtojca"
 
 msgid "{{count}} annotation made."
 msgid_plural "{{count}} annotations made."
-msgstr[0] "{{count}} shënim i bërë."
+msgstr[0] "{{count}} shënime të bëra."
 msgstr[1] "{{count}} shënime të bëra."
 
 msgid "{{count}} follower"
@@ -4416,7 +4463,10 @@ msgstr[0] "{{count}} kërkesë."
 msgstr[1] "{{count}} kërkesa."
 
 msgid "{{existing_request_user}} already created the same request on {{date}}. You can either view the <a href=\"{{existing_request}}\">existing request</a>, or edit the details below to make a new but similar request."
-msgstr "{{existing_request_user}} ka krijuar tashmë të njëjtën kërkesë më {{date}}. Ju ose mund të shikoni <a href=\"{{existing_request}}\">kërkesën ekzistuese</a>, ose ti modifikoni detajet më poshtë për të bërë një kërkesë të re, por të ngjashme."
+msgstr ""
+"{{existing_request_user}} tashmë\n"
+"     ka krijuar të njëjtën kërkesë me {{date}}. Mund ta shohësh <a href=\"{{existing_request}}\">kërkesën ekzistuese</a>,\n"
+"     apo të redaktosh të dhënat e mëposhtme për të bërë një kërkesë të re, por të ngjashme."
 
 msgid "{{info_request_user_name}}"
 msgstr "{{info_request_user_name}}"
@@ -4430,7 +4480,7 @@ msgid "{{law_used_short}} requests at {{public_body}}"
 msgstr "kërkesa {{law_used_short}} tek {{public_body}}"
 
 msgid "{{law_used_short}} requests to '{{public_body_name}}'"
-msgstr "Kërkesat {{law_used_short}} për '{{public_body_name}}'"
+msgstr "Kërkesat {{law_used_short}} për'{{public_body_name}}'"
 
 msgid "{{length_of_time}} ago"
 msgstr "{{length_of_time}} më parë"
@@ -4454,7 +4504,7 @@ msgid "{{pro_site_name}} Terms"
 msgstr "{{pro_site_name}} Kushtet"
 
 msgid "{{pro_site_name}} is a powerful, fully-featured APD toolkit for journalists."
-msgstr "{{pro_site_name}} është një vegël e fuqishme për QDP për gazetarë."
+msgstr "{{pro_site_name}} është një vegël e fuqishme e QDP për gazetarë."
 
 msgid "{{public_body_link_absolute}}"
 msgstr "{{public_body_link_absolute}}"
@@ -4463,7 +4513,7 @@ msgid "{{public_body_link}} answered a request about"
 msgstr "{{public_body_link}} ju përgjigj një kërkese lidhur me"
 
 msgid "{{public_body_link}} was sent a request about"
-msgstr "{{public_body_link}} ju dërguar një kërkesë lidhur me"
+msgstr "{{public_body_link}} ju dërgua një kërkesë lidhur me"
 
 msgid "{{public_body_name}}"
 msgstr "{{public_body_name}}"
@@ -4499,7 +4549,7 @@ msgid "{{reason}}, please sign in as {{user_name}}."
 msgstr "{{reason}}, Të lutem kyçu si {{user_name}}."
 
 msgid "{{reason}}. Unfortunately we don't know the APD email address for that authority, so we can't validate this. Please <a href=\"{{url}}\">contact us</a> to sort it out."
-msgstr "{{reason}}. Për fat të keq nuk e dimë adresën elektronike për dërgimin e kërkesave për të Drejtën e Qasjes në Dokumente Publike për këtë institucion, kështu që ne nuk mund ta vlefshmërojmë këtë. Të lutem të <a href=\"{{url}}\">na kontaktoni</a> për ta rregulluar atë."
+msgstr "{{reason}}. Për fat të keq nuk e dimë adresën elektronike për dërgimin e kërkesave QDP për këtë institucion, kështu që ne nuk mund ta vlefshmërojmë këtë. Të lutem të <a href=\"{{url}}\">na kontaktoni</a> për ta rregulluar atë."
 
 msgid "{{search_results}} matching '{{query}}'"
 msgstr "{{search_results}} që përputhen me '{{query}}'"
@@ -4509,7 +4559,7 @@ msgstr "Lajmet e {{site_name}}"
 
 msgid "{{site_name}} covers requests to {{number_of_authorities}} authority, including:"
 msgid_plural "{{site_name}} covers requests to {{number_of_authorities}} authorities, including:"
-msgstr[0] "{{site_name}} mbulon kërkesat të {{number_of_authorities}} institucion, duke përfshirë:"
+msgstr[0] "{{site_name}} mbulon kërkesat të {{number_of_authorities}} institucioni, duke përfshirë:"
 msgstr[1] "{{site_name}} mbulon kërkesat të {{number_of_authorities}} institucioneve, duke përfshirë:"
 
 msgid "{{site_name}} has identified {{authority_name}} may have refused all or part of your request under <strong>{{refusals}}</strong>."
@@ -4530,13 +4580,13 @@ msgid "{{title}} - an Access to Public Documents request to {{public_body}}"
 msgstr "{{title}} - një kërkesë për të Drejtën e Qasjes në Dokumente Publike tek {{public_body}}"
 
 msgid "{{title}} - a batch request"
-msgstr "{{title}} - një listë kërkesash"
+msgstr "{{title}} - një listë kërkesë"
 
 msgid "{{user_name}} (Account suspended)"
 msgstr "{{user_name}} (Llogari e pezulluar)"
 
 msgid "{{user_name}} - Access to Public Documents requests"
-msgstr "{{user_name}} - Kërkesat për të Drejtën e Qasjes në Dokumente Publike"
+msgstr "{{user_name}} - Qasja në Dokumente Publike"
 
 msgid "{{user_name}} - Two Factor Authentication"
 msgstr "{{user_name}} - Verifikimi me Dy Faktorë"
@@ -4581,13 +4631,13 @@ msgid "{{user}} ({{user_admin_link}}) made this {{law_used_full}} request (<a hr
 msgstr "{{user}} ({{user_admin_link}}) e bëri këtë {{law_used_full}} kërkesë (<a href=\"{{request_admin_url}}\">admin</a>) te {{public_body_link}} (<a href= \"{{public_body_admin_url}}\">admin</a>)"
 
 msgid "{{user}} ({{user_admin_link}}) made this {{law_used_full}} request (<a href=\"{{request_admin_url}}\">admin</a>) to {{public_body_link}} (<a href=\"{{public_body_admin_url}}\">admin</a>) as part of <a href=\"{{url}}\">a batch sent to {{count}} authorities</a>"
-msgstr "{{user}} ({{user_admin_link}}) bëri këtë kërkesë {{law_used_full}} (<a href=\"{{request_admin_url}}\">admin</a>) te {{public_body_link}} (<a href=\"{{public_body_admin_url}}\">admin</a>) si pjesë e <a href=\"{{url}}\">një pakete dërguar {{count}} institucioneve</a>"
+msgstr "{{user}} ({{user_admin_link}}) bëri këtë kërkesë te {{law_used_full}} (<a href=\"{{request_admin_url}}\">admin</a>) te {{public_body_link}} (<a href=\"{{public_body_admin_url}}\">admin</a>) si pjesë e <a href=\"{{url}}\">një listë kërkese dërguar {{count}} institucioneve</a>"
 
 msgid "{{user}} made this {{law_used_full}} request to {{public_body}}"
 msgstr "{{user}} bëri këtë kërkesë {{law_used_full}} te {{public_body}}"
 
 msgid "{{user}} made this {{law_used_full}} request to {{public_body}} as part of <a href=\"{{url}}\">a batch sent to {{count}} authorities</a>"
-msgstr "{{user}} bëri këtë kërkesë {{law_used_full}} te {{public_body}} si pjesë e <a href=\"{{url}}\">një pakete prej {{count}} institucioneve</a>"
+msgstr "{{user}} bëri këtë kërkesë {{law_used_full}} te {{public_body}} si pjesë e <a href=\"{{url}}\">një listë kërkese dërguar te {{count}} institucione</a>"
 
 msgid "« Back to search results"
 msgstr "« Kthehu tek rezultatet e kërkimit"
